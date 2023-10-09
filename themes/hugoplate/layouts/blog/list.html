@@ -1,5 +1,6 @@
 {{ define "main" }}
   <!-- Banner -->
+  <div class="hidden md:block">
   {{ with .Params.banner }}
     <section class="section pt-14 bg-theme-light dark:bg-darkmode-theme-light">
       <div class="container">
@@ -24,6 +25,8 @@
         </div>
       </div>
     </section>
+    </div>
+
   {{ end }}
   <!-- /Banner -->
 
