@@ -29,25 +29,12 @@
 
 
 <link href="https://mastodon.social/@MaybeFrederick" rel="me" />
-<!-- google analytics
+
+<!-- google analytics -->
 {{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
   {{ template "_internal/google_analytics.html" . }}
 {{ end }}
- -->
 
-<!-- Google tag (gtag.js) -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-98268819-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "UA-98268819-1");
-</script>
 
 <!-- google tag manager -->
 {{ partialCached "gtm.html" . }}
