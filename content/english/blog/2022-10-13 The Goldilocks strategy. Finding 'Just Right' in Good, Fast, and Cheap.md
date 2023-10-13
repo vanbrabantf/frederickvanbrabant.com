@@ -13,7 +13,7 @@ Picture this: it's a Tuesday afternoon. You are called into a meeting room by yo
 
 A few alarm bells go off in your head, but you are able to stay calm. This client is clearly going to need a reality check, and you have just the image to help you:
 
-![Image alt](/images/2022-10-13-goldilocks/FCG.png)
+{{< image src="/images/2022-10-13-goldilocks/FCG.png" alt="A diagram that shows GOOD, FAST and CHEAP"position="center" command="fill" option="q100" title="image title" >}}
 
 You know this diagram by heart. It's so clear:
 
@@ -40,7 +40,7 @@ Now, I'm not saying that we shouldn't care about the craft anymore. I hate those
 
 It is extremely frustrating to build CRUD application after CRUD application. Especially if it seems that the rest of the world is doing these highly advanced projects. But it's also weird to turn a simple project into a complex one because you are bored.
 
-For me there a clear foundations of what a project should contain. It should almost always have test coverage, security, and maintainable code. You could probably write five books about what those statements could mean, but these are broad strokes.
+For me there is a clear foundations of what a project should contain. It should almost always have test coverage, security, and maintainable code. You could probably write five books about what those statements could mean, but these are the broad strokes.
 
 I also have levels that ring some alarm bells. I personally think that once the words Kubernetes, mutation testing, machine learning,... start to appear it better be in the context of a very big project. (obviously nothing against these technologies/practices but I hope you would agree that they weren't invented with the blog of the local sports club in mind).
 
