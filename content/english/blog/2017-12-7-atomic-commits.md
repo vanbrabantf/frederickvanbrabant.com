@@ -39,11 +39,11 @@ As you can see, pretty simple stuff: we get all the news items for the database 
 
 Can you guess what happened to that file when you take a quick look at these commit messages:
 
-![Final score](/assets/posts/2017-12-7-atomic-commits/atomic-commits.png)
+![Final score](/images/2017-12-7-atomic-commits/atomic-commits.png)
 
 That’s all pretty clear right. But you might still be wondering why we created those empty tests stubs first. This is what happens when we click those `...`’s
 
-![Final score](/assets/posts/2017-12-7-atomic-commits/atomic-commits-expanded.png)
+![Final score](/images/2017-12-7-atomic-commits/atomic-commits-expanded.png)
 
 This is the basic idea behind atomic commits: Small commits that tell a story.
 
@@ -57,7 +57,7 @@ Atomic commits will drive the quality of your code reviews on pull requests way 
 
 I bet you’re not very stoked to start a review on this one:
 
-![Final score](/assets/posts/2017-12-7-atomic-commits/big-pr.png)
+![Final score](/images/2017-12-7-atomic-commits/big-pr.png)
 
 This is not a very fun thing to do, you will also not get a lot of great insights on this. People doze off or lose track half way through the review.
 
@@ -74,7 +74,3 @@ This technique also has the great benefit of making cherry picking in GIT easier
 Atomic commits are not a new thing, they are even often described as a GIT best practice. Yet I don’t actually see them that often. People often either cite that it’s too much work (an excuse that seems to pop up on every good code practice thing), or that it will make their main branch too verbose (you can always GIT squash your commits before merging).
 
 That said, I really hope you give this a shot. It might make your life and that of your team a little bit better. If not, you just have a feature that is a bit more verbose in your GIT history.
-
-
-<blockquote class="reddit-card" data-card-created="1512636217"><a href="https://www.reddit.com/r/programming/comments/7i5424/atomic_commits_telling_stories_with_git/?ref=share&ref_source=embed">Atomic commits: Telling stories with GIT</a> from <a href="http://www.reddit.com/r/programming">programming</a></blockquote>
-<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
