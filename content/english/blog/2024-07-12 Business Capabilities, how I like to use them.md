@@ -1,7 +1,7 @@
 ---
 title: "Business Capabilities, how I like to use them"
-meta_title: "So we should probably start with this right? Business capabilities (further in this article referred to as capabilities) are the backbone of enterprise architecture. They are also, sadly, one of the most misunderstood things in enterprise architecture."
-description: "Clean code makes projects more comfortable to work with and improves shelf life. Its the antagonist of vile legacy codebases that are unmaintainable. Then why does business always treat it as a secondary objective? Do they just dont get it?"
+meta_title: "Business Capabilities, how I like to use them"
+description: "So we should probably start with this right? Business capabilities (further in this article referred to as capabilities) are the backbone of enterprise architecture. They are also, sadly, one of the most misunderstood things in enterprise architecture."
 date: 2024-07-12T00:00:00Z
 image: "/images/posts/2024-07-12-capabilities/header.png"
 categories: ["Enterprise Architecture", "Capabilities"]
@@ -61,7 +61,7 @@ The way I like to group these is by thinking of modularity. What activities can 
 
 Now, how many capabilities should we aim for? Again, no exact science. [Tom Graves](https://www.linkedin.com/in/tetradian/) suggests the following:
 
-- Level0: 3-5 items
+- Level 0: 3-5 items
 - Level 1: For each 5-10. Total 15-50 items
 - Level 2: Again, 5-10 each. max 75-500 items
 
