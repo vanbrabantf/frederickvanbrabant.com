@@ -27,9 +27,7 @@ So far so good. But people look at this idea too often from the context of their
 
 Often, people categorise capabilities in the structure of their current company. We do marketing, we do sales, we do tax & legal. My experience has taught me that this is not the best way to sort these capabilities. Categorisation in this way is often the domain of business functions or business services. They don’t refer to what we actually do.
 
-### Wait, what are business functions and business services?
-
-To make this very simple (but not perse clear):
+### gWait, what are business functions and business services?
 
 A **business service** is the service we provide to customers. Traditionally, these are external customers, but I’ve seen them used for internal customers (think: the customer of IT is the business)
 
@@ -51,7 +49,7 @@ If we use this structure in our strategic planning and decision-making, we only 
 
 ![A capability map that shows 3 groups. These groups have a subgroup with more capabilities. More information in the article](/images/2024-07-12-capabilities/capabilitymap.png)
 
-(this is a made up example, there is no 1 size fits all in capability mapping. They are almost always, or mostly, tailor made for the organization)
+(this is a made up example, there is no 1 size fits all in capability mapping. They are almost always, or should be, tailor made for the organization)
 
 As you can see in the picture we’ve grouped our capabilities in 3 groups (this is level 0). Business management, business operation and business support. To me this is the easiest way to look at an organisation. You have people that manage the company, people that do the product/service and people that support the other two in their operations.
 
