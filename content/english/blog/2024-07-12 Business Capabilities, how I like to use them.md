@@ -27,7 +27,7 @@ So far so good. But people look at this idea too often from the context of their
 
 Often, people categorise capabilities in the structure of their current company. We do marketing, we do sales, we do tax & legal. My experience has taught me that this is not the best way to sort these capabilities. Categorisation in this way is often the domain of business functions or business services. They don’t refer to what we actually do.
 
-### gWait, what are business functions and business services?
+### Wait, what are business functions and business services?
 
 A **business service** is the service we provide to customers. Traditionally, these are external customers, but I’ve seen them used for internal customers (think: the customer of IT is the business)
 
