@@ -50,7 +50,7 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["business architecture", "software", "business"]
+keywords = ["business architecture", "Enterprise Architecture", "software", "business"]
 description = "Frederick's delirious rants"
 author = "Frederick Vanbrabant"
 image = "images/banner.png"
