@@ -7,16 +7,12 @@ banner:
 features:
   - title: "This site is mainly for my blog"
     image: "/images/service-1.png"
-    content: "But if you like what you read, you can always hire me! I'm a freelancer that is mainly focused on:"
+    content: "Just a friendly heads-up: Everything here is my own delirious concoction. The views expressed are purely mine and have nothing to do with my employer or their perspectives. So sit back, enjoy the ride, and let's explore the wonders of tech and management together! We are mainly focused on:"
     bulletpoints:
       - "Enterprise architecture"
       - "Management consulting"
       - "Teamlead/Technical lead"
       - "Technology audits"
       - "Application portfolio advice"
-      - "... or just a talk"
-    button:
-      enable: True
-      label: "Why don't you drop me a mail"
-      link: "/contact"
+      - "... and whatever crosses my road"
 ---
