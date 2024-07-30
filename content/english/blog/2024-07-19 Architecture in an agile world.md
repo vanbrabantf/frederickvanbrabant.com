@@ -4,8 +4,8 @@ meta_title: "Architecture in an agile world"
 description: "Clean code makes projects more comfortable to work with and improves shelf life. Its the antagonist of vile legacy codebases that are unmaintainable. Then why does business always treat it as a secondary objective? Do they just dont get it?"
 date: 2024-07-19T00:00:00Z
 image: "/images/posts/2024-07-19-agile-architecture/header.png"
-categories: ["Enterprise Architecture", "Agile", "Software"]
-tags: ["project management"]
+categories: ["Enterprise Architecture", "Software"]
+tags: ["project management", "My way of working", "Agile"]
 draft: false
 ---
 
