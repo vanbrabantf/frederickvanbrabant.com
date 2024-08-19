@@ -35,7 +35,7 @@ The important thing to know here is that if you provide value in the form of inf
 
 You don't get all of the above as an external architect. In the past, I've always felt that being a consultant often puts you on a bit of a backfoot with people in the organization. I wonder if this is because people don't want to invest time in getting to know you (as you're going to be gone in a year anyway) or if it's just that people don't like consultants. Whatever the reason, it is more challenging to get people to spontaneously invite you to meetings or share information with you.
 
-What you do get, however, is a top-down priority. The powers that be have invested a lot in the consulting contract, so they will use their weight to tell others to give you all you need. You will, however, not get it spontaneously or with a smile.
+What you do get, is a top-down priority. The powers that be have invested a lot in the consulting contract, so they will use their weight to tell others to give you all you need. You will, however, not get it spontaneously or with a smile.
 
 A lot of companies are also very resistant to change. You can't expect an organization with a few thousand people to turn on a dime. However, change will always be more accepted from within than from outside parties. It's the "we are going to change x" versus "they tell us to change x".
 
