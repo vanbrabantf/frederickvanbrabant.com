@@ -4,8 +4,8 @@ meta_title: "Communication for team leaders - Context"
 description: "You can have a fantastic team of subject matter experts and brilliant technical people, but if they don't talk to each other, you will never get a good product or outcome for a project."
 date: 2024-10-11T00:00:00Z
 image: "/images/posts/2024-10-11-context/header.png"
-categories: ["People"]
-tags: ["My way of working", "Project lead"]
+categories: ["People", "Communication for team leaders"]
+tags: ["Communication for team leaders", "My way of working", "Project lead"]
 draft: false
 ---
 
