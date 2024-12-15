@@ -9,6 +9,11 @@
       "name": "bluesky",
       "icon": "fa-brands fa-square-bluesky",
       "link": "https://bsky.app/profile/maybefrederick.bsky.social"
+    },
+    {
+      "name": "RSS",
+      "icon": "fa-solid fa-square-rss",
+      "link": "https://frederickvanbrabant.com/index.xml"
     }
   ]
 }
