@@ -19,12 +19,18 @@ disqusShortname = "" # we use disqus to show comments in blog posts . To install
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
-
+enableRobotsTXT = true
 
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorfilename/"
 
+############################# Sitemap ############################
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
 
 ############################# Modules ############################
 [module]
