@@ -25,11 +25,11 @@ There is also the topic of micromanaging and on the other hand expectation manag
 
 Let's try and tackle that first part; what to take on and what to delegate.
 
-Chances are that you are pretty good at what you do. Otherwise, you wouldn't have been promoted to manager [1]. Some might even be the best at what you do among your previous peers. That also means that if a new task comes in for the team, you would be a prime candidate to take it on. After all, it's been this way for you for a long time now. You're proud of the skills you developed and it produces great results, why stop now?
+Chances are that you are pretty good at what you do. Otherwise, you wouldn't have been promoted to manager [^1]. Some might even be the best at what you do among your previous peers. That also means that if a new task comes in for the team, you would be a prime candidate to take it on. After all, it's been this way for you for a long time now. You're proud of the skills you developed and it produces great results, why stop now?
 
 That line of thinking makes this entire thing so hard. It also makes it a straight road to burnout city.
 
-It is not a bad idea to have a connection with the work that needs to be done, but that connection needs to be sensible. Be involved in the kickoff meeting, maybe be involved in the handoff, check in during demo's, ... [2] But don't try and follow up on everything.
+It is not a bad idea to have a connection with the work that needs to be done, but that connection needs to be sensible. Be involved in the kickoff meeting, maybe be involved in the handoff, check in during demo's, ... [^2] But don't try and follow up on everything.
 
 I'm also not saying that you shouldn't take on anything. Especially if your team is a bit smaller and not too spread over different disciplines. As said before, you are probably pretty good at what you do so you can take off some work for yourself. You can keep your skills sharp and at the same time see what your team is facing day in and day out. Sometimes we get a bit out of touch with the work if we only delegate, doing some tasks yourself can keep you grounded.
 
@@ -84,6 +84,6 @@ The last thing I'd like to discuss is celebrating the wins. If a project fails t
 
 ---
 
-[1] We can talk about the [peter principle](https://en.wikipedia.org/wiki/Peter_principle) and "Should you promote good managers or good workers" at another time.
+[^1]: We can talk about the [peter principle](https://en.wikipedia.org/wiki/Peter_principle) and "Should you promote good managers or good workers" at another time.
 
-[2] This is also highly dependent on the size of your team
+[^2]: This is also highly dependent on the size of your team

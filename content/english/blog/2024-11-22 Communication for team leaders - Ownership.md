@@ -22,7 +22,7 @@ And these posts are based on a part of my talk, “I just became a team lead, no
 
 A smart reader like you has probably found the pattern in these posts; they all have a focus on keeping people engaged and motivated. This is a very important part of leadership. If you can’t motivate your people to stand behind their work, you will never get good results. At best you will get passable work; at worst you will get an open vacancy.
 
-I strongly believe that ownership is one of the main pillars of keeping people engaged; you can, however, only do this if there is mutual trust [1].
+I strongly believe that ownership is one of the main pillars of keeping people engaged; you can, however, only do this if there is mutual trust [^1].
 
 Giving ownership to people seems very actionable and easy to do, but I do think there are some things to keep in mind and maybe think about first. This goes a bit further than “You are now the application owner of application x.”.
 
@@ -33,13 +33,13 @@ Ownership has two big parts:
 - You can decide what happens to the thing you own.
 - You are responsible for the thing you own.
 
-This is where I often see inconsistencies. A lot of people in an organization only get the second part. You are tasked with keeping the application/process/project [2] running and operational but can’t decide where it goes.
+This is where I often see inconsistencies. A lot of people in an organization only get the second part. You are tasked with keeping the application/process/project [^2] running and operational but can’t decide where it goes.
 
 In that case, you are not the owner; you are the maintainer. The person that owns the bigger strategy where your application fits in, would be the actual owner of your application.
 
 Now this is obviously not a black-and-white thing. You can’t just have a bunch of fiefdoms in your organization. Little pockets of applications that all just do their own thing. That would result in an unmaintanable mess. It is, however, important that there is a direct communication line between the layers of strategy and operation. Ideally, everyone is aligned on where the organization is going and the path that brings it there.
 
-It was important to start off with that outline before we can dive into how we can give ownership so you know what you are actually giving [3].
+It was important to start off with that outline before we can dive into how we can give ownership so you know what you are actually giving [^3].
 
 ### A bit less theoretical
 
@@ -76,8 +76,8 @@ This doesn’t mean you have to stop giving people ownership over applications/p
 
 ---
 
-[1] https://frederickvanbrabant.com/blog/2024-10-31-communication-for-team-leaders-trust/
+[^1]: https://frederickvanbrabant.com/blog/2024-10-31-communication-for-team-leaders-trust/
 
-[2] For the sake of brevity I'm just going to call this application, but please note that this goes way further than just applications. Think application/processes/projects/teams/capabilities ...
+[^2]: For the sake of brevity I'm just going to call this application, but please note that this goes way further than just applications. Think application/processes/projects/teams/capabilities ...
 
-[3] let's call it context
+[^3]: let's call it context

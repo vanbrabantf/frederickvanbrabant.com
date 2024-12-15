@@ -31,7 +31,7 @@ The examples I gave might sound good at first glance, but it all falls apart the
 
 The second example multiplies all of this even further. Now, we are going over cultures. There might be a holiday happening in London and not in Tokyo, there might be a weaker currency in one of the two countries. It might even be as simple as the advertising panels not being placed in the same neighbourhoods as in the other country.
 
-The product example is also a tricky one. Product analytics are famous for survivor basis [1]. A lot of analytics are used to find what the popular parts of your product are. The logic here is: if most users prefer to use a specific part of the product, that must be the best part, so we should focus development and strategy the most on this part.
+The product example is also a tricky one. Product analytics are famous for survivor basis [^1]. A lot of analytics are used to find what the popular parts of your product are. The logic here is: if most users prefer to use a specific part of the product, that must be the best part, so we should focus development and strategy the most on this part.
 
 While in reality, people might just use that part of the application as it is simply the most developed part of the application. In that case, you are missing out on a lot of customers who discarded your product because the other parts are underdeveloped.
 
@@ -43,7 +43,7 @@ There is also the issue of future impact. This one is impossible to track, but v
 
 Imagine you are a big software company that offers a range of applications to your clients. They range from very popular to failed experiments. You know this cause you track user analytics as well as financial trends. You come to the strategy of sunsetting the least performant applications every year. This, again, seems to make a lot of sense at first glance. You focus on the best-performing applications while letting the costly ones go.
 
-Here, however, you might not realise the impact this has on reputation. Even the least used, "failed", applications have customers who make it a cornerstone of their application landscape. By sunsetting part of your application portfolio every year, you now give the products you provide a (very vague) expiration date. Customers might not want to keep you as a supplier of software as they can't trust you to keep your product alive [2].
+Here, however, you might not realise the impact this has on reputation. Even the least used, "failed", applications have customers who make it a cornerstone of their application landscape. By sunsetting part of your application portfolio every year, you now give the products you provide a (very vague) expiration date. Customers might not want to keep you as a supplier of software as they can't trust you to keep your product alive [^2].
 
 So, the short-term data-driven strategy of cutting out bad performers is correct, but it impacts the long-term reputation, something that you will not find in the short-term data.
 
@@ -59,5 +59,6 @@ I'm also not saying that we should ignore data. I would rather follow a strategy
 
 ### Footnotes
 
-- [1] https://en.wikipedia.org/wiki/Survivorship_bias. The WW2 example is a very famous and good read.
-- [2] Bring back Google Wave!
+[^1]: https://en.wikipedia.org/wiki/Survivorship_bias. The WW2 example is a very famous and good read.
+
+[^2]: Bring back Google Wave!

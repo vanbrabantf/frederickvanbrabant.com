@@ -25,7 +25,7 @@ Now, I know getting a good description of the above in a ticket is often already
 
 ### The why
 
-This post is not about "how to write a good Jira ticket"[1]; it's an example of the idea that the less context we give for a task, the more general the outcome will be.
+This post is not about "how to write a good Jira ticket"[^1]; it's an example of the idea that the less context we give for a task, the more general the outcome will be.
 
 Sounds pretty obvious, no? Yet, it's something that keeps coming up.
 
@@ -51,4 +51,4 @@ Now, this might all feel like an overly gentle approach; we are all just cogs in
 
 And even if that never happens, you at least create a culture that gives the feeling (hopefully more than just a feeling) of openness. Something that provides people with the feeling they belong to the company they want to work for and not just a screen that gives them instructions.
 
-[1] I think there should be many more articles in the world, but somehow, they wouldn't be all that popular.
+[^1]: I think there should be many more articles in the world, but somehow, they wouldn't be all that popular.
