@@ -6,9 +6,9 @@
       "link": "https://www.linkedin.com/in/frederick-vanbrabant-769a7517a/"
     },
     {
-      "name": "mastrodon",
-      "icon": "fa-brands fa-mastodon",
-      "link": "https://mastodon.social/@MaybeFrederick"
+      "name": "bluesky",
+      "icon": "fa-brands fa-square-bluesky",
+      "link": "https://bsky.app/profile/maybefrederick.bsky.social"
     }
   ]
 }
