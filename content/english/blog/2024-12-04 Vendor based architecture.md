@@ -60,6 +60,6 @@ Well, that is on the condition that you aren't too burned from the last time you
 
 [^3]: If you are not familiar with them, they are connector applications: you connect them to endpoints, and they can transform and route the data. Often in a low-code interface 
 
-[^4]: At the scale we're currently thinking of, this will be 300-700 applications.
+[^4]: At the scale we're currently thinking of, this will be a few hunderd applications.
 
 [^5]: Think of all the employee data: what business unit they are part of, their title, maybe even their picture, .... But not their financial data, like wage or financial situation. That data you should keep separate to keep it more private.
