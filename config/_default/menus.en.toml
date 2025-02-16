@@ -1,12 +1,45 @@
 ############# English navigation ##############
 
 # main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
 
+[[main]]
+name = "BlueSky"
+url = "https://bsky.app/profile/maybefrederick.bsky.social"
+weight = 2
+
+[[main]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/frederick-vanbrabant-769a7517a/"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 4
 
 # footer menu
 
 [[footer]]
-name = "Contact"
-url = "contact/"
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "BlueSky"
+url = "https://bsky.app/profile/maybefrederick.bsky.social"
+weight = 2
+
+[[footer]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/frederick-vanbrabant-769a7517a/"
 weight = 3
+
+[[footer]]
+name = "Contact"
+url = "contact"
+weight = 4
 
