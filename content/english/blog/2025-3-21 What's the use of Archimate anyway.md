@@ -43,7 +43,7 @@ What do you think would happen if you were to show this diagram to management? P
 
 There is also the subjective part. To me, that diagram looks hideous. It just looks like something from the early 90s with some very questionable colours. You can tell me that that doesn't matter, but you couldn't be more wrong. If you want to inform or convince people of your work you might want to give some attention to the way you present it. 
 
-Even if the stakeholders are from IT and are used to "technical drawings", the chances of them being familliar (enough) with an architectural language are fairly slim. They can probably figure out what is going on by the titels of the components, but the shapes and connectors will be meaningless to them.
+Even if the stakeholders are from IT and are used to "technical drawings", the chances of them being familliar (enough) with an architectural language are fairly slim. They can probably figure out what is going on by the titles of the components, but the shapes and connectors will be meaningless to them.
 
 What would happen if instead of showing the above diagram, you would show this diagram:
 
