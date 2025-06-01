@@ -2,7 +2,7 @@
 title: What's the role of software in an organization
 meta_title: What's the role of software in an organization
 description: "the main role software has in an organization is to facilitate processes. My friend argued that this is a strict and maybe overly theoretical view of software in the workplace. He might be right, but nevertheless, I think there is an article in this conversation."
-date: 2025-06-1T00:00:00Z
+date: 2025-05-30T00:00:00Z
 image: /images/posts/2025-05-30-role-of-software/header.png
 categories:
   - Enterprise Architecture
