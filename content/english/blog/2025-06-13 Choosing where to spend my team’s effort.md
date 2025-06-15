@@ -2,7 +2,7 @@
 title: Choosing where to spend my team’s effort
 meta_title: Choosing where to spend my team’s effort
 description: "It's the start of a new fiscal year and that's always a time to look forward and define strategy: What are we gonna work on these next months. I've always handled the same structure in defining my strategy and I thought I'd share it here."
-date: 2025-06-13T00:00:00Z
+date: 2025-06-15T12:00:00Z
 image: /images/posts/2025-06-13-ost/header.png
 categories:
   - Strategy
