@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-It’s the start of a new fiscal year. Strategy season. That time when every meeting smells like ambition, and every whiteboard grows a soul.
+It’s the start of a new fiscal year. Strategy season. That time when all the grand ideas come out and everyone is still hopefull.
 
 Over the years, I’ve settled into a structure that helps me define projects that not only link to the strategy above but also looks at my own team's enviroment, I thought I'd share it here.
 
