@@ -120,7 +120,9 @@ You have to realize that the end number you're going to end up with is not accur
 
 Don’t chase perfection. You won’t find it.
 
-So give people options. If they know the cost, great. Write it down. If they don’t, let them give you a T-shirt size: S, M, L, XL, XXL. It’s fast, human, and surprisingly helpful at scale.
+So give people options. If they know the cost, great. Write it down. If they don’t, let them give you a T-shirt size: S, M, L, XL, XXL. It’s fast, and surprisingly helpful at scale.
+
+![An example of a fake Excel row that shows an application that has low bugs but isn't tracked so is assigned a t-shirt size](/images/2025-06-27-tco/TCO4.drawio.png)
 
 This helps if you run into situations where people just can't answer you with real data. How many days a month do you spend on average on bug squashing? If you don't have a clear setup to track these things, it would be impossible to know.
 
