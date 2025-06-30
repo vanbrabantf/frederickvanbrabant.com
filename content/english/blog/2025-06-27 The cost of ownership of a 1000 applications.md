@@ -47,6 +47,8 @@ For me, the best way to go about this is to map this out in categories, and the 
 - End-user Support
 - Misc
 
+![A schema showing a breakdown of the categories that result in the endsum](/images/2025-06-27-tco/TCO1.drawio.png)
+
 I won’t go through every detail of every category, this isn’t a textbook, and every organization has its own quirks. I will however give you a rough outline that you can use to shape it to your needs.
 
 #### Development
@@ -138,11 +140,15 @@ Now, what about that **Misc** tab with the percentages? Those percentages: **cri
 
 It's up to you how you want to weigh these multipliers. I would not just add the percentage to the number, as that would quickly get out of hand. Instead, you might want to use a lighter touch. It's best to experiment here.
 
+![A schema showing a breakdown of the categories that result in the endsum with a modifier applied](/images/2025-06-27-tco/TCO2.drawio.png)
+
 ### Scaling it up
 
 Once your model’s ready, it’s time to gather data. Keep the entry points soft and friendly. A well-designed form, a guided tool, a low-code application with just the right help text. These things matter.
 
 Don’t overload anyone. Break your model into pieces, and send each one to the person best suited to answer it. Let Finance handle licensing. Let Ops tackle infrastructure. Let people speak in their own language. The last thing you want is to scare people with information they know nothing about.
+
+![A  schema showing a breakdown of the categories that result in the endsum with a modifier applied and assigned to different teams](/images/2025-06-27-tco/TCO3.drawio.png)
 
 And whatever you do, keep the calculations hidden. Not to be secretive, but to protect the integrity of the answers. If people can see how the sausage is made, they’ll start shaping the meat.
 
