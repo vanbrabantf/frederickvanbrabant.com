@@ -2,7 +2,7 @@
 title: The cost of ownership of a 1000 applications
 meta_title: The cost of ownership of a 1000 applications
 description: One of the first things you want to know when you start you cost reduction, is actually knowing what your things costs. This is weirdly something not a lot of companies actually know. Today we will take a look at TCO and how you can start mapping your application landscape at scale in TCO.
-date: 2025-06-27T00:00:00Z
+date: 2025-06-29T00:00:00Z
 image: /images/posts/2025-06-27-tco/header.png
 categories:
   - Enterprise Architecture
