@@ -2,12 +2,10 @@
   <!-- Banner -->
   <div class="hidden md:block">
   {{ with .Params.banner }}
-    <section class="section pt-14 bg-theme-light dark:bg-darkmode-theme-light">
+    <section class=" bg-theme-light dark:bg-darkmode-theme-light">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 mb-8 text-center">
-            <h1 class="mb-4">{{ .title | markdownify }}</h1>
-            <p class="mb-8">{{ .content | markdownify }}</p>
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary" href="{{ .link | absURL }}">
