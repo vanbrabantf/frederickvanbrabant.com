@@ -2,7 +2,7 @@
 title: The real ask
 meta_title: The Real Ask
 description: When someone comes to you with a question to do something, instead of blindly doing the ask, take a step back and try to understand what they actually want to achieve. Often this task might actually not be the best way to achieve the goal they are set out to do.
-date: 2025-07-22T00:00:00Z
+date: 2025-07-27T00:00:00Z
 image: /images/posts/2025-07-22-ask/header.png
 categories:
   - Enterprise Architecture
