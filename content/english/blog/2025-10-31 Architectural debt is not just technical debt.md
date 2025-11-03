@@ -6,7 +6,7 @@ date: 2025-11-01T00:00:00Z
 image: /images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/header.png
 categories:
   - Enterprise Architecture
-  - Application-layer
+  - Application-Layer
   - Business-Layer
   - Strategy-Layer
 tags:
