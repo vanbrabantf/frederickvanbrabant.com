@@ -21,7 +21,7 @@ The funny thing is that this is one of the few times that architects don't say �
 
 Let's see how each approach works.
 
-Please note: this article is mainly basted on the business layer and strategy layer of enterprise architecture. So most of this discussion will be about things like Business Capabilities, Operating models, Value streams  and the like
+Please note: this article is mainly based on the business layer and strategy layer of enterprise architecture. So most of this discussion will be about things like Business Capabilities, Operating models, Value streams  and the like.
 ### Mapping the AS-IS.
 My guess is that if you're tasked with setting up a new architecture office, the chances of the organization having a high architecture maturity are rather small. 
 
@@ -35,7 +35,7 @@ You might find business units that are linked to applications in the CMDB that a
 
 This is OK, you are mapping out the current way the organization works. If you find incompatibilities, that's actually a good thing. You are already creating value by pointing that out.
 
-Once you have gathered “everything” [^2] you can call that your baseline. Then it's time to try to mould this towards a structure that fits together. Connect the free-form jazz version of a capability map you found in a slide deck somewhere to industry standard value steams.
+Once you have gathered “everything” [^2] you can call that your baseline. Then it's time to try to mould this towards a structure that fits together. Connect the free-form jazz version of a capability map you found in a slide deck somewhere to industry standard value streams.
 
 Once you have an overview of things you've designed (or used standards for) to the things you have found, you can start to clean up and improve the AS-IS. Slowly but steadily towards a more mature model.
 
