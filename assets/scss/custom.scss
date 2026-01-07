@@ -4,3 +4,30 @@ article img {
   display: block !important;
   margin: 1rem auto !important;
 }
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+  background-color: transparent !important;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.mermaid p {
+  color: black !important;
+}
+.mermaid svg {
+  /* Give it that screen-printed look */
+  filter: contrast(1.1) saturate(0.9);
+  border: 4px solid #595653;
+  //background-color: #606060 !important; /* The 'Paper' background */
+  padding: 30px;
+  box-shadow: 10px 10px 0px #ba462f; /* MCM 'Offset' shadow */
+}
+
+/* Style the text nodes to look like architectural labels */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+  stroke-width: 3px !important;
+}

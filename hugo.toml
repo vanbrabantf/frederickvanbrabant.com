@@ -27,7 +27,6 @@ enableRobotsTXT = true
 
 ############################# Sitemap ############################
 [sitemap]
-  changeFreq = ''
   disable = false
   filename = 'sitemap.xml'
   priority = -1
@@ -37,6 +36,14 @@ enableRobotsTXT = true
 [[module.mounts]]
 source = "assets"
 target = "assets"
+
+[[module.mounts]]
+source = "hugo_stats.json"
+target = "assets/watching/hugo_stats.json"
+
+[[module.mounts]]
+source = "layouts" # This line is the fix!
+target = "layouts"
 
 [[module.mounts]]
 source = "hugo_stats.json"
@@ -98,9 +105,11 @@ unsafe = true
     [Extensions]
       footnote = true
 
-
 [markup.highlight]
-style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+  style = 'doom-one' # see https://xyproto.github.io/splash/docs/all.html
+  #noClasses = false
+  # This prevents Chroma from hijacking 'mermaid' if it thinks it's a known language
+  guessSyntax = false 
 
 [markup.tableOfContents]
 startLevel = 2

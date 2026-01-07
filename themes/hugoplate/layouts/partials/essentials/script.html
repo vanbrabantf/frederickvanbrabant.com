@@ -27,3 +27,65 @@
 
 <!-- google adsense -->
 {{ partialCached "adsense-script.html" . }}
+
+
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+
+  // 1. Detect if the site is in Dark Mode
+  const isDark = document.documentElement.classList.contains("dark");
+
+  const bauhausTheme = {
+    primaryColor: isDark ? "#000000" : "#E2B04E",
+    mainBkg: isDark ? "#1A1D23" : "#F3EFE0",
+    primaryTextColor: isDark ? "#000000" : "#000000",
+    lineColor: isDark ? "#BA462F" : "#BA462F",
+    nodeBorder: isDark ? "#F3EFE0" : "#2D2926",
+    primaryBorderColor: isDark ? "#1A1D23" : "#F3EFE0",
+    primaryColor: "#5B8291", // Blue,
+    secondaryColor: "#136f47", // Green
+    tertiaryColor: "#f44336", // RED
+    // Geometry & Typography
+    fontFamily: '"Helvetica", "Arial", sans-serif', // Clean sans-serif
+    fontSize: "16px",
+    fontWeight: "600",
+    // MCM styling: Thicker lines and sharp corners
+    edgeLabelBackground: "#F3EFE0",
+    mainBkg: "#F3EFE0",
+    nodeBorder: "#2D2926",
+    clusterBkg: "#D1D7E0",
+    clusterBorder: "#2D2926",
+  };
+
+  // 2. Initialize with specific Hugoplate-friendly colors
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: "base", // 'base' allows full custom overrides
+    themeVariables: bauhausTheme,
+  });
+
+  // 3. Find and Replace (The logic that worked)
+  const codeBlocks = document.querySelectorAll("pre code.language-mermaid");
+  codeBlocks.forEach((codeBlock, index) => {
+    const pre = codeBlock.parentElement;
+    const div = document.createElement("div");
+    div.className = "mermaid";
+    div.innerHTML = codeBlock.textContent;
+    pre.parentNode.replaceChild(div, pre);
+  });
+
+  // Watch for the 'dark' class changing on the <html> tag
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName === "class") {
+        // Reload the page to re-render Mermaid with the new theme
+        // This is the cleanest way to handle SVG re-generation
+        window.location.reload();
+      }
+    });
+  });
+
+  observer.observe(document.documentElement, { attributes: true });
+
+  await mermaid.run();
+</script>
