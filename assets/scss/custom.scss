@@ -13,6 +13,25 @@ article img {
   border-radius: 8px;
 }
 
+/* Force Bauhaus colors on XY Chart lines */
+.mermaid .line-plot-0 {
+  stroke: #e2b04e !important; /* Mustard */
+  stroke-width: 4px !important;
+}
+
+.mermaid .line-plot-1 {
+  stroke: #ba462f !important; /* Terracotta */
+  stroke-width: 4px !important;
+}
+
+/* Optional: Make the dots (data points) match */
+.mermaid .dot-0 {
+  fill: #e2b04e !important;
+}
+.mermaid .dot-1 {
+  fill: #ba462f !important;
+}
+
 .mermaid p {
   color: black !important;
 }

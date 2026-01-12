@@ -21,6 +21,11 @@ name = "RSS"
 url = "https://frederickvanbrabant.com//index.xml"
 weight = 4
 
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
 # footer menu
 
 [[footer]]
