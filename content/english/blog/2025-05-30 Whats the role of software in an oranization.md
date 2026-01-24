@@ -13,7 +13,7 @@ draft: false
 
 Last week, while sitting in a bar, I had a chat with a good friend of mine about the role of software in an organization. I stated that the primary role software plays in an organization is to facilitate processes. My friend argued that this is a strict and overly theoretical view of software in the workplace. He might be right, but nevertheless, I think there is an article in this conversation.
 
-### Applications support processes
+## Applications support processes
 
 An organization is a collection of people that come together and either provide a product or provide a service; that's the most zoomed-out version of an organization you can have. To provide this service or product (from now on just service, spares me keystrokes), you have your people, processes, technology and information [^1]. The people that do the work, the processes that the people follow to do the work, the technology that allows them to do the work and the information that is shared between all of the previous three.
 
@@ -21,7 +21,7 @@ You need all four to produce your service, but the leading one here is the proce
 
 You build or buy new technology to support the needs of the process.
 
-### Emerging vs leading strategy
+## Emerging vs leading strategy
 
 Now, you might argue, new technology can allow for new processes to develop. In that case, it would be technology that steers processes.
 
@@ -37,7 +37,7 @@ The opposite of this is a leading strategy, where we dictate how the processes s
 
 In terms of the previous example, that would be going to the market with the way (RFP) you want your logistics to be simplified. Find the closest match and try and adapt it to your way of working. Here you learn from the experiences that made your organization an enterprise in the first place. You don't get to this point by not knowing your market, product, customers and ways of working. Why risk all of that by just blindly implementing the way of working of a third party?
 
-### So waterfall?
+## So waterfall?
 
 That does indeed give a very top-heavy and waterfall vibe to it[^3], but that is not necessarily the case. Leading strategy is not static strategy: It's not because you plan out your strategy that you can't adapt it to new opportunities. It's just very important to take a look at where your strategy comes from, as that dictates the direction of the entire thing.
 

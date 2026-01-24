@@ -11,7 +11,7 @@ draft: false
 
 A big part of enterprise architecture is keeping your architecture model up to date. Without this model, it's impossible to do your real job in advising projects, strategy and general company awareness. The problem is that getting a full model is a daunting and maybe even impossible job. Let's talk about the pitfalls and how we can approach this.
 
-### Choosing where to start
+## Choosing where to start
 
 A lot of people look at enterprise architecture as an advanced technical architect. It's a misconception that I hear all over the place. This also means that the enterprise architecture office is often only focusing on applications, which is a shame. I truly believe that architects can bring a lot of value to a lot of different layers of the organization.
 
@@ -23,7 +23,7 @@ If you start in an organization with low architecture maturity the first order o
 
 **Where are the priorities of the organization now and in the future**: It's easier to get your information if you are part of the momentum. Nobody is going to be impressed if you show up with a full model of the software application SLAs while the company is in the process of a merger. That doesn't mean it's not important, it's just that the company is not focused on that. You will rather want to support the ongoing projects, or even better, prepare all the information for future projects. You will impress if you show up with a full business process map at the beginning of that merger.
 
-### Top-down or bottom up
+## Top-down or bottom up
 
 Those big three questions will help you discover if you want to start top down or bottom up. Top-down would focus on Value streams, Capabilities, information, and Goals. Bottom-up with dive more into the operational side: Applications, data, infrastructure.
 
@@ -33,7 +33,7 @@ Qualitative data is hard to measure, you will have to do meetings, workshops and
 
 Quantitive is measurable. Getting a list of applications from a CMDB is a quick and easy thing to do (on the condition that there is a CMDB with applications), finding out where these applications are hosted should also be researchable. The problem is often that you will get a lot of information but not all information might be all that good [^3]
 
-### Realizing the scale of the exercise
+## Realizing the scale of the exercise
 
 We're not there yet. You know what you're going to focus on, and how you're going to capture it, all that remains is how much of it.
 
@@ -61,7 +61,7 @@ The application portfolio is just one aspect of your enterprise architecture mod
 
 And then the realization strikes that you have to do this exercise, for all of these layers more than once [^4] . Don't forget that having wrong or outdated information is worse than no information at all.
 
-### Takeaways
+## Takeaways
 
 Enterprise architecture mapping is an ongoing balancing act. Choosing where to start is possibly the most important part of the entire exercise. Keeping the size of the team in mind while scoping out the work (and future work) is key.
 

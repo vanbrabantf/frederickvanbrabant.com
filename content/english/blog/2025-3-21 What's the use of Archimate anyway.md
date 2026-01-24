@@ -13,13 +13,13 @@ Last week, I discovered a new podcast called [The Enterprise Architecture Experi
 
 Near the end of the podcast, Svyatoslav made a brief remark about ArchiMate, stating that it is a language spoken only among architects and reinforces the stereotype of the ivory tower architect. His comment resonated with me, and I have been reflecting on it ever since. Allow me to share my thoughts.
 
-### What is the idea behind ArchiMate
+## What is the idea behind ArchiMate
 
 ArchiMate is developed by the [Open Group](https://www.opengroup.org/), an organization that brings out standards in the enterprise architectural space. ArchiMate brings a notation language that aims to standardize the way we talk, write and share architecture in an organization. It crosses all the layers of the enterpise and works together with other standards the Open Group developed like for example TOGAF. Every type of component and connection is fully defined and should, in theory, cover all your needs. There is also a colour code in these components that makes it easy to see on what layer of the organization you are working.
 
 The idea here is that it's a language that could be used by architects to share architecture with themselves and their stakeholders.
 
-### The Open Platform
+## The Open Platform
 
 I like this idea. Having an open and accessible standardized language is great. Every organization is different, enterprise architecture offices vary widely, and even architectural roles differ significantly. A shared, open language spoken by all would make idea sharing much easier.
 
@@ -29,7 +29,7 @@ At the top of the specification you will even find:
 
 > No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without the prior permission of the copyright owner.
 
-### ArchiMate itself
+## ArchiMate itself
 
 Okay, you now have the spec (if you managed to find it) all 207 pages of it. The document is incredibly thorough and covers almost everything you’ll need. However, the descriptions of its components and concepts are extremely dense. You’ll need to study it carefully to understand it… or buy the training package.
 
@@ -61,7 +61,7 @@ But fine, they can still use the ideas and components to communicate, right? Sur
 
 ArchiMate describes itself as a system that must be adapted to each organization since every organization is different. Wouldn’t a leaner, more flexible framework, one that’s open to extensions, make more sense?
 
-### But aren't all your examples on this blog in ArchiMate
+## But aren't all your examples on this blog in ArchiMate
 
 That's correct. That might sound very contradictory towards the rest of this article, but let me explain.
 

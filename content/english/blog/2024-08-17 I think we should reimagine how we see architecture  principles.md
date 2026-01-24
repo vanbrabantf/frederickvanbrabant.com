@@ -13,7 +13,7 @@ To me, it always seems strange that in a world that thrives on innovation and co
 
 From software design patterns (think SOLID, DRY, ...) to the more strategic layer (think TOGAF, PRINCE2, ...), these principles seem to have been around forever. Is anything really timeless and forever the same?
 
-### The Braun story
+## The Braun story
 
 So, I'm a bit of a design nerd. I like architecture and product design, so a few years ago, I visited the Braun-Sammlung Ettel Museum für Design ([Big recommendation
 ](https://www.museumsportal-berlin.de/en/museums/braun-sammlung-ettel/) ) in Berlin. It's a museum dedicated to the iconic design of Braun and, for a big part, the work of Dieter Rams. The story goes that Dieter Rams developed ten design principles that all their products needed to adhere to.
@@ -30,7 +30,7 @@ To me, this made a big impression. I walked away from that museum and was struck
 
 I now think that's the totally wrong lesson to learn from that story.
 
-### The world is not a static place
+## The world is not a static place
 
 The lesson to be learned from that story is that if Braun continued with what they were doing, they would have gone broke. The market was more interested in cheaper products than Rams' design pieces. Making a cheap product with the principles described above is very hard.
 
@@ -42,7 +42,7 @@ The TOGAF principle of "Data as an Asset: Because all decisions in an enterpri
 
 This one didn't survive the first LLM chatbot. It turns out that just like in the Braun story, it is nice to have principles that enforce quality (in this case, data accuracy), but people prefer the ease of use of "[good enough](https://frederickvanbrabant.com/blog/2023-10-13-the-goldilocks-strategy.-finding-just-right-in-good-fast-and-cheap/)"
 
-### How to still have the benefits of these principles
+## How to still have the benefits of these principles
 
 The interesting thing about all this is that if you move to another different layer in the organization, a typically long-term vision layer: the strategic layer, you would expect a more static view. Yet here we see that they re-evaluate their vision of what to do every few months.
 

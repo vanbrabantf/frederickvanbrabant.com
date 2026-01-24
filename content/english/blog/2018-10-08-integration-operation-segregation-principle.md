@@ -16,8 +16,8 @@ Now I'm going, to be honest with you (as I was with them), I had no idea what th
 ## A simple PriceCalculator
 
 Let's take a look at some code:
-{{< highlight php "linenos=table" >}}
 
+```php
 <?php
 declare(strict_types=1);
 
@@ -36,13 +36,15 @@ declare(strict_types=1);
         }
     }
 
-{{< / highlight >}}
+```
+
 As you can see, we have a small piece of code that calculates the price for a few days of rental.
 
 The code itself is pretty straightforward. We gather the start date, the end date. We calculate the number of days and later on multiply those days by the price + the km's driven. A small piece of code, that does a lot.
 
 No code is complete without a test:
-{{< highlight php "linenos=table" >}}
+
+```php
 <?php
 declare(strict_types=1);
 
@@ -89,8 +91,8 @@ declare(strict_types=1);
             $this->assertSame(110, $price);
         }
     }
+```
 
-{{< / highlight >}}
 That's a big test.
 
 It mocks a few things, then calls the calculator and asserts the results. All in all a very simple unit test, but not a fun one to write.
@@ -100,7 +102,8 @@ It mocks a few things, then calls the calculator and asserts the results. All in
 If we take a look at that `PriceCalculator` class you can see it structurally does 2 things: it **fetches data** and **performs actions** on that data. Or in other words: it **integrates** and **operates.**
 
 At this point, you probably already figured out when the Integration Operation Segregation Principle is all about: splitting these up. Let me show what the previous class looks like with this principle applied:
-{{< highlight php "linenos=table" >}}
+
+```php
 <?php
 declare(strict_types=1);
 
@@ -144,9 +147,9 @@ declare(strict_types=1);
     				);
         }
     }
+```
 
-{{< / highlight >}}
-{{< highlight php "linenos=table" >}}
+```php
 <?php
 declare(strict_types=1);
 
@@ -160,8 +163,9 @@ declare(strict_types=1);
         }
     }
 
-{{< / highlight >}}
-{{< highlight php "linenos=table" >}}
+```
+
+```php
 <?php
 declare(strict_types=1);
 
@@ -175,8 +179,9 @@ declare(strict_types=1);
         }
     }
 
-{{< / highlight >}}
-{{< highlight php "linenos=table" >}}
+```
+
+```php
 <?php
 declare(strict_types=1);
 
@@ -190,7 +195,8 @@ declare(strict_types=1);
         }
     }
 
-{{< / highlight >}}
+```
+
 "Frederick you devious hack!" you might shout, You've turned a small method into a 4 class method that more than doubles the lines of code.
 
 Well, you're not wrong. It's way more code. And on first glance, it looks way more complex. But let's take a step back and go over it.
@@ -198,8 +204,8 @@ Well, you're not wrong. It's way more code. And on first glance, it looks way mo
 ## Extracting complexity
 
 if you strip away the dependency injection etc, you're left with
-{{< highlight php "linenos=table" >}}
 
+```php
 <?php
     public function calculate(CarRental $carRental): int
     {
@@ -212,20 +218,22 @@ if you strip away the dependency injection etc, you're left with
             $carRental->getPricePerDay()
         );
         $distancePrice = $this->distancePriceCalculator->calculate(
-            $carRental->getDistance(), 
+            $carRental->getDistance(),
                         $carRental->getPricePerKm()
         );
 
         return $this->dayDistanceCalculator->calculate(
-                        $dayPrice, 
+                        $dayPrice,
                         $distancePrice
                 );
     }
-{{< / highlight >}}
+```
+
 There is nothing complex going on here. Everything perfectly describes what is happening. That `$dayPrice` ? Oh, it's been calculated, how is it being calculated? Who cares. No need to worry about it. Someone with almost no programming knowledge can read this method and fully understand what's happening here.
 
 But what about the logic.
-{{< highlight php "linenos=table" >}}
+
+```php
 <?php
     final class DateRangePriceCalculator
     {
@@ -234,7 +242,8 @@ But what about the logic.
             return $days * $pricePerDay;
         }
     }
-{{< / highlight >}}
+```
+
 I would argue that the logic in there is even more simple.
 
 In the future, there might be some business logic changes (we might need to do something with tax?). We now know where we can do that, everything is contained in this little class.
@@ -242,14 +251,15 @@ In the future, there might be some business logic changes (we might need to do s
 This is also a nice illustration of the [Open–closed principle](https://en.wikipedia.org/wiki/Open–closed_principle).
 
 So yes, we do have a lot more code. But it's all very simple code, easy to read, easy to debug and the coolest of all: Easy to test.
-{{< highlight php "linenos=table" >}}
+
+```php
     <?php
     declare(strict_types=1);
-    
+
     namespace Tests\Car\Rent;
-    
+
     use Car\Rent\DateRangePriceCalculator;
-    
+
     class DateRangePriceCalculatorTest extends TestCase
     {
         /**
@@ -259,11 +269,12 @@ So yes, we do have a lot more code. But it's all very simple code, easy to read,
         {
             $dateRangeCaluclator = new DateRangePriceCalculator();
             $price = $dateRangeCaluclator->calculate(2, 50);
-    
+
             $this->assertSame(100, $price);
         }
     }
-{{< / highlight >}}
+```
+
 Now that is a nice unit test. No mocks, easy to write, easy to read. (compare this to the unit test at the top of this article).
 
 ## Conclusion

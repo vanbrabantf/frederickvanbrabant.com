@@ -9,8 +9,6 @@ tags: ["My way of working", "capabilities"]
 draft: false
 ---
 
-### What are business capabilities
-
 So we should probably start with this right? Business capabilities (further in this article referred to as capabilities) are the backbone of enterprise architecture. They are also, sadly, one of the most misunderstood things in enterprise architecture.
 
 You can think of a capability as something a company can, or is doing. An example here could be, if you are a restaurant, stock management or food preparation.
@@ -21,13 +19,13 @@ These capabilities also come in hierarchical levels. The higher the level, the m
 
 You can use these capabilities to categorise your organisation and link other components to them (think processes, information, who’s in charge, applications, …). You can further more use these for a strategical approach. How good or mature are we in these area’s and where should we focus our efforts on.
 
-### Thinking in capabilities
+## Thinking in capabilities
 
 So far so good. But people look at this idea too often from the context of their current business environment. The reflex here is to assume that everything the company does or can do is already covered and neatly categorised in business units.
 
 Often, people categorise capabilities in the structure of their current company. We do marketing, we do sales, we do tax & legal. My experience has taught me that this is not the best way to sort these capabilities. Categorisation in this way is often the domain of business functions or business services. They don’t refer to what we actually do.
 
-### Wait, what are business functions and business services?
+## Wait, what are business functions and business services?
 
 A **business service** is the service we provide to customers. Traditionally, these are external customers, but I’ve seen them used for internal customers (think: the customer of IT is the business)
 
@@ -37,7 +35,7 @@ A **capability**, as discussed in the opening, is uncoupled from the organisatio
 
 People misuse this all the time, so there is no shame in confusion here. The problem is however not only syntactical, who care if we call it x or y right? No the issues start in connecting it up in the bigger architecture.
 
-### The problems with adapting business functions/services to capabilities
+## The problems with adapting business functions/services to capabilities
 
 One of the complaints I almost always hear in big organisations from C-level people is that the organisation thinks too much in terms of silos. “Marketing doesn’t talk to finance”, “Projects from legal are done without knowledge from sales, and now there is an expected impact on other projects”, and so on (these are all examples; you can swap whatever department out, it really doesn’t matter. They are all guilty of this).
 
@@ -45,7 +43,7 @@ Silo thinking, as it’s called, is a structural issue. If you force your entire
 
 If we use this structure in our strategic planning and decision-making, we only enforce this thinking. We don’t want to think in terms of “we need to invest more in marketing”; no, we better think in terms of “we need to make our products more attractive”. In the former (invest more in marketing), we just look at marketing and tell them to upscale or find better ways to do marketing. In the latter (products that are more attractive), we look at all parties involved. Maybe this means that we can improve the product and have the marketing department in tandem to make a bespoke campaign around that. Maybe these people don’t ordinarily have meetings with each other, and it is often more of a handoff.
 
-### What does a cross-service capability map look like
+## What does a cross-service capability map look like
 
 ![A capability map that shows 3 groups. These groups have a subgroup with more capabilities. More information in the article](/images/2024-07-12-capabilities/capabilitymap.png)
 

@@ -21,7 +21,7 @@ Now we all agreed that it's probably not used, but it was still bundled into the
 
 I'm sure it's still running to this day. Every morning, at 3 AM. 
 
-### Chesterton’s Fence
+## Chesterton’s Fence
 
 That forgotten flagging system? That's a direct result of Chesterton’s Fence, a principle by G.K. Chesterton, that states that you should only remove something if you truly understand why it was there in the first place.
 
@@ -29,7 +29,7 @@ In architecture this is often spoken as gospel, but architects also often forgot
 
 Chesterton's fence is frequently used in some political circles and think tanks, but we are not going there. This post is not about politics; we are only looking at it from a business and organizational perspective. Like a smart man once said: “I'm not brave enough for politics”.
 
-### How this works in architecture
+## How this works in architecture
 
 A significant aspect of architecture is following up on vague leads.
 
@@ -45,7 +45,7 @@ You dig through missing docs. You talk to five teams. Three have left. Two don�
 
 And the onboarding system fence stays. What started with good intentions into due diligence, quickly turns into risk avoidance and bloated systems. 
 
-### Fences around fences
+## Fences around fences
 
 In reality, what often happens is that teams build around these mysterious setups.
 
@@ -57,7 +57,7 @@ Down the line some developers will guess wrongly, slowing down feature developme
 
 Scale that same issue up over ten years, and you have slowed down all your projects and innovation. Simple changes take six months, as there is just too much complexity to deal with.
 
-### This is not a risk problem; this is a knowledge retention problem
+## This is not a risk problem; this is a knowledge retention problem
 
 The real fear isn’t the fence, it’s the surrounding silence.
 
@@ -71,7 +71,7 @@ This should, however, be a wake-up call where you start to invest more in knowle
 
 Organizations forget. And the cost of that forgetting is paralysis.
 
-### So, should we follow it or not?
+## So, should we follow it or not?
 
 Chesterton was right: don’t tear down what you don’t understand. But in big organizations, no one tears things down. They build around them. Layer upon layer. Fence upon fence, until you’ve built a maze of fences no one can navigate.
 

@@ -56,7 +56,7 @@ That is very unopinionated software. How do you connect to this application? Ah,
 
 That sounds nice from a service point of view. But if everything is internal, that service that you provide to other applications is going to cost a lot of money in development and maintenance of these options. That lack of strategy at this level will also make your entire application landscape less coherent, as there is no unified way of working.
 
-### “It depends” as architectural debt
+## “It depends” as architectural debt
 
 Don't get me wrong, I'm not advocating here for abandoning backup plans and putting all your eggs in one basket. What I am advocating for is architectural courage.
 
@@ -71,12 +71,6 @@ That would be ok if that senario actually plays out. If the company strategy cha
 In the case of not optimizing ahead of time for that senario (but still keeping it in the back of your mind). You can just implement it when it's actually needed. There will be a lower cost, the company will have appetite for the change, and you might have a clearer view of the actual data that will flow over the connection.
 
 ```mermaid
----
-config:
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#e2b04e, #ba462f"
----
 xychart
     title "Cumulative Cost: Upfront Optionality vs. Adapting when needed"
     x-axis "Time (Years)" [Y1, Y2, Y3, Y4, Y5]
@@ -103,7 +97,7 @@ Besides that, how often have you actually ever swapped a database in a system? I
 
 Please remember that you can always change setups in the future. That is part of the entire agile way of working that companies like to talk about.
 
-### Choosing a side
+## Choosing a side
 
 I’m not suggesting we should all become architectural "dictators" who refuse to listen to edge cases. But I am suggesting that we stop being so deep into "what-if" and start focusing more on "what-is."
 
@@ -113,7 +107,7 @@ Being opinionated doesn’t mean being rigid, it's more about actually having a 
 
 And the thing we often forget is that the business hates all of these "what if" senario's, they just don't care about it. They mainly want it to work. If your "opinionated" choice needs to change later, they won't remember the technical specifics of why you didn't build three different API types. They’ll remember that you got the project live on time and it worked when they needed it.
 
-So, let’s stop taking the escape hatch of "it depends." Pick a lane, document it well, and build it simply. I promise, the sky won’t fall—and your application landscape (and your sanity) will thank you for it.
+So, let’s stop taking the escape hatch of "it depends." Pick a lane, document it well, and build it simply. I promise, the sky won’t fall and your application landscape (and your sanity) will thank you for it.
 
 [^1]: I have a contact page. This is the first mail I've ever got from that contact page. If you would like to know more or have comments on something I write, you're always welcome to drop me a message.
 

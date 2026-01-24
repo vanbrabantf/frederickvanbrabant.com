@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-meta_title: ""
-description: "this is meta description"
-draft: false
+layout: "contact"
+description: "Reach out for inquiries or collaborations."
 ---

@@ -13,7 +13,7 @@ draft: false
 
 I'm afraid I have to disagree with this statement. Let me tell you why.
 
-# What is clean code
+## What is clean code
 
 There seem to be many opinions surrounding clean code. Some people have an entire architecture of how code should look. Others stick to the actual layout of the code, or length of a class while even others vaguely point towards *Robert C. Martin's* books.
 
@@ -21,7 +21,7 @@ One thing is clear; it's something that's really on a lot of developers mind. Cl
 
 Then why does business always treat it as a secondary objective? Do they just don't get it?
 
-# Business needs vs developers struggles
+## Business needs vs developers struggles
 
 Clean code and architecture indeed allow businesses to have a more maintainable product. But I'm sure you would agree that before you can have a maintainable product, you should first strive to have an actual product.
 
@@ -31,9 +31,9 @@ This entire mindset was partly the start of the agile movement. Build a minimal 
 
 It's where that horrible motto from Facebook comes from: "move fast and break things".
 
-> It seems we've come to an impasse: the tech side wants a well balanced and nutritional dinner, while the business side wants fast food
+It seems we've come to an impasse: the tech side wants a well balanced and nutritional dinner, while the business side wants fast food
 
-# Technical debt
+## Technical debt
 
 So yes, that mindset results in those `paymentsService` god classes that are 5000 lines long and nobody dares to touch. Controllers that speak directly to databases; in short, technical debt.
 
@@ -49,13 +49,13 @@ So treat that technical debt as you would financial debt. Use it to invest it in
 
 Image courtesy of XKCD ([https://xkcd.com/844/](https://xkcd.com/844/))
 
-# Long term thinking vs quick wins
+## Long term thinking vs quick wins
 
 You also have to keep the scope of the project in mind. Some people build systems with the mindset that it might blow up anytime and we're going to need to support this for years to come. Other people start big projects without tests and pretend that they're going to write them in the future, "when there is time".
 
 It's critical to strike a decent balance here and reevaluate the scope and market position of the product at regular intervals. This evaluation should not be only on the business or technical side; this is a team effort and should also be communicated that way.
 
-# My takeaways (TL;DR)
+## My takeaways (TL;DR)
 
 It's essential to realise what you are building and the impact it will have in the near and far future. Keep the short time roadmap concise and don't over-invest (financially and technically) but also don't try and outrun the liabilities you are taking on along the way.
 

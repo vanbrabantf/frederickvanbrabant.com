@@ -13,7 +13,7 @@ In the 2010s, there was a huge buzz around big data. Big data was going to save 
 
 The big data buzzword went away a bit (I guess we now use it to fuel the AI buzz), but the mindset remained. These days, we call it data-driven, and it's used every day in management meetings. It's a great way to give power to your strategy, and the data doesn't lie...
 
-### How I've seen Data Driven being used
+## How I've seen Data Driven being used
 
 As stated in the intro, the way you use data-driven is to gather as much information as you can in the form of raw data. Then display that data in a dashboard and add widgets that displays it as information (data is raw, information is structured).
 
@@ -23,7 +23,7 @@ If you want to go deeper, you can go more complex. You launch the same campaign 
 
 This also goes further than marketing. The way you use analytics in product design is similar. You build in trackers in your product to see how and how much certain parts are used. You can see where people get frustrated (important if people break off in the payment flow) and the parts people focus the most on in the product.
 
-### I'm sorry, data scientists, that was cruel of me.
+## I'm sorry, data scientists, that was cruel of me.
 
 That might all sound very good, but as a good statistician might point out, it's all a bit simplified.
 
@@ -37,7 +37,7 @@ While in reality, people might just use that part of the application as it is si
 
 Again, this is an issue of not looking at all the data.
 
-### The other data you might not think about
+## The other data you might not think about
 
 There is also the issue of future impact. This one is impossible to track, but very important to keep in mind.
 
@@ -47,7 +47,7 @@ Here, however, you might not realise the impact this has on reputation. Even the
 
 So, the short-term data-driven strategy of cutting out bad performers is correct, but it impacts the long-term reputation, something that you will not find in the short-term data.
 
-### So, what data should we focus on
+## So, what data should we focus on
 
 This is the crux of it all. It is tough to know what to track up front. And even if you have a significantly broad and diverse data set, I can assure you there will always be critical data points you did not know about.
 
@@ -56,8 +56,6 @@ Look, I'm not a fool. I also know that many data-driven strategies are mainly pu
 This can lead a company to believe that what it is doing is correct as long as it keeps following the (selected) data. It is important to be critical about this.
 
 I'm also not saying that we should ignore data. I would rather follow a strategy based on at least a few data points than one based on a total gut feeling. The essential idea, however, is to realise what we are tracking and not treat it as gospel. There are no whole truths.
-
-### Footnotes
 
 [^1]: https://en.wikipedia.org/wiki/Survivorship_bias. The WW2 example is a very famous and good read.
 

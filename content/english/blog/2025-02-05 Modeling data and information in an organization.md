@@ -13,7 +13,7 @@ The last weeks I've been focusing a lot on the data and information models in ou
 
 That's why I wrote this post; it's mainly to gather my current thoughts on this topic. Might as well share it with you. It's a combination of techniques I've done at previous organizations (things I know work) and things I've been thinking about for a long time now (things that might work). So this isn't a full-on manual, more a collection of current thoughts. I hope that makes sense.
 
-### What is data, and what is information?
+## What is data, and what is information?
 
 Like usual in these kinds of posts, we have to get some lingo straight. In the case of this post, it's the difference between **data** and **information**. [^1]
 
@@ -29,7 +29,7 @@ Now if we make an abstraction of that user.json, we get **information**. This wo
 
 If you want to know more about this and why we would want to do this, please check out the previous post: [Turning Complexity into Manageable Complication](https://frederickvanbrabant.com/blog/2025-01-17-turning-complexity-into-manageable-complication/).
 
-### How I like to model it
+## How I like to model it
 
 As you know, I like to use ArchiMate with some TOGAF concepts in it, so that's also how I model it.
 
@@ -53,11 +53,11 @@ The last step is to link the data to the information. To do this, we simply conn
 
 ![A diagram that shows a top level archimate connection between two applications with an interface linked to it. There are also two data objects linked to said interface. Each data object has an information object linked to them](/images/2025-02-05-information/5.png)
 
-### The benefits for the organization 
+## The benefits for the organization 
 
 So that's the basic setup. You can see what data flows between applications; that's nice. But you might not see the upside of that information layer yet. Well, let me tell you, that's the most important part, because that's the one that will give you the most insights. Let's go over some things you can now do.
 
-#### The information model
+### The information model
 
 ![Information objects linking to a different information object](/images/2025-02-05-information/6.png)
 
@@ -69,7 +69,7 @@ Using this information model, you can quickly discuss what is needed in differen
 
 Want to know what applications handle client information? Follow the lines from information to data to applications.
 
-#### Data classification
+### Data classification
 
 ![A grouping of information objects per sensitivity](/images/2025-02-05-information/7.png)
 
@@ -85,14 +85,14 @@ Combining this data into an information group enables you to have a central mast
 
 This can be a central hub for that domain. Want to have the employee information? Go to x.
 
-#### The others
+### The others
 
 I can think of a few more but can't keep up making schemas for these. Top of mind would be: 
 
 - Data lineage. Actually following the data through an organization. If two files are combined to follow a new data file, what should be the classification of this data file?
 - Data governance. Maybe you want to have a standard of what an employee file should look like; you can only do that if you know what data is in an employee file.
 
-### At what detail should we go?
+## At what detail should we go?
 
 One of the biggest challenges in architecture is always the balance between having enough information and keeping it up to date. No information is, in my opinion, better than faulty information. And this is when it comes to information models exactly the same.
 
@@ -102,15 +102,13 @@ The component level could be interesting from a solutions architecture point of 
 
 So for me, the container level is ideal. Just enough information that it's still mappable and not out of date a week later, but still of enough value to make strategic decisions on the landscape.
 
-### How to keep this going
+## How to keep this going
 
 So you know why we want to do it, what form it would take, and at what level; now it's just how we can get started. And here comes the bad news. I haven't found a single automated system that I thought was actually reliable enough to base architecture off. Either it's just too much information to automate, or there are too many different connections, or there are too many manual data transfers (download a file and upload it somewhere else [^5]).
 
 The reality is that the best way to capture this information is to interview application owners, one by one. And yes, that is a massive amount of work.
 
 As I stated earlier, I'm scaling this post to organizations with 500-1000 applications. So that would be 500-100 half-hour calls. You could send forms to people to update the data once you want a refresh of the data, but the initial mapping is best done with interviews. This is, however, not a total waste of time; the amount of extra information you can get from talking to those application owners will pay back dividends on the investment. People know who you are, you might learn more about the applications, and your assumptions about the landscape might be totally turned on its head.
-
---
 
 So yeah, that’s where my head is at when it comes to information models. They’re powerful tools, but only if they’re practical enough to stay useful. Too much detail, and they become impossible to maintain. Too little, and they don’t provide any real value. The trick is finding that balance: just enough structure to make sense of the chaos without adding more complexity than necessary.
 

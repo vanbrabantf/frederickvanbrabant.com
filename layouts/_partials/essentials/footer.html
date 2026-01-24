@@ -1,0 +1,52 @@
+<footer
+  class="bg-[#004526] text-[#FDFCF8] py-18 md:py-16 mt-10 border-t border-white/5 font-primary">
+  <div
+    class="max-w-[1110px] mx-auto px-4 flex flex-col items-center text-center">
+    <div
+      class="font-secondary text-5xl md:text-5xl text-white lowercase tracking-tight mb-10">
+      <div class="order-0 lg:order-2">
+        <a href="/" class="serif text-lg lowercase tracking-normal italic"
+          >fvb.</a
+        >
+      </div>
+    </div>
+
+    <nav class="mb-10">
+      <ul
+        class="flex flex-wrap justify-center gap-x-8 gap-y-4 uppercase tracking-[0.2em] text-[10px] font-semibold opacity-70">
+        {{ range site.Menus.footer }}
+          <li>
+            <a
+              href="{{ .URL | relLangURL }}"
+              class="hover:opacity-100 transition-opacity duration-300">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    {{ if site.Data.social.main }}
+      <ul class="flex gap-6 mb-12 opacity-50">
+        {{ range site.Data.social.main }}
+          <li>
+            <a
+              href="{{ .link | safeURL }}"
+              target="_blank"
+              class="text-lg hover:text-white hover:opacity-100 transition-all">
+              <i class="{{ .icon }}"></i>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+
+    <div class="pt-8 border-t border-white/10 w-full max-w-xs">
+      <p
+        class="font-primary text-[8px] md:text-[9px] uppercase tracking-[0.5em] opacity-30 leading-loose">
+        {{ site.Params.copyright | default "© 2026 All Rights Reserved" | markdownify }}
+      </p>
+    </div>
+  </div>
+</footer>

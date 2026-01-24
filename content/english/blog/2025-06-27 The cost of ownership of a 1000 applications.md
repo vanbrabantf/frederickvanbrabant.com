@@ -20,7 +20,7 @@ Not just the big hard numbers like contracts and licences, but everything. The h
 
 This is weirdly something not a lot of companies know. Today, we will take a look at just that: TCO (total cost of ownership), and how you can start mapping it across your entire application landscape.
 
-### The outline.
+## The outline.
 
 The idea is simple: take every business application in your landscape, break its costs into categories, and combine them into a single number. Or, if numbers aren’t available, a t-shirt size. Simple enough. Now do it for a thousand applications.
 
@@ -51,7 +51,7 @@ For me, the best way to go about this is to map this out in categories, and the 
 
 I won’t go through every detail of every category, this isn’t a textbook, and every organization has its own quirks. I will however give you a rough outline that you can use to shape it to your needs.
 
-#### Development
+### Development
 
 This category covers in-house development.  
 If you’ve built the application yourself, take the total cost: FTE's [^2], tools, consulting, whatever it took to make the thing. And spread it across five years.
@@ -60,7 +60,7 @@ Why five? Because without that, you get a big spike in year one that skews every
 
 If the application is off-the-shelf or SaaS, this category will likely sit at zero. And that’s okay. Not every column needs to be filled.
 
-#### Licensing
+### Licensing
 
 This is your “buy” column: SaaS, commercial software, vendor tools…
 
@@ -68,7 +68,7 @@ Licensing can be deceptively complex. You’ve got per-seat pricing, per-admin m
 
 For example, if someone only reads reports, maybe they don’t need that premium admin licence. Trim where it makes sense.
 
-#### Infrastructure
+### Infrastructure
 
 This covers servers, storage, backups: the whole physical and virtual stack.
 
@@ -76,7 +76,7 @@ In some cases, infrastructure is bundled into licensing (think cloud platforms).
 
 What matters most is visibility: where the app lives, and what it costs to keep it breathing.
 
-#### Support & Maintenance
+### Support & Maintenance
 
 Now we’re into the hard stuff: the cost of keeping things running. Bug fixes. Patches. Support tickets.
 
@@ -89,7 +89,7 @@ If that application constantly escalates bugs to the dev team, bump the number.
 
 It’s not perfect, but it gives you something consistent to track.
 
-#### End-user Support
+### End-user Support
 
 This one’s slippery. It covers training and minor feature requests. The human side of keeping an application usable.
 
@@ -102,7 +102,7 @@ As for feature requests: draw a line:
 
 And if you rely on a vendor for this kind of support? Log it here, not under licensing. That way, you can spot where the support load actually lives.
 
-#### Misc
+### Misc
 
 The vaguest one, but an important one. This is where I track three things: **criticality**, **sensitivity**, and **legacy**. I express each one as a percentage.
 
@@ -110,7 +110,7 @@ Is it business-critical? Does it handle sensitive data? Is it built on something
 
 Yes, I know, that's very unscientific and vague, but I do think it's essential. We're going to use these in the next step.
 
-### The thing about numbers…
+## The thing about numbers…
 
 Numbers are sensitive and not always easy to get hold of. And when you’re dealing with this many systems, they don’t always show up when you need them.
 
@@ -128,7 +128,7 @@ This helps if you run into situations where people just can't answer you with re
 
 Remember: you’re doing this for 1,000 applications. Progress beats precision. Every estimate you get is better than one more week waiting on the “real” number.
 
-### Getting to the final number
+## Getting to the final number
 
 Now comes the tricky part: turning estimates into meaning.
 
@@ -144,7 +144,7 @@ It's up to you how you want to weigh these multipliers. I would not just add the
 
 ![A schema showing a breakdown of the categories that result in the endsum with a modifier applied](/images/2025-06-27-tco/TCO2.drawio.png)
 
-### Scaling it up
+## Scaling it up
 
 Once your model’s ready, it’s time to gather data. Keep the entry points soft and friendly. A well-designed form, a guided tool, a low-code application with just the right help text. These things matter.
 

@@ -23,7 +23,7 @@ However, what I often see in those smaller tickets or tasks is a description of 
 
 Now, I know getting a good description of the above in a ticket is often already a big luxury (I can't count the tickets that are just a title), and writing detailed tickets is a lot of work, especially if they are all small tasks. But this is an investment that will repay itself multiple times.
 
-### The why
+## The why
 
 This post is not about "how to write a good Jira ticket"[^1]; it's an example of the idea that the less context we give for a task, the more general the outcome will be.
 
@@ -45,7 +45,7 @@ Yes, that is three times the size and effort of the original message. The differ
 
 It also gives a different sentiment to the question. In the first case, the person implementing it might roll their eyes, thinking, "God, marketing wants to spam the new users with "extra engagement" emails/messages. In the second case, that same person might walk away with a more positive feeling: We are following up on changes to the product with a more data-driven approach ([https://frederickvanbrabant.com/blog/2024-08-30-data-driven-is-not-the-silver-bullet-you-think-it-is/](https://frederickvanbrabant.com/blog/2024-08-30-data-driven-is-not-the-silver-bullet-you-think-it-is/)).
 
-### Kumbaya and feelings and stuff
+## Kumbaya and feelings and stuff
 
 Now, this might all feel like an overly gentle approach; we are all just cogs in a big machine, and everything has their little domain and all that. I do understand that vision. Yet I've always wondered, why try and hire all those knowledgeable people to tell them precisely what to do? To me, it always seems like a massive waste of talent to not at least loop them in. Again, you are not asking them directly for their input, but you are at least making it possible to speak up if they see something that aligns differently with their expertise. You know, what you actually hired them for.
 

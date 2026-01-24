@@ -1,0 +1,66 @@
+{{ define "main" }}
+  <header
+    class="py-16 md:py-24 border-b border-gray-100 px-4 bg-[#004526]/[0.02]">
+    <div class="max-w-[1110px] mx-auto text-center">
+      <p class="uppercase tracking-[0.4em] text-[10px] text-gray-400 mb-4">
+        Archive / Collection
+      </p>
+      <h1
+        class="serif text-5xl md:text-7xl text-[#004526] italic lowercase tracking-tight leading-tight">
+        {{ .Title }}
+      </h1>
+      <p
+        class="mt-6 uppercase tracking-[0.2em] text-[11px] font-bold text-[#004526]/60">
+        {{ len .Pages }}
+        {{ if eq (len .Pages) 1 }}Entry{{ else }}Entries{{ end }}
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-[1110px] mx-auto px-4 py-16 md:py-20">
+    <div class="max-w-4xl mx-auto">
+      <div class="space-y-16 md:space-y-24">
+        {{ range .Pages }}
+          <article
+            class="group flex flex-col md:flex-row items-start gap-8 md:gap-12">
+            <div
+              class="w-full md:w-32 pt-2 border-t border-gray-200 md:border-none">
+              <time
+                class="block uppercase tracking-[0.2em] text-[10px] text-gray-400 font-semibold mb-1">
+                {{ .PublishDate.Format "02 Jan" }}
+              </time>
+              <span
+                class="block uppercase tracking-[0.2em] text-[10px] text-gray-300">
+                {{ .PublishDate.Format "2006" }}
+              </span>
+            </div>
+
+            <div class="flex-1">
+              <h2
+                class="serif text-3xl md:text-4xl text-[#004526] mb-4 leading-tight group-hover:italic transition-all duration-300">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+
+              <div
+                class="flex items-center gap-3 mb-4 uppercase tracking-widest text-[9px] font-bold text-[#004526]/40">
+                <span>{{ .ReadingTime }} min read</span>
+              </div>
+
+              <p
+                class="sans text-gray-600 font-light text-base md:text-lg leading-relaxed mb-6">
+                {{ .Summary | truncate 200 }}
+              </p>
+
+              <a
+                href="{{ .RelPermalink }}"
+                class="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-[#004526] group-hover:gap-4 transition-all">
+                Open Entry
+                <span class="text-lg leading-none">→</span>
+              </a>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </main>
+{{ end }}

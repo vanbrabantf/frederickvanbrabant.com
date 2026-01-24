@@ -15,7 +15,7 @@ On this scale it's not a very complex undertaking. But what if you were to ask t
 
 The same is true for organizations and systems. 
 
-### What is complexity and what is complication?
+## What is complexity and what is complication?
 
 Before we take a deeper dive into this material, I think it's important to start with some outlines, mainly about the difference between something complex and something complicated. People use these terms interchangeably, but they are very much different things.
 
@@ -23,7 +23,7 @@ A very interwoven system is **complicated**. A nice example here is an airplane.
 
 **Complexity**, on the other hand, handles in abstraction. An airport would be an example of complexity. Here we have countless complicated systems interacting with each other. Think of the airplanes themselves, the building, the food stands, the baggage reclaim, ... Those three dots are actually important here, as the list is none exhausting. There is no end to the possible impacts that a place like an airport can experience. There are just too many moving parts that result in too many complications; you can't even predict how many moving parts you start with.
 
-### Abstractions and worldview
+## Abstractions and worldview
 
 As complex systems are everywhere, we've learned to handle them with abstractions. If we were to try and hold all those systems in our minds when we do decision-making, we would go mad; it's just too much information.
 
@@ -41,7 +41,7 @@ Now if I were to organize a conference for pilots with my naive view of the job 
 
 You can imagine that a lot of issues stem from this. People making either decisions based on wrong abstractions of different levels or assumptions that everyone has the same worldview of the issues you are facing.
 
-### Worldview and scaling
+## Worldview and scaling
 
 Now how can we try to mitigate these issues? Well, the best way to challenge worldviews is to broaden your horizon. But this is where the problem is. The entire point of abstracting is that you don't have to handle all that information in the first place.
 
@@ -53,7 +53,7 @@ Well, in theory, as we've discussed before, a big part of complexity is the coun
 
 That is something you will never be able to fully tackle. The best solution I've found to this is on one end, mapping out the abstractions, and on the other hand, having experienced people in the room. Ideally, one level of abstraction higher and lower. [^4]
 
-### Embracing Complexity
+## Embracing Complexity
 
 Complexity is an inescapable part of the systems we build and interact with, from the simplicity of baking bread to the intricacies of running an airport. The key to navigating this complexity lies in understanding the layers of abstraction and accepting that no model will ever capture every moving part.
 

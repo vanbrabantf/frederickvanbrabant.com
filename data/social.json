@@ -1,19 +1,19 @@
 {
   "main": [
     {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/in/frederick-vanbrabant-769a7517a/"
-    },
-    {
       "name": "bluesky",
-      "icon": "fa-brands fa-square-bluesky",
+      "icon": "fab fa-bluesky",
       "link": "https://bsky.app/profile/maybefrederick.bsky.social"
     },
     {
-      "name": "RSS",
-      "icon": "fa-solid fa-square-rss",
-      "link": "https://frederickvanbrabant.com/index.xml"
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/vanbrabantf/"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/frederick-vanbrabant-769a7517a/"
     }
   ]
 }

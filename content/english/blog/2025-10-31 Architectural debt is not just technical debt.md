@@ -19,7 +19,7 @@ We always made a distinction between code debt and architecture debt: code debt 
 
 While I agree that implementing software patterns like the strangler pattern or moving away from singletons is definitely software architecture. Architectural debt goes way beyond what you find in the code.
 
-### How I see technical architectural debt these days.
+## How I see technical architectural debt these days.
 
 As an enterprise architect I still mostly complain about architectural debt and estimates that are seen as deadlines. That much certainly hasn’t changed.
 
@@ -27,7 +27,7 @@ These days, I’m less concerned with how the software itself works. That’s ju
 
 In an enterprise environment this is inevitable. There are so many applications and more than half of them are 3rd party SaaS applications. You need to keep on top of what you can control and let go of the parts you can't.
 
-### The layers of architectural debt
+## The layers of architectural debt
 
 But architectural debt goes way beyond the technical layers. Enterprise architecture is not technical architecture [^2].
 
@@ -37,7 +37,7 @@ Let's dive into the issues at every layer.
 
 ![The information above in a diagram](/images/2025-10-31-Architectural-debt-is-not-technical-debt/layers.png)
 
-#### **Application / Infrastructure layer**
+### **Application / Infrastructure layer**
 
 As discussed in the intro, EA shouldn't focus on the code level. I think that's the job of software developers/software leads. They are in the code day to day, you are not. You can suggest software patterns or ideas (think event sourcing for applications that could be in the problem space), but they decide how they want to structure and maintain the code.
 
@@ -51,7 +51,7 @@ At this layer all the debt directly impact operations. Costs go up and time of d
 
 ![The focus of an EA is longer term and less focused compared to a SA](/images/2025-10-31-Architectural-debt-is-not-technical-debt/eavssa.png)
 
-#### **Business layer**
+### **Business layer**
 
 Just like in the application/infrastructure layer we are not focused on the details. We don't care about how many people work in what department and how the roles are defined.
 
@@ -65,7 +65,7 @@ So at this level it's more about documentation. Outlining how departments work, 
 
 So here again it's about cost and outside risk. Issues here will multiply issues on the operational side.
 
-#### **Strategy layer**
+### **Strategy layer**
 
 An enterprise architect doesn't build strategy, they assist the people that define the strategy.
 
@@ -83,7 +83,7 @@ Debt at this level can have enormous long-term consequences. This is what blocks
 
 ![On overview of how strategic architectural debt tickles down to the other layers](/images/2025-10-31-Architectural-debt-is-not-technical-debt/cascade.png)
 
-### Tackling architectural debt
+## Tackling architectural debt
 
 Luckily, there’s some good news: unlike developers, enterprise architects have the time and visibility to flag architectural debt. We have the time and resources to create dashboards and gather proof of what is going on. We also have access to the right people where we can plead our case to.
 

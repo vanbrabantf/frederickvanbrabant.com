@@ -20,7 +20,7 @@ But if these big organizations are just a few smaller cooperations in a trenchco
 
 They can, it's called skunk works and we can use some ideas of it in enterprise architecture.
 
-### A fighter plane history lesson
+## A fighter plane history lesson
 
 well sort of, there are some mixed observations of the real start of skunk works. The version I know goes like this.
 
@@ -32,7 +32,7 @@ Not only did this work really well, they even went beyond the original ask and d
 
 You might see a link to Agile, Scrum and Obeya.
 
-### Turning fighter planes into architectural projects
+## Turning fighter planes into architectural projects
 
 What they did in the Second World War at Lockheed Martin is not exactly embracing enterprise architecture. Quite the opposite actually. But that doesn't mean we can't take some ideas from that setup and see if we can integrate them into our work[^2].
 
@@ -45,7 +45,7 @@ You're probably now 2-3 months in and have yet to capture a single capability. E
 What if, we just don't do that?
 What if we try and borrow some of those Skunk Work ideas?
 
-### Guerrilla EA Tactics
+## Guerrilla EA Tactics
 
 Get a small working team together. Lockheed Martin's skunkworks team had fewer than 50 people, we are not designing fighter jets here, so let's go for 1 to 4. Start an Excel sheet with the rough outline of the organization (not business units but organization structure [^3]) and have informal interviews with people who know how the organization works or at least their part. Think of this more as: "Hey do you have 5 minutes to explain to me how we do X and Y" at the coffee machine instead of booking a meeting. This is the minimal documentation part. We are documenting, but we are not going to the bone here, we are looking for outlines.
 
@@ -55,7 +55,7 @@ Now if you're an experienced enterprise architect you might just choke on your c
 
 What you currently have in your hands is a prototype. Now it's time to see how it performs.
 
-### Test flight
+## Test flight
 
 This is the moment that you book a meeting with stakeholders that have decision power. You can present what a capability map is, but this time with an actual relatable one. It will be easier to talk about the entire concept as you are no longer talking in only theory, people will recognize what they see and it will be easier digestible.
 
@@ -63,7 +63,7 @@ People will also be more focused on the content and less on the concept. More on
 
 If you're lucky you might even be able to already deliver some low-hanging fruit solutions (admittedly in the example of a capability map that might be a bit far-fetched). At the very least you can use the example you've made as part of a bigger story, you could use the prototype to sketch out the roadmap that can give insights into the future: "Look this capability map can be transformed into a capability maturity map, or we can link capabilities to business processes to have a maturity on those".
 
-### But what if it didn't work
+## But what if it didn't work
 
 Well, it is possible that what you presented might totally be wrong, not on the strategic roadmap, or just ... bad.
 
@@ -75,19 +75,19 @@ If you get shot down during the presentation of your prototype. Also not the wor
 
 If you realize that your prototype didn't match the reality while in the actual project phase, you can still adapt. It's a prototype after all. It's time to pivot or kill the idea. Here again, you learned that you've made assumptions that didn't match reality. This would still be the result if you started from scratch.
 
-### Make sure it's all defendable
+## Make sure it's all defendable
 
 There is also the off chance that someone berates you for wasting time, people and resources building an unsanctioned project. This might be the worst-case scenario. It's important to realize what scope you want to bring, if your prototype takes you six months and 20 people then yes, that is not a prototype anymore. If you keep it small and a "minimum viable project"-you should be able to defend what you did. [As python learned us: "Ask Forgiveness, Not Permission"](https://web.archive.org/web/20070929122422/http://mail.python.org/pipermail/python-list/2003-May/205182.html)
 
 And that is also something I want to touch deeper upon. We are not here to bypass processes and rules. These things are here for a reason and it would be very ironic for an EA office to break them as we are often the ones that ask for more of these rules and processes.
 
-### Provide air cover
+## Provide air cover
 
 When implementing a Skunkworks approach, having the right allies can make all the difference. Before you even begin your prototype, identify at least one executive sponsor who understands the value of what you're doing. This doesn't need to be formal: a casual conversation over coffee about your ideas can plant the seed.
 
 These allies don't need daily updates, but keeping them informed of your progress helps ensure you have someone in your corner when you present your prototype to the broader organization. They can also provide guidance on organizational sensitivities you might need to consider.
 
-### From prototype to practice
+## From prototype to practice
 
 The idea is to implement these ideas as a way to get a running start. This is all pre-work before the actual big projects start. These big projects need to follow the correct routes and inform the right stakeholders. The inner workings of the architectural office can, however, be an experimentation hub: a place to whiteboard ideas, do some radical new designs, and create prototypes.
 

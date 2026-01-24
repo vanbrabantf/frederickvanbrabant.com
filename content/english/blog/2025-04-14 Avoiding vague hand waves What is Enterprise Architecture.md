@@ -20,7 +20,7 @@ My grandfather once told me that if you can't describe your job in one sentence 
 
 I'm not sure my grandfather would be satisfied with that definition, but so far, it works for me.
 
-### Let's break it down
+## Let's break it down
 
 Ok, so the first part, **"Enterprise Architecture connects the dots across people, processes, technology, and data"**. This is PPTI; if you're not familiar with PPTI, it's the acronym for People, processes, technology and information [^1]. I've seen the usage of PPT (without the I) more often, but I do believe that the I part is just as important. I'll probably write a post about that in the future.
 
@@ -48,7 +48,7 @@ In the [previous post ](https://frederickvanbrabant.com/blog/2025-04-5-business-
 
 I want to also quickly discuss that last part a bit more "**and guide them to where they could go tomorrow.**" This part reflects the governance as well. The guiding part is not only informing decision makers of what is out there, it's also tending the garden. We need to make sure that the information that we have today will be kept reliable in the future so decision-making can continue to benchmark off this information.
 
-### Enterprise architecture is not technical architecture at an enterprise scale
+## Enterprise architecture is not technical architecture at an enterprise scale
 
 As stated in the intro, I mentioned that enterprise architecture is often confused with the other architecture domains. The terminology is often very vague. 
 
@@ -64,7 +64,7 @@ How I like to see it is in gradations of scope, both in time and detail. 
 
 **Enterprise Architect:** The role is discussed in this article. Oversees the entire organizational landscape. In less detail than the other architects but on a broader and longer term vision. 
 
-### Yes, I'm sure everyone that hears that tagline was **totally** thinking the same thing
+## Yes, I'm sure everyone that hears that tagline was **totally** thinking the same thing
 
 I agree. I went a bit overboard here. Enterprise Architecture is a very theoretical profession, and that's why it's surrounded by this vagueness. 
 

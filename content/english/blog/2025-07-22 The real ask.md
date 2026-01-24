@@ -16,7 +16,7 @@ One of my mentors, [Steven Caus](https://www.linkedin.com/in/stevencaus/), alway
 
 The concept is very easy. When someone comes to you with a question to do something, instead of blindly doing the ask, take a step back and try to understand what they actually want to achieve. Often this task might actually not be the best way to achieve the goal they are set out to do.
 
-### What Is the Real Ask?
+## What Is the Real Ask?
 
 So let's start with an example story.
 
@@ -34,7 +34,7 @@ They won’t be thrilled at first. No shiny new toy. But we saved serious money,
 
 All because we paused to ask the question behind the question.
 
-### Why does this happen?
+## Why does this happen?
 
 We as architects have the benefit of a bird's eye vision of an organization. This is a luxury that not a lot of teams have. We sit where we can trace lines across systems and spot patterns that others might miss.
 
@@ -46,7 +46,7 @@ They might not be aware of what's possible or what other teams are doing, and yo
 
 The question behind the question isn’t a challenge. It’s a sanity check. A way to align intent with action.
 
-### Why architects keep falling for the trap
+## Why architects keep falling for the trap
 
 We all want to be helpful, especially to a team that seems to be struggling. If they come to you with what looks like a silver-bullet solution, it’s hard to say no.
 
@@ -60,7 +60,7 @@ A quick fix that doesn’t solve the root cause becomes **baggage**. And that ba
 
 Do the hard thing now, so you don’t have to dig yourself out later.
 
-### How to surface the question behind the question.
+## How to surface the question behind the question.
 
 Getting to the real ask takes finesse.
 
@@ -78,7 +78,7 @@ It’s a little like a detective story. You're not here to interrogate. You're h
 
 And you’re not doing it alone. You’re on the same side of the table. Solving the same mystery.
 
-### Beneath the Surface
+## Beneath the Surface
 
 People don’t always ask for what they _really_ need. They ask for what they think will stop the bleeding as fast as possible. That’s human.
 

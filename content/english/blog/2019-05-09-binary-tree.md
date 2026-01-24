@@ -13,7 +13,7 @@ You have probably already heard the horror stories of code interviews where they
 
 Well, a few days ago I was in that exact situation. And I had no idea what the interviewer was talking about. So what are these binary trees and why is it so critical that you know how to inverse them? Let’s find out.
 
-# What is a binary tree
+## What is a binary tree
 
 A binary tree is a very simple data structure that as the name suggests looks like an upside down tree.
 
@@ -21,7 +21,7 @@ A binary tree is a very simple data structure that as the name suggests looks li
 
 This structure is mainly used for searching. For example, if we needed to find 4 in this structure quickly, we would need only to make 2 binary decisions. If we scale this up to 1000 nodes, we would only need about 10 choices. There are other options still, like self-balancing binary trees but let’s keep it simple at the moment, and just focus on balanced binary trees.
 
-# Let’s invert them
+## Let’s invert them
 
 Ok so now that we know what it is let’s start with inverting a binary tree. What do we mean by that? It’s actually very straightforward. We turn this:
 
@@ -45,7 +45,7 @@ into
 
 We flip the entire structure horizontally. So 7 and 2 are flipped, and the 2 children are also flipped. All the way down.
 
-# Down to code
+## Down to code
 
 As we are good OOP developers, we are first going to start with our tree. A binary tree is nothing more than a collection of points, called nodes, with 2 children: a left and a right one. So first we are going to create a Node object.
 
@@ -170,7 +170,7 @@ This is the recursive method. Every time we pass this, we go one level deeper. I
 
 That’s it. Inverting a binary tree is 10 lines of code. It’s actually pretty simple.
 
-# Cool, so when would I actually want to inverse a Binary tree?
+## Cool, so when would I actually want to inverse a Binary tree?
 
 I have no idea. I’m sure some brilliant people on Reddit or Twitter will have a trove of useful functionality, but I sure can’t think of one.
 

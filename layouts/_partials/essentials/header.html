@@ -1,0 +1,81 @@
+<header class="header sticky top-0 z-30 bg-body text-primary border-b">
+  <nav
+    class="navbar max-w-[1110px] mx-auto px-4 flex items-center justify-between py-4 md:py-6 relative">
+    <input id="nav-toggle" type="checkbox" class="peer hidden" />
+
+    <div class="hidden lg:flex order-1">
+      <ul
+        class="flex gap-8 uppercase tracking-[0.2em] text-[10px] font-semibold">
+        {{ range first 2 site.Menus.main }}
+          <li>
+            <a
+              href="{{ .URL | relLangURL }}"
+              class="hover:opacity-60 transition"
+              >{{ .Name }}</a
+            >
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="order-0 lg:order-2">
+      <a href="/" class="serif text-lg lowercase tracking-normal italic"
+        >fvb.</a
+      >
+    </div>
+
+    <div class="order-2 lg:order-3 flex items-center gap-6 md:gap-8">
+      <ul
+        class="hidden lg:flex gap-8 uppercase tracking-[0.2em] text-[10px] font-semibold">
+        {{ range after 2 site.Menus.main }}
+          <li>
+            <a
+              href="{{ .URL | relLangURL }}"
+              class="hover:opacity-60 transition"
+              >{{ .Name }}</a
+            >
+          </li>
+        {{ end }}
+      </ul>
+
+      <div class="hidden sm:block">
+        {{ partial "components/theme-switcher" (dict "Class" "text-white opacity-60 hover:opacity-100") }}
+      </div>
+
+      <label
+        for="nav-toggle"
+        class="cursor-pointer lg:hidden flex items-center">
+        <svg
+          class="h-6 w-6 fill-current peer-checked:hidden block"
+          id="show-button"
+          viewBox="0 0 20 20">
+          <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V15z"></path>
+        </svg>
+        <svg
+          class="h-6 w-6 fill-current hidden peer-checked:block"
+          id="hide-button"
+          viewBox="0 0 20 20">
+          <polygon
+            points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+            transform="rotate(45 10 10)"></polygon>
+        </svg>
+      </label>
+    </div>
+
+    <ul
+      id="nav-menu"
+      class="absolute top-full left-0 w-full bg-white border-t border-white/10 
+               flex-col p-6 space-y-4 uppercase tracking-[0.2em] text-[11px] font-semibold
+               hidden peer-checked:flex lg:hidden transition-all duration-300">
+      {{ range site.Menus.main }}
+        <li>
+          <a
+            href="{{ .URL | relLangURL }}"
+            class="block py-2 border-b border-white/5 hover:pl-2 transition-all"
+            >{{ .Name }}</a
+          >
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

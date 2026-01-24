@@ -1,0 +1,124 @@
+{{ define "main" }}
+  <article class="max-w-[1110px] mx-auto px-4 py-12 md:py-20">
+    <header class="max-w-4xl mx-auto text-center mb-12 md:mb-20">
+      <div
+        class="flex items-center justify-center gap-2 uppercase tracking-[0.3em] text-[10px] text-gray-400 mb-8">
+        <time>{{ .PublishDate.Format "02 January 2006" }}</time>
+        <span>•</span>
+        <span class="text-[#004526] font-bold"
+          >{{ .ReadingTime }} min read</span
+        >
+      </div>
+
+      <h1
+        class="serif text-4xl md:text-6xl text-[#004526] italic tracking-tight leading-tight mb-10">
+        {{ .Title }}
+      </h1>
+
+      {{ if .Params.categories }}
+        <div class="flex flex-wrap justify-center gap-3">
+          {{ range .Params.categories }}
+            <a
+              href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+              class="uppercase tracking-[0.2em] text-[9px] font-bold text-gray-400 border border-gray-200 px-3 py-1.5 hover:border-[#004526] hover:text-[#004526] transition-all duration-300">
+              {{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ if .Params.image }}
+      <div
+        class="relative w-full bg-gray-100 overflow-hidden mb-12 md:mb-16 ring-1 ring-black/5 max-w-4xl mx-auto">
+        <img
+          src="{{ .Params.image | absURL }}"
+          alt="{{ .Title }}"
+          class="w-full h-auto" />
+      </div>
+    {{ end }}
+
+
+    <div class="prose max-w-3xl mx-auto">
+      {{ if .Params.toc }}
+        {{ partial "toc.html" (dict "Class" "blog-toc mb-8 border-l-2 border-[#004526] pl-6 py-2" "Collapsed" false "TableOfContents" .TableOfContents ) }}
+      {{ end }}
+
+      {{ .Content }}
+    </div>
+
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+      <section class="mt-32 pt-20 border-t border-gray-200">
+        <h2
+          class="serif text-center text-3xl text-[#004526] mb-16 italic lowercase">
+          further readings... in
+          {{ $.Params.categories | first 1 }}
+        </h2>
+
+        <div class="space-y-12">
+          {{ range $index, $element := . }}
+            <article
+              class="flex flex-col {{ if (eq (mod $index 2) 0) }}
+                md:flex-row
+              {{ else }}
+                md:flex-row-reverse
+              {{ end }}
+               items-start gap-8 group">
+              <div class="w-full md:w-1/4">
+                {{ if .Params.image }}
+                  <a href="{{ .RelPermalink }}">
+                    <div
+                      class="relative aspect-square md:aspect-video overflow-hidden ring-1 ring-black/5 bg-gray-100">
+                      <img
+                        src="{{ .Params.image | absURL }}"
+                        alt="{{ .Title }}"
+                        class=" inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-105 transition duration-700" />
+                    </div>
+                  </a>
+                {{ end }}
+              </div>
+
+              <div class="w-full md:w-3/4 text-left">
+                <div class="flex items-center gap-3 mb-2">
+                  {{ range first 1 .Params.categories }}
+                    <span
+                      class="text-[8px] uppercase tracking-[0.2em] font-bold text-[#004526]"
+                      >{{ . }}</span
+                    >
+                  {{ end }}
+                  <span class="text-gray-200 text-[8px]">•</span>
+                  <time
+                    class="uppercase tracking-[0.2em] text-[8px] text-gray-400">
+                    {{ .PublishDate.Format "Jan 2006" }}
+                  </time>
+                </div>
+
+                <h3
+                  class="serif text-xl md:text-2xl text-[#004526] mb-3 leading-tight">
+                  <a
+                    href="{{ .RelPermalink }}"
+                    class="hover:opacity-70 transition">
+                    {{ .Title }}
+                  </a>
+                </h3>
+
+                <p
+                  class="sans text-sm font-light text-gray-500 leading-relaxed mb-4 max-w-xl">
+                  {{ .Summary | truncate 140 }}
+                </p>
+
+                <a
+                  href="{{ .RelPermalink }}"
+                  class="text-[9px] font-bold uppercase tracking-widest border-b border-[#004526]/20 text-[#004526] hover:border-[#004526] transition pb-1">
+                  Read Entry
+                </a>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+  </article>
+{{ end }}

@@ -9,8 +9,6 @@ tags: ["project management", "My way of working", "Agile"]
 draft: false
 ---
 
-## Agile in the real world
-
 Before we start talking about architecture, it's a good idea to lay out the foundation of this discussion first. I know there are a million articles about agile and how it will all save us from certain doom and is a money-making machine, but let's stop the marketing drive for a second and have an honest look at it.
 
 I've worked for a long time as an architecture consultant, and before that, I've been a software developer for a few companies. I don't think I've ever worked at a company that didn't proudly state that it was an agile company that used Scrum/Kanban and would never think of using something as archaic as Waterfall.
@@ -21,7 +19,7 @@ There is a big difference between the theory of agile and the realities of agile
 
 I don't think this is a big secret; there are a ton of discussions about this on places like Hackernews or at your local-friendly meetup. I don't believe this is because people don't understand Agile or try to trick you. This is just that doing Agile by the book is hard (if not impossible) to implement if you aren't a very specific kind of organization.
 
-### Agile from a management perspective
+## Agile from a management perspective
 
 Place yourself in the shoes of an executive at a big company, think 500-1000 people. You have discovered a gap in your service offering and believe there is a product to be made that would fit nicely. However, a thousand different things happen simultaneously in the company (like in every company worldwide). So, you scope out a budget and a timeframe to complete this. You can only defend a project in a big organization with a budget and timeframe; it has to fit into the planning for the next fiscal year.
 

@@ -19,7 +19,7 @@ These applications are typically the usual suspects: ERP[^1] or SAP-like systems
 
 That's a bit of a shame. If we could define what makes these applications what they are, we can start to identify more of them, group them, and build some processes and governance around them. Make it all more manageable. That’s where Pace Layering comes in.
 
-### The three layers explained
+## The three layers explained
 
 Pace Layering or, as our friends at [Gartner](https://www.gartner.com/en) call it: Gartner's PACE Layered Application Strategy is a strategic model for categorizing business applications based on their rate of change and purpose.
 
@@ -27,23 +27,23 @@ It breaks down the portfolio into three distinct layers: **systems of record**, 
 
 ![A schema showing a breakdown of the layers, the SOR is the center one, SOD around it and the most outer layer is the SOI](/images/2025-08-06-pace/PaceOverview.png)
 
-#### System of Record (SOR)
+### System of Record (SOR)
 
 These are the foundational platforms: your ERP things, CRMs structures, and core finance system monsters that support your primary business processes. They’re stable, slow-moving, and represent the source of truth for the organization. They don’t move quickly. Nor should they.
 
 There might even be full teams dedicated to keeping these applications running. They are typically internally facing and are the source of analytics and reports in the organization.
 
-#### System of Differentiation (SOD)
+### System of Differentiation (SOD)
 
 These are the bulk of your applications, the ones that fill the gaps and target specific business needs, market nuances, regional regulations, customer expectations, and the likes.
 
 Replacing these takes planning, but is something that happens more or less often. Typically, the applications have shared teams that manage multiple of these kinds of applications. They connect upstream and downstream with both SORs and SOIs.
 
-#### System of Innovation (SOI)
+### System of Innovation (SOI)
 
 This is the R&D part of the portfolio. Think prototypes, MVPs, R&D applications. Experiments designed to test value and adaptability. The development cycles are short, the risk tolerance is higher, and successful projects often graduate to SOD status.
 
-### The valuable part
+## The valuable part
 
 Simply classifying your applications using pace layering is already a step up from what most organizations do. It forces teams to look at each system and ask: what role does this serve, and how fast does it need to move?
 
@@ -60,7 +60,7 @@ Just make sure it doesn't step barefoot in a data breach or compliance audit.
 
 This layered governance model avoids a one-size-fits-all approach. It enables agility at the edges while reinforcing stability at the core.
 
-#### Making it multi tenant
+### Making it multi tenant
 
 If our organization has multiple tenants (think a multinational) we could centrally host and manage all of our system of record applications in the global organization.
 
@@ -70,7 +70,7 @@ In exchange, this central company would be able to have standardized reporting a
 
 The system of differentiation applications could then augment the SOR processes towards the local markets. This is what the member firms themselves would manage and are different per member firm/country. This gives us a centralized way of working while still being open to market trends and member firm sizes.
 
-#### Funding
+### Funding
 
 This is obviously very organizational depended, but rules towards funding might also be easier to define.
 
@@ -80,7 +80,7 @@ Said member firms could host and licence their own differentiation stack and inv
 
 In a single-company model, the same architecture fits: central IT handles the stable Systems of Record, business units drive differentiation tools, and shared innovation emerges through collective investment.
 
-#### Change management and projects
+### Change management and projects
 
 Change management benefits from the same structural clarity.
 
@@ -92,7 +92,7 @@ Each layer gets the methodology it deserves, aligned to its purpose and risk pro
 
 ![Most of the information above in a table](/images/2025-08-06-pace/table.png)
 
-### Theory of constraint
+## Theory of constraint
 
 One of the most powerful ideas in systems thinking is the **Theory of Constraints**, developed by Dr. Eliyahu Goldratt. The core principle is simple: every system has at least one bottleneck: one limiting factor that restricts the performance of the entire system. If you want to meaningfully improve the system’s output, you need to improve the most limiting constraint.
 
@@ -110,7 +110,7 @@ Of course, this doesn’t mean SOD or SOI layers are constraint-free. They still
 
 ![A schema showing one system that is slower and making all connections to said system also slower](/images/2025-08-06-pace/contraint.png)
 
-### Moving through maturity
+## Moving through maturity
 
 Applications don’t stay static. As they prove their value, they can shift layers.
 
@@ -122,7 +122,7 @@ The goal of an application isn’t to climb the maturity ladder. Each layer play
 
 Yes, Innovation projects shouldn’t linger in limbo for years. At some point, you decide: invest further or shut them down. But a Differentiation system? That can sit comfortably in its layer for a decade. As long as it’s still giving your organization a competitive edge.
 
-### Moving on from here
+## Moving on from here
 
 There is a lot of value here, and everything described above is just the beginning. Once you’ve applied pace layering, you open up all kinds of extra insights.
 

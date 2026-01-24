@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <main
+    class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#fdfcf8] px-4">
+    <div
+      class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
+      <span
+        class="serif text-[25vw] leading-none text-[#004526] opacity-[0.03] italic"
+        >lost</span
+      >
+      <span
+        class="serif text-[25vw] leading-none text-[#004526] opacity-[0.03] -mt-[10vw]"
+        >404</span
+      >
+    </div>
+
+    <div class="relative z-10 max-w-2xl w-full">
+      <div class="border-l border-[#004526] pl-8 md:pl-16">
+        <p
+          class="uppercase tracking-[0.5em] text-[12px] text-[#004526] font-bold mb-8">
+          Error Code / Page Missing
+        </p>
+
+        <h1
+          class="serif text-6xl md:text-9xl text-[#004526] italic lowercase tracking-tighter leading-[0.85] mb-12">
+          there is <br />
+          <span class="pl-[10%]">nothing</span> <br />
+          <span class="pl-[20%]">here.</span>
+        </h1>
+
+        <div class="flex flex-col md:flex-row items-start md:items-end gap-12">
+          <p
+            class="sans text-gray-500 font-light text-lg leading-relaxed max-w-xs">
+            You’ve reached a digital cul-de-sac. The entry you are looking for
+            has been archived, moved, or never existed in the first place.
+          </p>
+
+          <a
+            href="{{ site.BaseURL }}"
+            class="group inline-flex flex-col items-start gap-2">
+            <span
+              class="uppercase tracking-widest text-[10px] font-bold text-[#004526]"
+              >Back to Safety</span
+            >
+            <span
+              class="text-6xl md:text-7xl text-[#004526] group-hover:translate-x-4 transition-transform duration-500">
+              ⟶
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-12 left-12 hidden md:block">
+      <p
+        class="uppercase tracking-[0.3em] text-[8px] text-gray-300 vertical-text rotate-180"
+        style="writing-mode: vertical-rl;">
+        Study in Texture / 404
+      </p>
+    </div>
+  </main>
+{{ end }}

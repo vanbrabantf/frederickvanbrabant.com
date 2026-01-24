@@ -87,7 +87,7 @@ IT4IT splits the IT function into four end-to-end value streams (Strategy to Por
 
 Whether that's a good idea is not part of this post.
 
-### So in short
+## So in short
 
 Value Streams and Value Chains are different concepts that handle different things.
 

@@ -1,0 +1,163 @@
+{{ define "main" }}
+  <div class="max-w-[1110px] mx-auto px-4 text-center mt-10">
+    <h1
+      class="serif text-5xl md:text-5xl text-[#004526] not-italic tracking-tight">
+      Frederick Vanbrabant's <br />
+      <span class="italic">delirious rantings</span>
+    </h1>
+    <p class="mt-3 uppercase tracking-[0.3em] text-xs text-gray-400">
+      Antwerp, Belgium
+    </p>
+  </div>
+
+  <main class="max-w-[1110px] mx-auto px-4 py-12 md:py-16">
+    {{ $paginator:= .Paginate site.RegularPages }}
+
+    {{ if eq $paginator.PageNumber 1 }}
+      {{ range first 1 $paginator.Pages }}
+        <article class="group cursor-pointer mb-20 md:mb-32">
+          <a href="{{ .RelPermalink }}">
+            <div
+              class="relative aspect-[16/9] w-full bg-gray-100 overflow-hidden mb-6 md:mb-8 ring-1 ring-black/5">
+              {{ if .Params.image }}
+                <img
+                  src="{{ .Params.image | absURL }}"
+                  alt="{{ .Title }}"
+                  class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700" />
+              {{ end }}
+            </div>
+          </a>
+          <div class="max-w-3xl mx-auto text-center">
+            <div
+              class="flex items-center justify-center gap-2 uppercase tracking-widest text-[9px] md:text-[10px] text-gray-400 mb-4">
+              <time>{{ .PublishDate.Format " 02 January, 2006" }}</time>
+              <span>•</span>
+              <span class="text-[#004526] font-bold"
+                >{{ .ReadingTime }} min read</span
+              >
+            </div>
+            <h2
+              class="serif text-3xl md:text-5xl text-[#004526] mb-4 leading-snug">
+              <a href="{{ .RelPermalink }}" class="hover:opacity-80 transition"
+                >{{ .Title }}</a
+              >
+            </h2>
+            <p
+              class="text-gray-600 leading-relaxed font-light text-base md:text-lg mb-6 px-2">
+              {{ .Summary }}
+            </p>
+
+            <a
+              href="{{ .RelPermalink }}"
+              class="inline-block border-b-2 border-[#004526] pb-1 text-[#004526] uppercase tracking-[0.2em] text-[10px] font-bold"
+              >Read More</a
+            >
+            >
+          </div>
+        </article>
+        <hr class="border-gray-200 mb-16 md:mb-24" />
+      {{ end }}
+    {{ end }}
+
+
+    <div class="space-y-20 md:space-y-32">
+      {{ range $index, $element := (after (cond (eq $paginator.PageNumber 1) 1 0) $paginator.Pages) }}
+        <article
+          class="flex flex-col {{ if (eq (mod $index 2) 0) }}
+            md:flex-row
+          {{ else }}
+            md:flex-row-reverse
+          {{ end }}
+           items-center gap-8 md:gap-12 group">
+          <div class="w-full md:w-1/2">
+            <a href="{{ .RelPermalink }}">
+              <div
+                class="relative aspect-[4/3] overflow-hidden ring-1 ring-black/5 bg-gray-100">
+                {{ if .Params.image }}
+                  <img
+                    src="{{ .Params.image | absURL }}"
+                    alt="{{ .Title }}"
+                    class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700" />
+                {{ end }}
+              </div>
+            </a>
+          </div>
+
+          <div class="w-full md:w-1/2 text-center md:text-left">
+            <div
+              class="flex items-center justify-center md:justify-start gap-2 uppercase tracking-widest text-[9px] text-gray-400 mb-2">
+              <time>{{ .PublishDate.Format "02 Jan 2006" }}</time>
+              <span>•</span>
+              <span class="text-[#004526] font-semibold"
+                >{{ .ReadingTime }} min read</span
+              >
+            </div>
+            <h3
+              class="serif text-2xl md:text-3xl text-[#004526] mb-3 leading-tight">
+              <a href="{{ .RelPermalink }}" class="hover:opacity-80 transition"
+                >{{ .Title }}</a
+              >
+            </h3>
+            <p
+              class="text-gray-600 font-light text-sm md:text-base leading-relaxed mb-4">
+              {{ .Summary }}
+            </p>
+
+            <a
+              href="{{ .RelPermalink }}"
+              class="text-[9px] font-bold uppercase tracking-widest border-b border-[#004526] text-[#004526]"
+              >Read More</a
+            >
+          </div>
+        </article>
+
+        {{ if lt $index 8 }}
+          <hr class="border-gray-200 mb-16 md:mb-24" />
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ if gt $paginator.TotalPages 1 }}
+      <nav
+        class="mt-32 md:mt-40 flex justify-center items-center gap-6 md:gap-8 text-[10px] md:text-[11px] uppercase tracking-[0.3em]">
+        {{ if $paginator.HasPrev }}
+
+          <a
+            href="{{ $paginator.Prev.URL }}"
+            class="text-gray-400 hover:text-[#004526] transition">
+            Prev
+          </a>
+        {{ else }}
+          <span class="text-gray-300">Prev</span>
+        {{ end }}
+
+        {{ range $paginator.Pagers }}
+          {{ if eq . $paginator }}
+            <span class="text-[#004526] font-semibold">
+              {{ printf "%02d" .PageNumber }}
+            </span>
+          {{ else }}
+
+            <a
+              href="{{ .URL }}"
+              class="text-gray-400 hover:text-[#004526] transition">
+              {{ printf "%02d" .PageNumber }}
+            </a>
+          {{ end }}
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+
+          <a
+            href="{{ $paginator.Next.URL }}"
+            class="text-gray-400 hover:text-[#004526] transition">
+            Next
+          </a>
+        {{ else }}
+          <span class="text-gray-300">Next</span>
+        {{ end }}
+      </nav>
+    {{ end }}
+
+  </main>
+{{ end }}

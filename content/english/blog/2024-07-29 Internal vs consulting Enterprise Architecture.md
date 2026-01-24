@@ -13,7 +13,7 @@ Today, I want to discuss the two big experiences you can have as an Enterprise A
 
 I have the feeling that depending on what you have more experience with (internal or consulting), you will have a very different perspective on Enterprise architecture as a whole.
 
-### Time Horizon
+## Time Horizon
 
 It's crucial to understand that a consultant's role is time-bound, typically spanning from six months to two years. Within this limited timeframe, they must swiftly acclimate to the company, comprehend the project's scope, devise a roadmap, and often prepare a handover program for the company to continue the momentum.
 
@@ -23,7 +23,7 @@ Internal architecture, in contrast, is a role that focuses more on a long-term p
 
 Internal architecture might sound way more relaxed, which might definitely be the case, but it's often overlooked that these architects don't get to spend 100% of their time on the big architectural work. They will almost always be part of other projects that are going on at the organization, be it as solution architects, functional analysts, application/process owners, or just generally as people who know a lot about a specific part of the organization.
 
-### Being part of the in-crowd
+## Being part of the in-crowd
 
 Internal architects have the advantage of understanding the company's culture. This cultural understanding is not to be underestimated.
 
@@ -51,7 +51,7 @@ If you are an internal architect, you will have a better chance of really deeply
 
 External consultants, on the other hand, bring a different kind of value. Their ability to swiftly address pressing matters and deliver immediate results is a testament to their effectiveness. It's incredibly satisfying to see a year's worth of planning for an application rationalization exercise being enthusiastically embraced by management. This quick and tangible impact is a unique aspect of the role of external consultants. This is often a result of the timepressure and project priority.
 
-### You learn more as an external consultant right?
+## You learn more as an external consultant right?
 
 You hear this all the time. It’s not wrong. As a consultant, you get thrown into different situations every six months. Every company has their unique challenges and setups. You can learn a ton from this. So it’s a great place to be if you're new to architecture and you are paired with a more senior consultant to show you the ropes.
 

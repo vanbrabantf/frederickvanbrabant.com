@@ -52,7 +52,7 @@ final class CustomerName
 
 This small class doesn’t do anything really, and it just holds two strings. The only tiny bit of function (on first glance) is that it concatenates the two strings. However, for the minimal amount of code in this class, it does offer a ton of value to your code base.
 
-# Putting an end to the class struggle
+## Putting an end to the class struggle
 
 Once we start replacing every occurrence of the first name and last name with this simple class, you will quickly begin to see the value. First of all, every time you come across this class in your code, you know that it has a first name and a last name in it. You also know that both of these values will be strings. And that you have an easy way to display the first name - last name combination.
 
@@ -75,7 +75,7 @@ Here you easily guard your method from all kinds of extra logic. You know that t
 
 There is however still a major issue with our values objects. We could still trick our system into accepting empty strings. Let’s take a look at how we can make these classes just a tiny bit more robust.
 
-# Putting a stop to empty values
+## Putting a stop to empty values
 
 We know that our values in our object will always be of the type string, but “” is also a string. so you could do
 
@@ -105,7 +105,7 @@ The class is now a lot smarter; it validates the values that come in and will th
 
 Now you can be sure that whenever you encounter this class, the values within will be usable.
 
-# Adding more means of production to the classes
+## Adding more means of production to the classes
 
 It might be very tempting to start now adding more and more logic to these classes. However, I would caution restraint here.
 
@@ -163,14 +163,10 @@ You should always ask yourself, is this method solving a real problem, or am I j
 
 Named constructors are very useful in a “Time” class, where you can create the class from a string format, or from the hour, minute and second parameters as further explained [here](http://verraes.net/2014/06/named-constructors-in-php/) by [Mathias Verraes](https://twitter.com/mathiasverraes).
 
-# In closing
+## In closing
 
 There is still a lot to be said about value objects. We haven’t touched upon testing, logging, naming…
 
 For more information about these topics, I would advise you to look into some DDD books or even better check out [Matthias Noback](https://twitter.com/matthiasnoback)’s book [“Style Guide for Object Design”](https://leanpub.com/object-design). A book that prompted me to write this article. (I get no personal benefits for advertising this book, I just think it’s a great book)
 
 If you haven’t implemented Value objects into your codebase, I would greatly advise you to give it a try. You will wonder how you ever lived without it.
-
-```
-
-```

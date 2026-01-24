@@ -20,7 +20,7 @@ You don't only adopt a bunch of applications that are already interconnected to 
 
 These applications come with a way of working that is aligned to the bigger domain they work in. In other words, they have hundreds of companies that trust them with handling (for example) logistics. That also means that they know a lot about logistics and have developed the best way (just by evolution and exposure of cases over the years) to do logistics. If you embrace these applications, part of the value proposition is that you are also adopting all this knowledge.
 
-### You can't give your entire architecture away
+## You can't give your entire architecture away
 
 Even if you tackle your entire landscape with 3rd-party applications, you will still need to connect these applications. Here again there are solutions in the form of enterprise service busses [^3], but I've never seen an architecture where this works flawlessly.
 
@@ -30,7 +30,7 @@ There is also the case of vendor lock-in. With handing out ownership to vendors 
 
 Even if the relationship with the vendors stays in good spirits, what will you do if they stop innovating and a disruptor enters the space? Will you be able to transfer your data over to this vendor? Will your current vendor give you an easy way to get the data out? Will the new vendor even take the data, and in what format?
 
-### How I like to mitigate these issues
+## How I like to mitigate these issues
 
 I think the most important part of this kind of architecture is keeping control over your data. Business logic is very important to a company, but it is something that can be changed and, in the worst case, be rebuilt. Data, on the other hand, is not something you can just reinvent.
 
@@ -46,7 +46,7 @@ Moving to different vendors is now also easier. You are going to have to build o
 
 Another upside is that GDPR or privacy removal should now be easier, as you have one central place to purge the data. Ideally you can then feed the removal to the other applications, and as secondary data owners, the data would automatically be purged (in reality it's often not that straightforward, but this method will definitely make it easier).
 
-### This all feels familiar
+## This all feels familiar
 
 That's because it's not a new and novel idea. This is the same approach as a microservice architecture. The only big difference is that we are now not using microservices but 3rd-party services. The rest of the concepts stay the same. I know microservice architecture has its fair share of criticism, but mostly not for the central data ideas.
 

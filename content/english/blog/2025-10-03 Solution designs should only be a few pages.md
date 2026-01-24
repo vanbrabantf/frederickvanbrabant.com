@@ -20,7 +20,7 @@ The architectural drive to document and cover as much as possible naturally evol
 
 Something I think we should move away from.
 
-### Why compact Solution Designs work better.
+## Why compact Solution Designs work better.
 
 If you've ever been tasked on filling out these massive templates, you know that they are a cooperative exercise. Sure, a lot of architectural meetings happen during the design phase, but some parts are filled in by people from the business and some are filled in by subject-matter experts (SME's).
 
@@ -36,7 +36,7 @@ That way, we have:
 - People actually read it: should be readable in an hour.
 - People don't get burned out on these overly complex documents.
 
-### What belongs in a good Solution Design
+## What belongs in a good Solution Design
 
 First we need to know who the core audience is for our document. In the case of a solution design this is almost always technical people that are going to implement the solution.
 
@@ -53,11 +53,11 @@ This is an actual document that technical people want to read, as it brings valu
 
 If your document captures everything, it captures nothing. As people will not take three days out of their workday to go over the entire document. And even if they did, they will not remember it.
 
-### My Design Document structure.
+## My Design Document structure.
 
 My document is segmented in five parts, and they all cover different areas. The idea of the document is that everyone (technical) in the project reads it cover to cover, but it still categorizes information in chapters.
 
-#### Introduction
+### Introduction
 
 This is the setting the scene part of the document.
 
@@ -66,7 +66,7 @@ I like to start with a summary of the business case. Not a full-blown six pages 
 A big who-is-who is always welcome. I think a [RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) makes a lot of sense here. Don't forget about 3rd party people and vendors.
 A timeline of the project would also fit here.
 
-#### Application Architecture
+### Application Architecture
 
 The future state of the application goes here. This can go on for a few pages. I advise for the usage of diagrams over big blocks of text. Diagrams are easier to share and less intimidating to read.
 
@@ -78,7 +78,7 @@ You don't have the upfront knowledge to work it out to that level, and it will c
 
 The level I would focus on is the integration level. Container/Component level in the [C4 model](https://c4model.com/). Draw them out in a schema, annotate them in text below.
 
-#### Data Architecture
+### Data Architecture
 
 This is actually something that I often see missing from those big solution architecture documents; the data layer. Mapping out the data that flows between integrations, what format, and mapping is really handy to know.
 
@@ -88,7 +88,7 @@ If you have an ESB ([Enterprise service bus](https://en.wikipedia.org/wiki/Enter
 
 I think a subchapter on Identity and Access Management is probably also not out of place here.
 
-#### Technology & Infrastructure
+### Technology & Infrastructure
 
 A lot of companies use standardized setup's for their applications, but it's not a bad idea to give an overview.
 
@@ -96,11 +96,11 @@ Again, the level of detail is something to keep in mind. Don't dive into the nit
 
 Don't forget to outline the different environments (dev, UAT, prod) and what is included in what.
 
-#### Appendix
+### Appendix
 
 This is the it-didn't-fit-in-the-other-chapters chapter. You could put architectural considerations/decisions here. “We know X is not the best way to do it, but we did it anyway for this and this reason.”
 
-### The takeaway philosophy
+## The takeaway philosophy
 
 I rather have a less detailed, but still covering the essence, document than a fully encompassing document, that covers everything, but that nobody reads.
 

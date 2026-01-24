@@ -23,7 +23,7 @@ What happened is called Nemawashi. A Japanese term literally meaning “turning 
 
 Not something that is unique to Japanese culture.
 
-### The myth of the meeting room.
+## The myth of the meeting room.
 
 Nemawashi can be seen as backroom politics, but that shouldn't be the case. The idea is that you check in before a big decision with all the stakeholders and go over all the points one on one. Making sure everyone fully understands what needs to be discussed and where everyone stands.
 
@@ -46,7 +46,7 @@ The first person to quickly and convincingly suggests a solution wins. It is not
 
 This is how you get quick fixes that take the road of least resistance. If you have no data and time to think you will go for shallow solutions.
 
-### Nemawashi means celebrating the roots, not the fruit.
+## Nemawashi means celebrating the roots, not the fruit.
 
 Another side effect of Nemawashi is that the big grudges fall away.
 
@@ -61,7 +61,7 @@ Having a one-on-one with someone you don't like, that has very opposing views, i
 
 In the end, it's also not about winning or losing. It's about getting workable solutions out of the door. These often happen when everyone is heard and had time to check the data.
 
-### Less talking, more thinking
+## Less talking, more thinking
 
 Ultimately this isn't about some corporate secret cheat code to fix your meetings. It's more a mindset switch.
 

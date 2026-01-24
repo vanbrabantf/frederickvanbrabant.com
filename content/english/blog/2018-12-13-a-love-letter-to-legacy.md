@@ -15,7 +15,7 @@ A few hours later and you are staring at the most dreadful code you have ever se
 
 The previous few lines might sound very familiar to you. You might even be working on a project like this at this very moment. If that is the case, … lucky you.
 
-# Why do these horrible applications exist?
+## Why do these horrible applications exist?
 
 Most applications don’t start like this. As you know, green field applications start full of hopes, dreams and rainbows. A new business idea gets launched. It does something small, pretty good. People like the application. They like it a lot. More and more customers flock to the application. You excitingly add more functionality to your small idea. Soon, one of your more prominent clients, asks for a very valid use case.
 
@@ -25,7 +25,7 @@ Fast forward a few months. You have a dozen developers working for you, and your
 
 You might think that this is a horrible product, and from a code perspective you might be right. However, from a business perspective, this is a vital process. The product has a ton of customers, and they are invested enough to want to tailor it to their workflows and they even reach out to you with suggestions. Granted, not all of these suggestions are great, but they wouldn’t come forward if there weren’t a need for them.
 
-# Is this the low point?
+## Is this the low point?
 
 However, now where does that leave you, It’s entertaining to have a company with many customers, but at the end of the day, you’re still the one that is in the trenches of despair.
 
@@ -33,7 +33,7 @@ Not necessarily; Having a product like this tend to generate income. The most si
 
 Once you start refactoring, you suddenly notice that you have so much value in front of you — a ton of use cases already implemented, a wealth of user behaviour and data, metrics and most important of all: the budget and infrastructure to match.
 
-# Working with legacy day to day
+## Working with legacy day to day
 
 Most refactorings tend to start with the question from management that is frequently a variation of: “what are the worst parts of the application, and how can we make them better”. This sentence is poetry to a developer’s ear. A great chance to go over the entire application note down the pain points, look at technologies that might ease trouble, have lengthy discussions with colleagues about the architecture of the pesky service classes. Not only are you going to learn a ton on the technical side of things, socially you’re going to improve in ways of persuasion and proposing ideas.
 
@@ -45,7 +45,7 @@ Ok you think, this piece of code I might be able to extract to a separate class.
 
 A few hours later you stare at the construction you’ve made. It’s a vast improvement of what it was before (every single indentation you fix is an improvement), but looking at the loose classes, you can see some definite improvements still. You could leave it as it is, and that would be great, or go further. Either path you chose, at one point you’re going to create a PR, and sit back and stare at the diff screen of your favourite git hosting service … what a beauty.
 
-# Growing with the application
+## Growing with the application
 
 Working on applications like this is all about responsibility. Every decision you make as a team will impact you in the future, in a good way and sometimes in a not so good way.
 

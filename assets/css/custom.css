@@ -1,0 +1,308 @@
+/* Font families */
+.serif {
+  font-family: "Playfair Display", serif;
+}
+
+.mono {
+  font-family: "JetBrains Mono", "Monaco", "Courier New", monospace;
+}
+
+/* Prose/Content Typography */
+
+.prose h1 {
+  font-family: "Playfair Display", serif;
+  color: #004526;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-style: italic;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.prose h2 {
+  font-family: "Playfair Display", serif;
+  color: #004526;
+  font-size: 2.25rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.prose h3 {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #004526;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.prose h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #004526;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 1.75rem;
+}
+
+.prose a {
+  color: #004526;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.prose a:hover {
+  opacity: 0.6;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+/* Lists - Unordered */
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.prose ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.prose ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #004526;
+  font-weight: bold;
+}
+
+/* Lists - Ordered */
+.prose ol {
+  counter-reset: custom-counter;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.prose ol li {
+  counter-increment: custom-counter;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose ol li::before {
+  content: counter(custom-counter) ".";
+  position: absolute;
+  left: 0;
+  color: #004526;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Blockquotes */
+.prose blockquote {
+  border-left: 4px solid #004526;
+  padding: 0.5rem 0 0.5rem 2rem;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #004526;
+  margin: 3rem 0;
+}
+
+.prose blockquote p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose blockquote footer {
+  font-size: 1rem;
+  color: #6b7280;
+  font-style: normal;
+  margin-top: 0.5rem;
+}
+
+/* Code blocks */
+.prose pre {
+  background: #002a17;
+  color: #e5e7eb;
+  padding: 2rem;
+  overflow-x: auto;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.prose pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Inline code */
+.prose code {
+  background: #f3f4f6;
+  color: #004526;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* Horizontal rules */
+.prose hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 3rem 0;
+}
+
+/* Tables */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.prose table th {
+  background: #004526;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Mermaid Diagram Styling - Delirious Rantings Edition */
+.mermaid {
+  font-family: "Inter", sans-serif !important;
+  background-color: #fdfcf8;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  margin: 2rem 0;
+  background: #fdfcf8 !important;
+}
+
+/* Global Variables for Mermaid */
+:root {
+  --mermaid-font-family: "Inter", sans-serif;
+  --mermaid-main-font-family: "Inter", sans-serif;
+  --mermaid-sequence-numbers: italic;
+}
+
+/* Node Styles */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon,
+.mermaid .node path {
+  fill: #fdfcf8 !important;
+  stroke: #004526 !important;
+  stroke-width: 1px !important;
+}
+
+/* Text Styles */
+.mermaid .node .label,
+.mermaid .sectionTitle,
+.mermaid .taskText,
+.mermaid .actor {
+  fill: #004526 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+/* Edge/Path Styles (The Lines) */
+.mermaid .edgePath .path,
+.mermaid .edgeThickness1,
+.mermaid .loopLine,
+.mermaid .connection {
+  stroke: #004526 !important;
+  stroke-width: 1px !important;
+}
+
+/* Arrowheads */
+.mermaid .marker {
+  fill: #004526 !important;
+  stroke: none !important;
+}
+
+/* Sequence Diagram Specifics */
+.mermaid .actor-man line,
+.mermaid .actor-man circle {
+  stroke: #004526 !important;
+  fill: #fdfcf8 !important;
+}
+
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+  stroke: #004526 !important;
+}
+
+.mermaid .labelBox {
+  stroke: #e5e7eb !important;
+  fill: #fdfcf8 !important;
+}
+
+.mermaid .labelText {
+  fill: #004526 !important;
+  font-family: "Playfair Display", serif !important;
+  font-style: italic !important;
+}
+
+/* Note Boxes (Editorial Highlight) */
+.mermaid .note {
+  fill: #f3f4f6 !important;
+  stroke: #004526 !important;
+  stroke-dasharray: 0 !important;
+}
+
+.mermaid .noteText {
+  fill: #004526 !important;
+  font-size: 13px !important;
+}
+
+/* Class Diagram Specifics */
+.mermaid .classTitle {
+  font-family: "Playfair Display", serif !important;
+  font-style: italic !important;
+  font-weight: bold !important;
+}
+
+/* Remove theme-specific double numbering from footnotes */
+.footnotes ol {
+  list-style-type: decimal !important; /* Keep standard browser numbering */
+  padding-left: 1.5rem;
+}
+
+.footnotes li::before {
+  content: none !important; /* Hide the theme's custom "1." */
+}
+
+.footnotes li {
+  @apply text-sm text-gray-500 font-light leading-relaxed mb-4;
+}
+
+/* Style the back-link arrow */
+.footnote-backref {
+  @apply text-[#004526] opacity-30 hover:opacity-100 transition-opacity ml-1 no-underline;
+}

@@ -25,7 +25,7 @@ Once you have gone over these questions about all your component types/building 
 
 Ok, now throw those action points away.
 
-### Hot air can't boil an ocean
+## Hot air can't boil an ocean
 
 You've probably heard the term "let's not boil the ocean" before. It's a very common phrase in consulting, and it boils down (ha!) to: Let's not do everything at once. That's a big topic in these strategy books. Don't bite off more than you can chew. 
 
@@ -41,7 +41,7 @@ In my experience, this is often the applications part. So take (for example) tha
 
 No, here again it's important to repeat the previous exercise: What do we currently have? What is the status of it? What is happening in the organization? What will happen in the organization, and what is going to be needed to support that?
 
-### Is this sustainable? 
+## Is this sustainable? 
 
 Take, for example, that we are doing an application rationalization exercise [^4] (every organization is doing something like this at some point). You decide to do a Gartner TIME assessment [^5]. That means you will need to have a bunch of technical and business fit parameters in your architecture per application; take five for both. These are super handy, and the artifact that you can produce, the actual application fit, is an amazing tool for strategic decision makers. But that also means you have to keep (10 \* the amount of applications) fields in your portfolio up to date.
 
@@ -49,7 +49,7 @@ If you have a few hundred applications in your portfolio, and it takes 3 months 
 
 Here it would make sense to only look at certain categories of applications, per domain, value stream, or capability. You can choose what part of the organization you tackle every 6 months, depending on what is happening. But those are questions you have to answer yourself with your team.
 
-### What about your team?
+## What about your team?
 
 Talking about teams, how big is your team? Will it grow or shrink this year? Will that impact your strategy? And most important is your vision of that synced with the rest of the organization? 
 
@@ -61,7 +61,7 @@ This is quite the slippery slope (I've had the discussion about what is and what
 
 From there on, you can discuss with your team what the strategy is for that year so you know they are all on board and know where to focus.
 
-### Wrapping up
+## Wrapping up
 
 So yeah, a lot of questions and not a lot of answers here. That's because those are the actual questions I'm going to focus on over the holidays. I'm afraid these answers would be very unique to the situation you are in, so I can't help you there. I do hope, however, that nudging you towards asking yourself the same questions helped in any way.
 

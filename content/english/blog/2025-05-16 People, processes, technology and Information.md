@@ -19,7 +19,7 @@ An organization is nothing more than a group of people all (vaguely) working tow
 
 In this post, I will argue that you can't work towards a goal without **information**. After all, all of the connections in people, processes and technologies have one thing in common: there is information flowing through these connections.
 
-### Information is layered in the organization
+## Information is layered in the organization
 
 Different layers of an organization use information in different ways. When talking in the cre unstructured data. In the context of (business) processes it all becomes more abstract, and when we move to the strategy layer,s we will talk about even more conceptual versions of the same information
 
@@ -39,7 +39,7 @@ Finally, we have **Wisdom**, and here we are in the strategy layer. Here, you ta
 
 As you can see, information is the glue between all these layers
 
-### Mapping information is an architect's cheat code 
+## Mapping information is an architect's cheat code 
 
 If you take a look at the big trends in organizations over the last years, you might notice that a lot (if not all) revolve around information.
 
@@ -61,7 +61,7 @@ The point is that you can have a robust foundation of an information model where
 
 Information enables strategy.
 
-### Information strategy
+## Information strategy
 
 [I wrote an entire post on how I like to model data and information](https://frederickvanbrabant.com/blog/2025-02-05-modeling-data-and-information-in-an-organization/). But there are some more strategic things I would love to add to that.
 
@@ -75,7 +75,7 @@ Now, not having data stewards is also not a great idea, as that would mean that 
 
 Another thing I wanted to touch upon is information debt. Just like in technical debt, many organizations tend to "move fast and clean up later", where later means never. This is a very well-known phenomenon, so I'm not going to bore you too much with it, but it is important to note that if your information model is based on old assumptions, your strategy will also be based on old assumptions. This will impact your decision-making and project implementation. 
 
-### Wrapping up: Information isn't just a side effect
+## Wrapping up: Information isn't just a side effect
 
 I understand and agree that people, processes, and technology have long been the go-to lenses for understanding how organizations work, but I think information is just as important as the other three; It's the connective tissue that lets people make decisions, processes flow smoothly, and technology support value.
 

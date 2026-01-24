@@ -15,7 +15,7 @@ It’s the start of a new fiscal year. Strategy season. That time when all the g
 
 Over the years, I’ve settled into a structure that helps me define projects that not only link to the strategy above but also looks at my own team's enviroment, I thought I'd share it here.
 
-### Working with the given strategy
+## Working with the given strategy
 
 Strategy usually comes down from the top. The C-suite sketches the big picture, department heads slice it into projects, and those trickle down to the teams. It's not always a very transparent process, but that's how it works.
 
@@ -25,7 +25,7 @@ First things first is getting to know the strategy. That sounds extremely obviou
 
 All the work will be routed in this. If you can pitch your projects in the framework of the company's strategy your odds of a successful pitch will skyrocket, most of the convincing has been done for you already. Not only that, your boss can easily pitch that project to the higher ups. Everyone wins.
 
-### Converging strategy into projects
+## Converging strategy into projects
 
 Ok, you’ve got the strategy. Now how do you turn that into projects? I like to use a bastardization of Teresa Torres's opportunity solution tree. It’s a startup thing, but it works just fine in the grand halls of enterprise.
 
@@ -43,7 +43,7 @@ You might end up with something like this [^3]:
 
 ![A schema outlining the strategy to idea to project](/images/2025-06-13-ost/OPT1.drawio.png)
 
-### This is good, but it can be better
+## This is good, but it can be better
 
 You could stop here and have a solid list of projects. Your boss would be impressed. But I think the real kicker would be to have projects that serve more than one strategy.
 
@@ -64,7 +64,7 @@ So now your project becomes: **“Build an API that connects sales and delivery 
 And when you kick off Project X, you’re already set up to automate and move faster.
 You didn’t just deliver a feature. You moved strategy forward on two fronts.
 
-### But I don't have the freedom to define my team's work
+## But I don't have the freedom to define my team's work
 
 Most teams don't. But this is a first step towards something like that. What we are doing here is helping your boss look good to their boss. We reach out and help find answers to the questions they get asked.
 
