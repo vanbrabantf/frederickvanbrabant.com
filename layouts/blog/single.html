@@ -37,15 +37,16 @@
       <div
         class="relative w-full bg-gray-100 overflow-hidden mb-12 md:mb-16 ring-1 ring-black/5 max-w-4xl mx-auto">
         {{ if $img }}
-          {{ $webp := $img.Process "webp" }}
+          {{/* Resize to a max width of 1200px (to cover Retina) and convert to WebP */}}
+          {{ $webp := $img.Resize "1200x webp" }}
           <picture>
             <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
             <img
-              src="{{ $img.RelPermalink }}"
+              src="{{ $webp.RelPermalink }}"
               alt="{{ $.Title }}"
               class="w-full h-auto"
-              width="{{ $img.Width }}"
-              height="{{ $img.Height }}"
+              width="{{ $webp.Width }}"
+              height="{{ $webp.Height }}"
               fetchpriority="high" />
           </picture>
         {{ else }}
@@ -83,8 +84,7 @@
                 md:flex-row
               {{ else }}
                 md:flex-row-reverse
-              {{ end }}
-               items-start gap-8 group">
+              {{ end }} items-start gap-8 group">
               <div class="w-full md:w-1/4">
                 {{ with .Params.image }}
                   {{ $relPath := trim . "/" }}
@@ -95,18 +95,19 @@
                     <div
                       class="relative aspect-square md:aspect-video overflow-hidden ring-1 ring-black/5 bg-gray-100">
                       {{ if $relImg }}
-                        {{ $relWebp := $relImg.Process "webp" }}
+                        {{/* Thumbnails are small; 400x400 is plenty of resolution */}}
+                        {{ $relWebp := $relImg.Fill "400x400 webp" }}
                         <picture>
                           <source
                             srcset="{{ $relWebp.RelPermalink }}"
                             type="image/webp" />
                           <img
-                            src="{{ $relImg.RelPermalink }}"
+                            src="{{ $relWebp.RelPermalink }}"
                             alt="{{ $element.Title }}"
                             class="inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-105 transition duration-700"
                             loading="lazy"
-                            width="{{ $relImg.Width }}"
-                            height="{{ $relImg.Height }}" />
+                            width="{{ $relWebp.Width }}"
+                            height="{{ $relWebp.Height }}" />
                         </picture>
                       {{ else }}
                         <img

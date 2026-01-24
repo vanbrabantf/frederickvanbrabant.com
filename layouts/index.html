@@ -20,28 +20,28 @@
             <div
               class="relative aspect-[16/9] w-full bg-gray-100 overflow-hidden mb-6 md:mb-8 ring-1 ring-black/5">
               {{ with .Params.image }}
-                {{/* Normalize path to remove leading slash */}}
                 {{ $imagePath := trim . "/" }}
                 {{ $img := resources.Get $imagePath }}
                 {{ if $img }}
-                  {{ $webp := $img.Process "webp" }}
+                  {{/* RESIZE: Crop to 1110x624 and convert to WebP */}}
+                  {{ $webp := $img.Fill "1110x624 webp" }}
                   <picture>
                     <source
                       srcset="{{ $webp.RelPermalink }}"
                       type="image/webp" />
                     <img
-                      src="{{ $img.RelPermalink }}"
+                      src="{{ $webp.RelPermalink }}"
                       alt="{{ $.Title }}"
                       class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700"
-                      width="{{ $img.Width }}"
-                      height="{{ $img.Height }}"
+                      width="{{ $webp.Width }}"
+                      height="{{ $webp.Height }}"
                       fetchpriority="high" />
                   </picture>
                 {{ else }}
                   <img
                     src="{{ . | absURL }}"
                     alt="{{ $.Title }}"
-                    class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700" />
+                    class="absolute inset-0 w-full h-full object-cover grayscale-20" />
                 {{ end }}
               {{ end }}
             </div>
@@ -90,28 +90,28 @@
               <div
                 class="relative aspect-[4/3] overflow-hidden ring-1 ring-black/5 bg-gray-100">
                 {{ with .Params.image }}
-                  {{/* Normalize path for list images */}}
                   {{ $relPath := trim . "/" }}
                   {{ $relImg := resources.Get $relPath }}
                   {{ if $relImg }}
-                    {{ $webp := $relImg.Process "webp" }}
+                    {{/* RESIZE: Crop to 600x450 and convert to WebP */}}
+                    {{ $webp := $relImg.Fill "600x450 webp" }}
                     <picture>
                       <source
                         srcset="{{ $webp.RelPermalink }}"
                         type="image/webp" />
                       <img
-                        src="{{ $relImg.RelPermalink }}"
+                        src="{{ $webp.RelPermalink }}"
                         alt="{{ $element.Title }}"
                         class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700"
                         loading="lazy"
-                        width="{{ $relImg.Width }}"
-                        height="{{ $relImg.Height }}" />
+                        width="{{ $webp.Width }}"
+                        height="{{ $webp.Height }}" />
                     </picture>
                   {{ else }}
                     <img
                       src="{{ . | absURL }}"
                       alt="{{ $element.Title }}"
-                      class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700" />
+                      class="absolute inset-0 w-full h-full object-cover grayscale-20" />
                   {{ end }}
                 {{ end }}
               </div>
