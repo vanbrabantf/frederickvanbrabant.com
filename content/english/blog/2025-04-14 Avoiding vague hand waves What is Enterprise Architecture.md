@@ -3,7 +3,7 @@ title: "Now without vague hand waving: What is Enterprise Architecture"
 meta_title: "Avoiding vague hand waving: What is Enterprise Architecture"
 description: One of the most confusing things about architecture is the vagueness of the naming that surrounds it. Not only for non architects that often don't really know in detail what all the different disciplines do, but also for the architects themselves.
 date: 2025-04-14T00:00:00Z
-image: /images/posts/2025-04-14-enterprisearchitecture/header.png
+image: images/posts/2025-04-14-enterprisearchitecture/header.png
 categories:
   - Enterprise Architecture
 tags:

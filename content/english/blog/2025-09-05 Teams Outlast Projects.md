@@ -3,7 +3,7 @@ title: Teams Outlast Projects
 meta_title: Teams Outlast Projects
 description:
 date: 2025-09-07T00:00:00Z
-image: /images/posts/2025-09-05-teams-outlast-projects/header.png
+image: images/posts/2025-09-05-teams-outlast-projects/header.png
 categories:
   - Strategy
   - people

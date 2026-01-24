@@ -3,7 +3,7 @@ title: "Enterprise architecture needs to get better at architecture strategy"
 meta_title: "Enterprise architecture needs to get better at architecture strategy"
 description: "I've been reading a lot of strategy books these last weeksand I've been trying to tie it to my everyday work of enterprise architecture. Most of these posts are just me finding an excuse to put my thoughts to paper to see if they make sense, so why not write a new post about what I've learned?"
 date: 2024-12-23T00:00:00Z
-image: "/images/posts/2024-12-23-strategy/header.png"
+image: "images/posts/2024-12-23-strategy/header.png"
 categories: ["Enterprise Architecture", "Strategy"]
 tags: ["My way of working", "Project lead"]
 draft: false

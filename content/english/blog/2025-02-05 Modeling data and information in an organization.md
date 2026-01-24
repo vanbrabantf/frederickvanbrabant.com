@@ -3,7 +3,7 @@ title: "Modeling data and information in an organization"
 meta_title: "Modeling data and information in an organization"
 description: "The last weeks I've been focusing a lot on the data and information models in architecture. Organizations have so much data flowing around that it's hard to effectively map it all out. That's a shame because there are some very valuable learnings to be had from that data."
 date: 2025-02-05T00:00:00Z
-image: "/images/posts/2025-02-05-information/header.png"
+image: "images/posts/2025-02-05-information/header.png"
 categories: ["Enterprise Architecture", "Managing information"]
 tags: ["My way of working", "Data"]
 draft: false

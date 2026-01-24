@@ -3,7 +3,7 @@ title: "Taming Chaos: Handeling vendor based architecture"
 meta_title: "Taming Chaos: Handeling vendor based architecture"
 description: "I've noticed a huge shift in the architecture of big companies in the last few years:companies are shifting from in-house development to third-party applications, shedding the traditional 'Not Invented Here' stigma in favor of external innovation."
 date: 2024-12-06T00:00:00Z
-image: "/images/posts/2024-12-06-vendor/header.png"
+image: "images/posts/2024-12-06-vendor/header.png"
 categories: ["Enterprise Architecture", "Software", "Managing technology"]
 tags: ["Data", "My way of working"]
 draft: false

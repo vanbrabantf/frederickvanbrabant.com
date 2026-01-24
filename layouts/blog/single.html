@@ -28,13 +28,32 @@
       {{ end }}
     </header>
 
-    {{ if .Params.image }}
+    {{/* --- MAIN HERO IMAGE --- */}}
+    {{ with .Params.image }}
+      {{ $imagePath := trim . "/" }}
+      {{ $img := resources.Get $imagePath }}
+
+
       <div
         class="relative w-full bg-gray-100 overflow-hidden mb-12 md:mb-16 ring-1 ring-black/5 max-w-4xl mx-auto">
-        <img
-          src="{{ .Params.image | absURL }}"
-          alt="{{ .Title }}"
-          class="w-full h-auto" />
+        {{ if $img }}
+          {{ $webp := $img.Process "webp" }}
+          <picture>
+            <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
+            <img
+              src="{{ $img.RelPermalink }}"
+              alt="{{ $.Title }}"
+              class="w-full h-auto"
+              width="{{ $img.Width }}"
+              height="{{ $img.Height }}"
+              fetchpriority="high" />
+          </picture>
+        {{ else }}
+          <img
+            src="{{ . | absURL }}"
+            alt="{{ $.Title }}"
+            class="w-full h-auto" />
+        {{ end }}
       </div>
     {{ end }}
 
@@ -47,6 +66,7 @@
       {{ .Content }}
     </div>
 
+    {{/* --- RELATED POSTS SECTION --- */}}
     {{ $related := .Site.RegularPages.Related . | first 3 }}
     {{ with $related }}
       <section class="mt-32 pt-20 border-t border-gray-200">
@@ -66,14 +86,34 @@
               {{ end }}
                items-start gap-8 group">
               <div class="w-full md:w-1/4">
-                {{ if .Params.image }}
-                  <a href="{{ .RelPermalink }}">
+                {{ with .Params.image }}
+                  {{ $relPath := trim . "/" }}
+                  {{ $relImg := resources.Get $relPath }}
+
+
+                  <a href="{{ $element.RelPermalink }}">
                     <div
                       class="relative aspect-square md:aspect-video overflow-hidden ring-1 ring-black/5 bg-gray-100">
-                      <img
-                        src="{{ .Params.image | absURL }}"
-                        alt="{{ .Title }}"
-                        class=" inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-105 transition duration-700" />
+                      {{ if $relImg }}
+                        {{ $relWebp := $relImg.Process "webp" }}
+                        <picture>
+                          <source
+                            srcset="{{ $relWebp.RelPermalink }}"
+                            type="image/webp" />
+                          <img
+                            src="{{ $relImg.RelPermalink }}"
+                            alt="{{ $element.Title }}"
+                            class="inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-105 transition duration-700"
+                            loading="lazy"
+                            width="{{ $relImg.Width }}"
+                            height="{{ $relImg.Height }}" />
+                        </picture>
+                      {{ else }}
+                        <img
+                          src="{{ . | absURL }}"
+                          alt="{{ $element.Title }}"
+                          class="inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-105 transition duration-700" />
+                      {{ end }}
                     </div>
                   </a>
                 {{ end }}
@@ -89,18 +129,18 @@
                   {{ end }}
                   <span class="text-gray-200 text-[8px]">•</span>
                   <time
-                    class="uppercase tracking-[0.2em] text-[8px] text-gray-400">
-                    {{ .PublishDate.Format "Jan 2006" }}
-                  </time>
+                    class="uppercase tracking-[0.2em] text-[8px] text-gray-400"
+                    >{{ .PublishDate.Format "Jan 2006" }}</time
+                  >
                 </div>
 
                 <h3
                   class="serif text-xl md:text-2xl text-[#004526] mb-3 leading-tight">
                   <a
                     href="{{ .RelPermalink }}"
-                    class="hover:opacity-70 transition">
-                    {{ .Title }}
-                  </a>
+                    class="hover:opacity-70 transition"
+                    >{{ .Title }}</a
+                  >
                 </h3>
 
                 <p
@@ -119,6 +159,5 @@
         </div>
       </section>
     {{ end }}
-
   </article>
 {{ end }}

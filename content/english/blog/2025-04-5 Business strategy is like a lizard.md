@@ -3,7 +3,7 @@ title: "Business strategy is like a lizard"
 meta_title: "Business strategy is like a lizard"
 description: "Well the real title was going to be 'business strategy is like a lizard, it leaves behind it's tail while it grows a new one' but that was just too long."
 date: 2025-04-06T00:00:00Z
-image: "/images/posts/2025-04-5-lizard/header.png"
+image: "images/posts/2025-04-5-lizard/header.png"
 categories: ["Enterprise Architecture", "Strategy"]
 tags: ["Project lead"]
 draft: false

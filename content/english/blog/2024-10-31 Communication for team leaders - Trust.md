@@ -3,7 +3,7 @@ title: "Communication for team leaders - Trust"
 meta_title: "Communication for team leaders - Trust"
 description: "The second part of a three-part: Communication for Team Leaders. This one is about trust, letting go and delegating. I think it's the hardest one for new managers."
 date: 2024-10-31T00:00:00Z
-image: "/images/posts/2024-10-31-trust/header.png"
+image: "images/posts/2024-10-31-trust/header.png"
 categories: ["People", "Communication for team leaders"]
 tags: ["Communication for team leaders", "My way of working", "Project lead"]
 draft: false

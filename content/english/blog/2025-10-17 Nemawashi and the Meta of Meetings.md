@@ -3,7 +3,7 @@ title: Nemawashi and the Meta of Meetings
 meta_title: Nemawashi and the Meta of Meetings
 description: Nemawashi can be seen as backroom politics, but that shouldn't be the case. The idea is that you check in before a big decision with all the stakeholders and go over all the points one on one. Making sure everyone fully understands what needs to be discussed and where everyone stands.
 date: 2025-10-17T00:00:00Z
-image: /images/posts/2025-10-17 Nemawashi and the Meta of Meetings/header.png
+image: images/posts/2025-10-17 Nemawashi and the Meta of Meetings/header.png
 categories:
   - People
   - Strategy

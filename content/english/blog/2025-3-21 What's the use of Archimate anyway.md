@@ -3,7 +3,7 @@ title: "What's the use of Archimate anyway"
 meta_title: "What's the use of Archimate anyway"
 description: "Is Archimate an effective enterprise architecture tool, or just an ivory tower language? Inspired by a podcast with Svyatoslav Kotusev, I dive into its usability, challenges, and why I still use it."
 date: 2025-03-21T00:00:00Z
-image: "/images/posts/2025-03-21-archimate/header.png"
+image: "images/posts/2025-03-21-archimate/header.png"
 categories: ["Enterprise Architecture", "Managing information"]
 tags: ["My way of working", "ArchiMate"]
 draft: false

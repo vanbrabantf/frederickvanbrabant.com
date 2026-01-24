@@ -1,0 +1,19 @@
+{{ $img := resources.Get .Destination }}
+
+{{ if $img }}
+  {{ $webp := $img.Process "webp" }}
+  <figure class="my-10">
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
+      <img
+        src="{{ $img.RelPermalink }}"
+        alt="{{ .Text }}"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}"
+        loading="lazy"
+        class="mx-auto shadow-sm border border-gray-100" />
+    </picture>
+  </figure>
+{{ else }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+{{ end }}

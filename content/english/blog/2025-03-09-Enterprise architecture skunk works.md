@@ -3,7 +3,7 @@ title: "Enterprise architectural skunk works"
 meta_title: "Enterprise architectural skunk works"
 description: "Most big organizations I've worked with are more akin to an ecosystem of multiple smaller companies. These smaller companies all share the same umbrella of the bigger total but internally compete for resources and priorities. "
 date: 2025-03-09T00:00:00Z
-image: "/images/posts/2025-03-09-skunkworks/header.png"
+image: "images/posts/2025-03-09-skunkworks/header.png"
 categories: ["Enterprise Architecture", "Strategy"]
 tags: ["My way of working", "Project lead"]
 draft: false

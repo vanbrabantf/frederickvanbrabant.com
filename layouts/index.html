@@ -19,11 +19,30 @@
           <a href="{{ .RelPermalink }}">
             <div
               class="relative aspect-[16/9] w-full bg-gray-100 overflow-hidden mb-6 md:mb-8 ring-1 ring-black/5">
-              {{ if .Params.image }}
-                <img
-                  src="{{ .Params.image | absURL }}"
-                  alt="{{ .Title }}"
-                  class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700" />
+              {{ with .Params.image }}
+                {{/* Normalize path to remove leading slash */}}
+                {{ $imagePath := trim . "/" }}
+                {{ $img := resources.Get $imagePath }}
+                {{ if $img }}
+                  {{ $webp := $img.Process "webp" }}
+                  <picture>
+                    <source
+                      srcset="{{ $webp.RelPermalink }}"
+                      type="image/webp" />
+                    <img
+                      src="{{ $img.RelPermalink }}"
+                      alt="{{ $.Title }}"
+                      class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700"
+                      width="{{ $img.Width }}"
+                      height="{{ $img.Height }}"
+                      fetchpriority="high" />
+                  </picture>
+                {{ else }}
+                  <img
+                    src="{{ . | absURL }}"
+                    alt="{{ $.Title }}"
+                    class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700" />
+                {{ end }}
               {{ end }}
             </div>
           </a>
@@ -46,12 +65,10 @@
               class="text-gray-600 leading-relaxed font-light text-base md:text-lg mb-6 px-2">
               {{ .Summary }}
             </p>
-
             <a
               href="{{ .RelPermalink }}"
               class="inline-block border-b-2 border-[#004526] pb-1 text-[#004526] uppercase tracking-[0.2em] text-[10px] font-bold"
               >Read More</a
-            >
             >
           </div>
         </article>
@@ -67,17 +84,35 @@
             md:flex-row
           {{ else }}
             md:flex-row-reverse
-          {{ end }}
-           items-center gap-8 md:gap-12 group">
+          {{ end }} items-center gap-8 md:gap-12 group">
           <div class="w-full md:w-1/2">
             <a href="{{ .RelPermalink }}">
               <div
                 class="relative aspect-[4/3] overflow-hidden ring-1 ring-black/5 bg-gray-100">
-                {{ if .Params.image }}
-                  <img
-                    src="{{ .Params.image | absURL }}"
-                    alt="{{ .Title }}"
-                    class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700" />
+                {{ with .Params.image }}
+                  {{/* Normalize path for list images */}}
+                  {{ $relPath := trim . "/" }}
+                  {{ $relImg := resources.Get $relPath }}
+                  {{ if $relImg }}
+                    {{ $webp := $relImg.Process "webp" }}
+                    <picture>
+                      <source
+                        srcset="{{ $webp.RelPermalink }}"
+                        type="image/webp" />
+                      <img
+                        src="{{ $relImg.RelPermalink }}"
+                        alt="{{ $element.Title }}"
+                        class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700"
+                        loading="lazy"
+                        width="{{ $relImg.Width }}"
+                        height="{{ $relImg.Height }}" />
+                    </picture>
+                  {{ else }}
+                    <img
+                      src="{{ . | absURL }}"
+                      alt="{{ $element.Title }}"
+                      class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700" />
+                  {{ end }}
                 {{ end }}
               </div>
             </a>
@@ -102,7 +137,6 @@
               class="text-gray-600 font-light text-sm md:text-base leading-relaxed mb-4">
               {{ .Summary }}
             </p>
-
             <a
               href="{{ .RelPermalink }}"
               class="text-[9px] font-bold uppercase tracking-widest border-b border-[#004526] text-[#004526]"
@@ -110,7 +144,6 @@
             >
           </div>
         </article>
-
         {{ if lt $index 8 }}
           <hr class="border-gray-200 mb-16 md:mb-24" />
         {{ end }}
@@ -121,43 +154,37 @@
       <nav
         class="mt-32 md:mt-40 flex justify-center items-center gap-6 md:gap-8 text-[10px] md:text-[11px] uppercase tracking-[0.3em]">
         {{ if $paginator.HasPrev }}
-
           <a
             href="{{ $paginator.Prev.URL }}"
-            class="text-gray-400 hover:text-[#004526] transition">
-            Prev
-          </a>
+            class="text-gray-400 hover:text-[#004526] transition"
+            >Prev</a
+          >
         {{ else }}
           <span class="text-gray-300">Prev</span>
         {{ end }}
-
         {{ range $paginator.Pagers }}
           {{ if eq . $paginator }}
-            <span class="text-[#004526] font-semibold">
-              {{ printf "%02d" .PageNumber }}
-            </span>
+            <span class="text-[#004526] font-semibold"
+              >{{ printf "%02d" .PageNumber }}</span
+            >
           {{ else }}
-
             <a
               href="{{ .URL }}"
-              class="text-gray-400 hover:text-[#004526] transition">
-              {{ printf "%02d" .PageNumber }}
-            </a>
+              class="text-gray-400 hover:text-[#004526] transition"
+              >{{ printf "%02d" .PageNumber }}</a
+            >
           {{ end }}
         {{ end }}
-
         {{ if $paginator.HasNext }}
-
           <a
             href="{{ $paginator.Next.URL }}"
-            class="text-gray-400 hover:text-[#004526] transition">
-            Next
-          </a>
+            class="text-gray-400 hover:text-[#004526] transition"
+            >Next</a
+          >
         {{ else }}
           <span class="text-gray-300">Next</span>
         {{ end }}
       </nav>
     {{ end }}
-
   </main>
 {{ end }}

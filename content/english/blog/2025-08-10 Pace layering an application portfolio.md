@@ -3,7 +3,7 @@ title: Pace layering an application portfolio
 meta_title: Pace layering an application portfolio
 description: if we could define what makes applications what they are, we can start to maybe identify more of them and build some processes and governance around them. Make it all more manageable. Well Pace layering is exactly that
 date: 2025-08-06T00:00:00Z
-image: /images/posts/2025-08-06-pace/header.png
+image: images/posts/2025-08-06-pace/header.png
 categories:
   - Enterprise Architecture
   - Strategy

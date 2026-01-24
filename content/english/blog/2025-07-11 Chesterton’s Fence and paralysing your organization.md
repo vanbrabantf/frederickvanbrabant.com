@@ -3,7 +3,7 @@ title: Chesterton’s Fence and paralysing your organization
 meta_title: Chesterton’s Fence and paralysing your organization
 description: An old principle says not to remove what you don’t understand. But in modern organizations, that caution turns into paralysis. This post explores how forgotten systems, missing documentation, and fear of change quietly strangle innovation.
 date: 2025-07-13T00:00:00Z
-image: /images/posts/2025-07-11-fence/header.png
+image: images/posts/2025-07-11-fence/header.png
 categories:
   - Enterprise Architecture
   - Managing technology

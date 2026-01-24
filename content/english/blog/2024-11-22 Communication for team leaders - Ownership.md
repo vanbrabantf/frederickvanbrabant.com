@@ -3,7 +3,7 @@ title: "Communication for team leaders - Ownership"
 meta_title: "Communication for team leaders - Ownership"
 description: "And we've come to the last post in the series of 'communication for team leaders'. This one is about ownership. It's dives in what it actually means to give ownership and what the consequences are"
 date: 2024-11-22T00:00:00Z
-image: "/images/posts/2024-11-22-ownership/header.png"
+image: "images/posts/2024-11-22-ownership/header.png"
 categories: ["People", "Communication for team leaders"]
 tags: ["Communication for team leaders", "My way of working", "Project lead"]
 draft: false

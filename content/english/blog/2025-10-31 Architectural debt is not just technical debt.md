@@ -3,7 +3,7 @@ title: Architectural debt is not just technical debt
 meta_title: Architectural debt is not just technical debt
 description:
 date: 2025-11-01T00:00:00Z
-image: /images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/header.png
+image: images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/header.png
 categories:
   - Enterprise Architecture
   - Application-Layer

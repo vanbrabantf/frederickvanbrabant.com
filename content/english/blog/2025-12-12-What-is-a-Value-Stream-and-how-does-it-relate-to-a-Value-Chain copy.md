@@ -3,7 +3,7 @@ title: What is a Value Stream and how does it relate to a Value Chain
 meta_title: What is a Value Stream and how does it relate to a Value Chain
 description:
 date: 2025-12-13T00:00:00Z
-image: /images/posts/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/header.png
+image: images/posts/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/header.png
 categories:
   - Enterprise Architecture
   - Strategy-Layer

@@ -3,7 +3,7 @@ title: "Mapping out an organization is a massive task"
 meta_title: "Mapping out an organization is a massive task"
 description: "A big part of enterprise architecture is keeping your architecture model up to date. Without this model, it's impossible to do your real job in advising projects, strategy and general company awareness. The problem is that getting a full model is a daunting and maybe even impossible job. Let's talk about the pitfalls and how we can approach this."
 date: 2025-02-21T00:00:00Z
-image: "/images/posts/2025-02-21-organization-mapping/header.png"
+image: "images/posts/2025-02-21-organization-mapping/header.png"
 categories: ["Enterprise Architecture", "Strategy"]
 tags: ["My way of working", "Project lead"]
 draft: false

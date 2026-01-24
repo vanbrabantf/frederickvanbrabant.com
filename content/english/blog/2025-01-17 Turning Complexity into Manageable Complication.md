@@ -3,7 +3,7 @@ title: "Turning Complexity into Manageable Complication"
 meta_title: "Turning Complexity into Manageable Complication"
 description: "Have you ever made bread before in your life? Like from start to finish? It's not a difficult thing to do. You start off with flour, yeast, salt, and water. Combine them, let that dough sit for a while, knead it again, let it sit again, shove it in an oven, and voila: you have a bread. But it's actually mroe complicated no?"
 date: 2025-01-17T00:00:00Z
-image: "/images/posts/2025-01-17-complexity/header.png"
+image: "images/posts/2025-01-17-complexity/header.png"
 categories: ["Enterprise Architecture", "Strategy", "Managing technology"]
 tags: ["project management", "Project lead"]
 draft: false

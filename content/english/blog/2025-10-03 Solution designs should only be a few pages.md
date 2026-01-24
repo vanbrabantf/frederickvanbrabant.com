@@ -3,7 +3,7 @@ title: Solution designs should only be a few pages
 meta_title: Solution designs should only be a few pages
 description: We get blamed for delivering these massive solution design documents that take weeks to produce, eat into the time for development and in the end result into an encyclopedia that nobody reads.And in all honesty, I agree.
 date: 2025-10-03T00:00:00Z
-image: /images/posts/2025-10-03 Solution designs should only be a few pages/header.png
+image: images/posts/2025-10-03 Solution designs should only be a few pages/header.png
 categories:
   - Solution Architecture
   - Application-layer

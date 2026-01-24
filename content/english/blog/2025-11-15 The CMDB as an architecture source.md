@@ -3,7 +3,7 @@ title: The CMDB as an architecture source
 meta_title: The CMDB as an architecture source
 description:
 date: 2025-11-15T00:00:00Z
-image: /images/posts/2025-11-15 The CMDB as an architecture source/header.png
+image: images/posts/2025-11-15 The CMDB as an architecture source/header.png
 categories:
   - Enterprise Architecture
   - Managing information

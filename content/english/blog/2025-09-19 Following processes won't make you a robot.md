@@ -3,7 +3,7 @@ title: Following processes won't make you a robot
 meta_title: Following processes won't make you a robot
 description: Think of an SOP as a cooking recipe, albeit rather a Kenji López-Alt recipe then a grocery store meal box one. It's an extensive overview of what we want to achieve, how we do it (step by step), what is involved (connections and roles) ,and what the end result should look like. Ideally there is also documentation and change logs, but those are a bit more rare.
 date: 2025-09-19T00:00:00Z
-image: /images/posts/2025-09-19-processes/header.png
+image: images/posts/2025-09-19-processes/header.png
 categories:
   - Enterprise Architecture
   - Processes

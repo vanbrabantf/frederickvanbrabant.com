@@ -3,7 +3,7 @@ title: People, Processes, Technology and Information
 meta_title: People, Processes, Technology and Information
 description: "In this post, I will argue that you can't work towards a goal without **information**. After all, all of the connections in people, processes and technologies have one thing in common: there is information flowing through these connections."
 date: 2025-05-16T00:00:00Z
-image: /images/posts/2025-05-16-ppti/header.png
+image: images/posts/2025-05-16-ppti/header.png
 categories:
   - Enterprise Architecture
   - Managing information

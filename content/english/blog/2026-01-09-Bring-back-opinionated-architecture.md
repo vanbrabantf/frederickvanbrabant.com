@@ -3,7 +3,7 @@ title: Bring back opinionated architecture
 meta_title: Bring back opinionated architecture
 description:
 date: 2026-01-09T00:00:00Z
-image: /images/posts/2026-01-09-Bring-back-opinionated-architecture/header.png
+image: images/posts/2026-01-09-Bring-back-opinionated-architecture/header.png
 categories:
   - Solution Architecture
   - Managing technology

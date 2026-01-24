@@ -3,7 +3,7 @@ title: "Data driven is not the silver bullet you think it is"
 meta_title: "Data driven is not the silver bullet you think it is"
 description: "The big data buzzword went away a bit, but the mindset remained. These days, we call it data-driven, and it's used every day in management meetings. It's a great way to give power to your strategy, and the data doesn't lie... right?"
 date: 2024-08-30T00:00:00Z
-image: "/images/posts/2024-08-30-data-driven/header.png"
+image: "images/posts/2024-08-30-data-driven/header.png"
 categories: ["Strategy"]
 tags: ["Data", "Project lead"]
 draft: false

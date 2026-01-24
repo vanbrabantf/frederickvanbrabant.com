@@ -3,7 +3,7 @@ title: Choosing your starting line in enterprise architecture
 meta_title: Choosing your starting line in enterprise architecture
 description:
 date: 2025-11-28T00:00:00Z
-image: /images/posts/2025-11-28-Choosing-your-starting-line-in-enterprise-architecture/header.png
+image: images/posts/2025-11-28-Choosing-your-starting-line-in-enterprise-architecture/header.png
 categories:
   - Enterprise Architecture
   - Business-Layer

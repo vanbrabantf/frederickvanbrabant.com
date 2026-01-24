@@ -3,7 +3,7 @@ title: How teams grow organically
 meta_title: How teams grow organically
 description:
 date: 2025-08-21T00:00:00Z
-image: /images/posts/2025-08-21-conway/header.png
+image: images/posts/2025-08-21-conway/header.png
 categories:
   - people
   - Managing information
