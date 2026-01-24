@@ -63,7 +63,7 @@ content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='un
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["business architecture", "Enterprise Architecture", "software", "business"]
-description = "Frederick's delirious rants"
+description = "Explore the delirious rantings of Frederick Vanbrabant. A blog focused on the intersection of Enterprise Architecture, product, and business strategy."
 author = "Frederick Vanbrabant"
 #twitter = "zeon_studio"
 image = "images/logo.png"
