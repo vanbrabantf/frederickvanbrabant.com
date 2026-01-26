@@ -69,27 +69,27 @@ ESB --> |Invoicing Information| InvoiceTool[Invoicing tool]
 
 ```
 
-Now we have to focus on what the new invoicing tool needs in terms of information. If it's the same, but with different field names, that is all handled in the ESB, and we would not have to touch the other applications. This drastically reduces the blast radius of change.
+Next we have to focus on what the new invoicing tool needs in terms of information. If it's the same, but with different field names, that is all handled in the ESB, and we would not have to touch the other applications. This drastically reduces the blast radius of change.
 
-If we require extra information, we would still have to touch the connections going to the ESB, but it would be to add fields. We don't have to worry about REST vs SOAP vs FTP stuff.
+If we require extra information, we would still have to touch the connections going to the ESB, but it would only be to add fields. We don't have to worry about REST vs SOAP vs FTP stuff. As that won't really impact downstream.
 
 ### Centralized integration control
 
-An ESB can also give you more control over these connections. Say your ordering tool suddenly gets hammered by a sale. The website might keep up, but your legacy orders tool might not.
+An ESB can also give you more control over these connections. Say your ordering tool suddenly gets hammered by a big sale. The website might keep up, but your legacy orders tool might not.
 
 Situations like this break down at the weakest link. You can work around that with smart architecture, but you don't always have control over that with SaaS or legacy tooling.
 
 Here again with an ESB in the middle you can queue these calls. Say everything keeps up, but the legacy mail system can't handle the load. No problem, we keep the connections in a queue, they are not lost, and we throttle them. Instead of a fire hose of non-stop requests, the tool now gets 1 request a second.
 
-That is not ideal from a product point of view, people have to maybe wait 10 minutes for their order confirmation, but the sales went through. The people will get their product they bought, and you don't have the awkward conversation with the leadership about how we lost a bunch of money from lost sales from the system now keeping up.
+That is not ideal from a product point of view, people have to maybe wait 10 minutes for their order confirmation, but the sales went through. The people will get their product they bought, and you don't have the awkward conversation with the leadership about how we lost a bunch of money from lost sales from the architecture that wasn't up to par.
 
-This is about absorbing variability at the platform level instead of the application level.
+The focus is on absorbing variability at the platform level instead of the application level.
 
 ### Operational visibility
 
-If, in theory, all connections go over the ESB [^1] you can also keep an eye on all information that flows through it. Especially for an enterprise architect that's a very nice thing.
+If, in theory, all connections go over the ESB [^1] you can also keep an eye on all information that flows through it. Especially for an enterprise architect's office that's a very nice thing.
 
-You can have with little effort an overview of everything that is connected and what data flows over it. That also means that you can have a very knowledgeable integrations team.
+You can have with little effort an overview of everything that is connected and what data flows over it. You integrations teams will now have deep knowledge about all the connections, something that normally is spread out over different teams and tools.
 
 Also from a security point of view this is a big win. You have an overview of all connections and what they all use as standards, a perfect starting (and tracking) point to modernize them. Without messing up all the other connections.
 
