@@ -1,6 +1,6 @@
 ---
-title: The dead of the enterprise service bus was greatly exaggerated
-meta_title: The dead of the enterprise service bus was greatly exaggerated
+title: The death of the enterprise service bus was greatly exaggerated
+meta_title: The death of the enterprise service bus was greatly exaggerated
 description: Every six months or so I read a post on sites like Hackernews that the enterprise service bus concept is dead and that it was a horrible concept to begin with. Yet I personally have great experiences with them, even in large, messy enterprise landscapes.
 date: 2026-01-22T00:00:00Z
 image: images/posts/2026-01-22-The-dead-of-the-enterprise-service-bus-was-greatly-exaggerated/header.png
