@@ -224,9 +224,14 @@
 /* Text Styles */
 .mermaid .node .label,
 .mermaid .sectionTitle,
-.mermaid .taskText,
-.mermaid .actor {
+.mermaid .taskText {
   fill: #004526 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.mermaid .actor {
+  fill: #fdfcf8 !important;
   font-weight: 400 !important;
   font-size: 14px !important;
 }
