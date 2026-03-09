@@ -221,6 +221,11 @@
   stroke-width: 1px !important;
 }
 
+.mermaid .flowchart,
+.mermaid .quadrantChart {
+  margin: auto !important;
+}
+
 /* Text Styles */
 .mermaid .node .label,
 .mermaid .sectionTitle,

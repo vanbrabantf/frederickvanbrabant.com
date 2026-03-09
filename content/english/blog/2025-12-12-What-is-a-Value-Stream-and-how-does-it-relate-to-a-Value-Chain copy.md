@@ -32,7 +32,7 @@ In the case of hiring a person, you have multiple people that get value: The tea
 
 To achieve value, we break the path toward the outcome into stages. At each stage we add (ideally) incremental value, where the final stage should bring the promised value.
 
-![A schema of a value stream](/images/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/value-stream.png)
+![A schema of a value stream](/images/posts/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/value-stream.png)
 
 If we map out what we actually do in organization, we can measure it. We can add SLAs [^2] to the stages of the value stream. This ensures a standardized quality outcome. We
 formalize the way we work in an organization.
@@ -59,7 +59,7 @@ By mapping an organization out like this, you can take a deeper look at the unit
 
 The total outcome of these groups is a Value Chain. So every organization has one Value Chain. Some organizations use sub-value chains, where every activity has their own value chain, but then we are getting dangerously close to Values Streams again.
 
-![A schema of a value chain](/images/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/value-chain.png)
+![A schema of a value chain](/images/posts/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/value-chain.png)
 
 ## But aren't Value Streams and a Value Chains the polar opposites then?
 
@@ -73,7 +73,7 @@ Value Streams, on the other hand, describe how the organization actually deliver
 
 They are perpendicular viewpoints. Different lenses of looking at the work.
 
-![A schema that compares a vertical chain to a horizontal stream](/images/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/stream-vs-chain.png)
+![A schema that compares a vertical chain to a horizontal stream](/images/posts/2025-12-12-What-is-a-Value-Stream-and-how-does-it-relate-to-a-Value-Chain/stream-vs-chain.png)
 
 ... Sadly, there is an extra layer of confusion.
 
