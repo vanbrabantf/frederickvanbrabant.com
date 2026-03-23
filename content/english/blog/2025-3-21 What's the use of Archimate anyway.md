@@ -35,7 +35,7 @@ Okay, you now have the spec (if you managed to find it) all 207 pages of it. The
 
 We're going to fast forward a few weeks or months. You’ve studied ArchiMate and might even be certified in it and you're now developing a solution design for IT leadership: the setup of a custom CRM on AWS. You learned ArchiMate, so why not lay it out as such. You might come up with something like this:
 
-![An ArchiMate diagram that shown an application that runs on two servers](/images/2025-03-21-archimate/archimate.png)
+![An ArchiMate diagram that shown an application that runs on two servers](/images/posts/2025-03-21-archimate/archimate.png)
 
 A lot is going on here, we have two layers: the technology and application layer. It's easily noticeable by the colours (green and blue) and you have all the different component types and connectors. 
 
@@ -47,7 +47,7 @@ Even if the stakeholders are from IT and are used to "technical drawings", the c
 
 What would happen if instead of showing the above diagram, you would show this diagram:
 
-![An informal diagram that shown the same information as the ArchiMate diagram](/images/2025-03-21-archimate/Archimate.drawio.png)
+![An informal diagram that shown the same information as the ArchiMate diagram](/images/posts/2025-03-21-archimate/Archimate.drawio.png)
 
 There are fewer words on that diagram, yet it seems much easier to understand. You can start discussing the setup immediately instead of giving an ArchiMate lecture. An added benefit is that people will want to reuse that slide in their own presentations. There’s no way anyone who isn’t an architect would include an ArchiMate diagram in their slides, it’s far too technical and intimidating. The above diagram doesn’t follow any convention or framework yet these are the kinds of visuals I see most often when discussing technical setups.
 

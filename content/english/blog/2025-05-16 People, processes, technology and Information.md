@@ -27,7 +27,7 @@ This is, however, the same for PPT. Technology is the context of a business proc
 
 In the case of information, we can dive into the DIKW (Data, Information, Knowledge, Wisdom) hierarchy.
 
-![A diagram of DIKW](/images/2025-05-16-ppti/DIKW.png)
+![A diagram of DIKW](/images/posts/2025-05-16-ppti/DIKW.png)
 
 At the bottom, we have **Data**, which is the raw data we collect. Think about the things that live in the database. It might be very unstructured and "unclean". At this level, we are talking about **reactionary** data, If a user clicks on buy, we should update the database with the information of the cart. It's immediate and reactionary.
 

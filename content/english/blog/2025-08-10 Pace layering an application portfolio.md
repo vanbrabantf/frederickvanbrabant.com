@@ -25,7 +25,7 @@ Pace Layering or, as our friends at [Gartner](https://www.gartner.com/en) call i
 
 It breaks down the portfolio into three distinct layers: **systems of record**, **systems of differentiation** and **systems of innovation**.
 
-![A schema showing a breakdown of the layers, the SOR is the center one, SOD around it and the most outer layer is the SOI](/images/2025-08-06-pace/PaceOverview.png)
+![A schema showing a breakdown of the layers, the SOR is the center one, SOD around it and the most outer layer is the SOI](/images/posts/2025-08-06-pace/PaceOverview.png)
 
 ### System of Record (SOR)
 
@@ -90,7 +90,7 @@ The SOD and SOI project can move forwards in an Agile way and, in the case of SO
 
 Each layer gets the methodology it deserves, aligned to its purpose and risk profile.
 
-![Most of the information above in a table](/images/2025-08-06-pace/table.png)
+![Most of the information above in a table](/images/posts/2025-08-06-pace/table.png)
 
 ## Theory of constraint
 
@@ -108,7 +108,7 @@ Every improvement to that foundational layer, through decoupling, caching, data 
 
 Of course, this doesn’t mean SOD or SOI layers are constraint-free. They still need love, care, and focus. But if you’re looking to accelerate the system as a whole, the SOR is the first place to look.
 
-![A schema showing one system that is slower and making all connections to said system also slower](/images/2025-08-06-pace/contraint.png)
+![A schema showing one system that is slower and making all connections to said system also slower](/images/posts/2025-08-06-pace/contraint.png)
 
 ## Moving through maturity
 

@@ -18,7 +18,7 @@ From software design patterns (think SOLID, DRY, ...) to the more strategic laye
 So, I'm a bit of a design nerd. I like architecture and product design, so a few years ago, I visited the Braun-Sammlung Ettel Museum für Design ([Big recommendation
 ](https://www.museumsportal-berlin.de/en/museums/braun-sammlung-ettel/) ) in Berlin. It's a museum dedicated to the iconic design of Braun and, for a big part, the work of Dieter Rams. The story goes that Dieter Rams developed ten design principles that all their products needed to adhere to.
 
-![An overview of the ten principles of good design of Dieter Rams](/images/2024-08-17-rethinking-principles/dieter-rams.jpg)
+![An overview of the ten principles of good design of Dieter Rams](/images/posts/2024-08-17-rethinking-principles/dieter-rams.png)
 
 These principles are painted in Helvetica (of course) on the museum's wall.
 

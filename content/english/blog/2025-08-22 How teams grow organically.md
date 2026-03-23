@@ -43,7 +43,7 @@ Communication patterns don’t just influence software design; they determine ho
 
 ## The strength of weak ties
 
-![A graph overview of connections some in weak ties others in strong ties](/images/2025-08-21-conway/ties.png)
+![A graph overview of connections some in weak ties others in strong ties](/images/posts/2025-08-21-conway/ties.png)
 
 Sociologist Mark Granovetter described these casual, cross-cutting relationships as _weak ties_. In his seminal article, _The Strength of Weak Ties_, he distinguished between two types of connections:
 

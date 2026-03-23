@@ -45,7 +45,7 @@ If we use this structure in our strategic planning and decision-making, we only 
 
 ## What does a cross-service capability map look like
 
-![A capability map that shows 3 groups. These groups have a subgroup with more capabilities. More information in the article](/images/2024-07-12-capabilities/capabilitymap.png)
+![A capability map that shows 3 groups. These groups have a subgroup with more capabilities. More information in the article](/images/posts/2024-07-12-capabilities/capabilitymap.png)
 
 (this is a made up example, there is no 1 size fits all in capability mapping. They are almost always, or should be, tailor made for the organization)
 

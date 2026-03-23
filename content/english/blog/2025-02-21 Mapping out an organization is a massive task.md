@@ -49,15 +49,15 @@ You are tasked with mapping out an application portfolio of 500 applications. Ga
 
 Don't forget that gathering the data is only the first step. You need to keep this up to date as well. It's a continuing story. To visualize it a bit.
 
-![An x,y axis that displays the wide and depth of an application portfolio](/images/2025-02-21-organization-mapping/1.png)
+![An x,y axis that displays the wide and depth of an application portfolio](/images/posts/2025-02-21-organization-mapping/1.png)
 
 You start with the application portfolio, you decide how deep and wide you want to go.
 
-![An x,y axis that displays the wide and depth of an application portfolio with other porfolios stacked behind it](/images/2025-02-21-organization-mapping/2.png)
+![An x,y axis that displays the wide and depth of an application portfolio with other porfolios stacked behind it](/images/posts/2025-02-21-organization-mapping/2.png)
 
 The application portfolio is just one aspect of your enterprise architecture model. There are other things to map as well. Here again, the choice is how deep and wide you want to go in this.
 
-![A timeline that displays multiple x,y axis that displays the wide and depth of an application portfolio with other porfolios stacked behind it](/images/2025-02-21-organization-mapping/3.png)
+![A timeline that displays multiple x,y axis that displays the wide and depth of an application portfolio with other porfolios stacked behind it](/images/posts/2025-02-21-organization-mapping/3.png)
 
 And then the realization strikes that you have to do this exercise, for all of these layers more than once [^4] . Don't forget that having wrong or outdated information is worse than no information at all.
 

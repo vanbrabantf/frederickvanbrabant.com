@@ -26,13 +26,13 @@ Ok, so the first part, **"Enterprise Architecture connects the dots across peopl
 
 The idea about this part is that enterprise architecture touches all parts of the organization as PPTI is also marbled through every organization. I would even argue that PPTI is the definition of what an organization is.
 
-![a diagram that shows how PPTI is connected in an organization](/images/2025-04-14-enterprisearchitecture/PPTI.png)
+![a diagram that shows how PPTI is connected in an organization](/images/posts/2025-04-14-enterprisearchitecture/PPTI.png)
 
 Ok, so we connect those dots. But Enterprise architecture is not about making diagrams, it's about answering questions[^2]  that the organization is struggling with. That's where the next part comes in **" to help organizations make smarter, longer-term decisions by mapping out how things work today and guiding them to where they could go tomorrow."**
 
 At the cuff, this sounds like a throwaway line that would fit in every LinkedIn profile description. But there is more to it. 
 
-![A diagram that shows the differnt layers of an organization: strategy, business, operational and infrastructural](/images/2025-04-14-enterprisearchitecture/Layers.png)
+![A diagram that shows the differnt layers of an organization: strategy, business, operational and infrastructural](/images/posts/2025-04-14-enterprisearchitecture/Layers.png)
 
 So here we have the different layers of an organization. The idea here is that people don't work on one of these layers; almost everyone works on all of these layers. Going from CEO to first-line support, you all work on all layers. Your focus is, however, different. So, every role divides their work differently. 
 
@@ -54,7 +54,7 @@ As stated in the intro, I mentioned that enterprise architecture is often confus
 
 How I like to see it is in gradations of scope, both in time and detail. 
 
-![A diagram that shows the text below the diagram in a visual way](/images/2025-04-14-enterprisearchitecture/Layers-archi.png)
+![A diagram that shows the text below the diagram in a visual way](/images/posts/2025-04-14-enterprisearchitecture/Layers-archi.png)
 
 **Domain Architects:** This could be security, software, data, process, infrastructure, (...) architects. They focus on a specific slice of a domain. They are very deep in the operational side and are experts in their field. They could be very hands-on. It could even be shared with the even more hands-on version of the role. Eg, software architect/software team lead.
 

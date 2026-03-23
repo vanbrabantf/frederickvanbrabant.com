@@ -80,7 +80,7 @@ Why is this all so messy?
 
 _The answer is very simple, cause those are not architectural lists, they are lists to handle tickets and support issues._
 
-![On overview of how strategic architectural debt tickles down to the other layers](/images/2025-11-15-The-CMDB-as-an-architecture-source/matrix.png)
+![On overview of how strategic architectural debt tickles down to the other layers](/images/posts/2025-11-15-The-CMDB-as-an-architecture-source/matrix.png)
 
 ## What using the CMDB as your architectural source of truth implies
 

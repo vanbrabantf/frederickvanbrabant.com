@@ -41,7 +41,7 @@ The last step is thinking of a proof of concept, this is another filter layer. W
 
 You might end up with something like this [^3]:
 
-![A schema outlining the strategy to idea to project](/images/2025-06-13-ost/OPT1.drawio.png)
+![A schema outlining the strategy to idea to project](/images/posts/2025-06-13-ost/OPT1.drawio.png)
 
 ## This is good, but it can be better
 
@@ -51,7 +51,7 @@ At the “vague idea” stage, before turning anything into a project, pause. Ru
 Then take a step back. Look across them. You’ll start to see overlap, ideas that touch multiple goals at once.
 Those are the winners. The projects that move more than one needle. The ones that get budget and visibility.
 
-![A schema outlining the strategy to idea to project this time with multiple ideas linked to multiple strategies](/images/2025-06-13-ost/OPT2.drawio.png)
+![A schema outlining the strategy to idea to project this time with multiple ideas linked to multiple strategies](/images/posts/2025-06-13-ost/OPT2.drawio.png)
 
 This is where the real value starts showing up.
 

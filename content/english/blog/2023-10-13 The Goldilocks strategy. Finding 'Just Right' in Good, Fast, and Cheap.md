@@ -13,7 +13,7 @@ Picture this: it's a Tuesday afternoon. You are called into a meeting room by yo
 
 A few alarm bells go off in your head, but you are able to stay calm. This client is clearly going to need a reality check, and you have just the image to help you:
 
-![A diagram that shows how good, cheap, and fast are all connected](/images/2023-10-13-goldilocks/FCG.png)
+![A diagram that shows how good, cheap, and fast are all connected](/images/posts/2023-10-13-goldilocks/FCG.png)
 
 You know this diagram by heart. It's so clear:
 
