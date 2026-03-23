@@ -47,7 +47,7 @@ For me, the best way to go about this is to map this out in categories, and the 
 - End-user Support
 - Misc
 
-![A schema showing a breakdown of the categories that result in the endsum](/images/posts/2025-06-27-tco/TCO1.drawio.png)
+![A schema showing a breakdown of the categories that result in the endsum](/images/2025-06-27-tco/TCO1.drawio.png)
 
 I won’t go through every detail of every category, this isn’t a textbook, and every organization has its own quirks. I will however give you a rough outline that you can use to shape it to your needs.
 
@@ -122,7 +122,7 @@ Don’t chase perfection. You won’t find it.
 
 So give people options. If they know the cost, great. Write it down. If they don’t, let them give you a T-shirt size: S, M, L, XL, XXL. It’s fast, and surprisingly helpful at scale.
 
-![An example of a fake Excel row that shows an application that has low bugs but isn't tracked so is assigned a t-shirt size](/images/posts/2025-06-27-tco/TCO4.drawio.png)
+![An example of a fake Excel row that shows an application that has low bugs but isn't tracked so is assigned a t-shirt size](/images/2025-06-27-tco/TCO4.drawio.png)
 
 This helps if you run into situations where people just can't answer you with real data. How many days a month do you spend on average on bug squashing? If you don't have a clear setup to track these things, it would be impossible to know.
 
@@ -142,7 +142,7 @@ Now, what about that **Misc** tab with the percentages? Those percentages: **cri
 
 It's up to you how you want to weigh these multipliers. I would not just add the percentage to the number, as that would quickly get out of hand. Instead, you might want to use a lighter touch. It's best to experiment here.
 
-![A schema showing a breakdown of the categories that result in the endsum with a modifier applied](/images/posts/2025-06-27-tco/TCO2.drawio.png)
+![A schema showing a breakdown of the categories that result in the endsum with a modifier applied](/images/2025-06-27-tco/TCO2.drawio.png)
 
 ## Scaling it up
 
@@ -150,7 +150,7 @@ Once your model’s ready, it’s time to gather data. Keep the entry points sof
 
 Don’t overload anyone. Break your model into pieces, and send each one to the person best suited to answer it. Let Finance handle licensing. Let Ops tackle infrastructure. Let people speak in their own language. The last thing you want is to scare people with information they know nothing about.
 
-![A  schema showing a breakdown of the categories that result in the endsum with a modifier applied and assigned to different teams](/images/posts/2025-06-27-tco/TCO3.drawio.png)
+![A  schema showing a breakdown of the categories that result in the endsum with a modifier applied and assigned to different teams](/images/2025-06-27-tco/TCO3.drawio.png)
 
 And whatever you do, keep the calculations hidden. Not to be secretive, but to protect the integrity of the answers. If people can see how the sausage is made, they’ll start shaping the meat.
 

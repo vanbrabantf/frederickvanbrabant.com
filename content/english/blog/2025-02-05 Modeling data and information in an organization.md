@@ -21,7 +21,7 @@ I know there are different visions on this, but in the realm of enterprise archi
 
 Take, for example, a user.json that flows between application A and application B. At the same time, there is another user.json. going between application B and application X. These two files might have different data in them. For example, the one between applications A and B might only have personal data in it, then application B takes this file, adds organizational data to it, and sends it to application X.
 
-![A diagram that shows how data get's combined into new data but keeps the same name](/images/posts/2025-02-05-information/1.png)
+![A diagram that shows how data get's combined into new data but keeps the same name](/images/2025-02-05-information/1.png)
 
 They are both user data, but they contain different points of data.
 
@@ -35,23 +35,23 @@ As you know, I like to use ArchiMate with some TOGAF concepts in it, so that's a
 
 We first start with a top-level flow connection between two applications.
 
-![A diagram that shows a top level archimate connection between two applications](/images/posts/2025-02-05-information/2.png)
+![A diagram that shows a top level archimate connection between two applications](/images/2025-02-05-information/2.png)
 
 One of the quirks of Archimate is that you can't add a connection to a connection [^2], so you need something called an interface. These interfaces seem very bothersome at first, but these components can also carry fields and can come in handy. So if you want to tag all connections that go over an enterprise service bus, an interface would be a good place to store that information.
 
-![A diagram that shows a top level archimate connection between two applications with an interface linked to it](/images/posts/2025-02-05-information/3.png)
+![A diagram that shows a top level archimate connection between two applications with an interface linked to it](/images/2025-02-05-information/3.png)
 
 Now you might notice that we have a double set of connections going on. The original flow connections between the applications and the interface connection (compose and trigger [^3]). Some architectural tools allow you to collapse "composes" relations so you don't see them. If you don't use a tool like that I'm affraid you're going to have to suffer the extra connections.
 
 Once we have the interfaces in place, we can start adding the data to the applications.
 
-![A diagram that shows a top level archimate connection between two applications with an interface linked to it. There are also two data objects linked to said interface.](/images/posts/2025-02-05-information/4.png)
+![A diagram that shows a top level archimate connection between two applications with an interface linked to it. There are also two data objects linked to said interface.](/images/2025-02-05-information/4.png)
 
 Here we can see, per interface, the data that flows between each application. It's very rare in my experience that an application has more than one interface between a standard connection, but we will talk about that in the "details" section.
 
 The last step is to link the data to the information. To do this, we simply connect the data component to the information component like this:
 
-![A diagram that shows a top level archimate connection between two applications with an interface linked to it. There are also two data objects linked to said interface. Each data object has an information object linked to them](/images/posts/2025-02-05-information/5.png)
+![A diagram that shows a top level archimate connection between two applications with an interface linked to it. There are also two data objects linked to said interface. Each data object has an information object linked to them](/images/2025-02-05-information/5.png)
 
 ## The benefits for the organization 
 
@@ -59,7 +59,7 @@ So that's the basic setup. You can see what data flows between applications; tha
 
 ### The information model
 
-![Information objects linking to a different information object](/images/posts/2025-02-05-information/6.png)
+![Information objects linking to a different information object](/images/2025-02-05-information/6.png)
 
 Here we are getting into DDD territory. We've made a story with just a few lines. If you want to create an invoice, you will need customer information, engagement information, timesheet information, and financial information.
 
@@ -71,7 +71,7 @@ Want to know what applications handle client information? Follow the lines from 
 
 ### Data classification
 
-![A grouping of information objects per sensitivity](/images/posts/2025-02-05-information/7.png)
+![A grouping of information objects per sensitivity](/images/2025-02-05-information/7.png)
 
 As mentioned in the previous part, these components may contain a lot of information. In this case, we displayed the information model per sensitivity. [^4]
 

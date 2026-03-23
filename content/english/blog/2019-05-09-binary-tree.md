@@ -17,7 +17,7 @@ Well, a few days ago I was in that exact situation. And I had no idea what the i
 
 A binary tree is a very simple data structure that as the name suggests looks like an upside down tree.
 
-![](/images/posts/2019-05-09-binary-tree/1.png)
+![](/images/2019-05-09-binary-tree/1.png)
 
 This structure is mainly used for searching. For example, if we needed to find 4 in this structure quickly, we would need only to make 2 binary decisions. If we scale this up to 1000 nodes, we would only need about 10 choices. There are other options still, like self-balancing binary trees but let’s keep it simple at the moment, and just focus on balanced binary trees.
 
@@ -103,7 +103,7 @@ $level1 = new Node('top', $level2a, $level2b);
 
 At this point we have a data structure that looks like this:
 
-![](/images/posts/2019-05-09-binary-tree/2.png)
+![](/images/2019-05-09-binary-tree/2.png)
 
 This is all set up, time to move on to the swapping. If we break the problem down to its core, we just want to swap the children of a node. Like this:
 
@@ -121,7 +121,7 @@ public function invert(Node $tree): Node
 
 We take the Node and create (and return) a new Node with the children swapped. We now have:
 
-![](/images/posts/2019-05-09-binary-tree/3.png)
+![](/images/2019-05-09-binary-tree/3.png)
 
 At first, glance that looks like we completed the task, but if you look a tiny bit deeper, you might see that we only inverted one level. The lower levels are in the same place (but on the other side of the branch).
 

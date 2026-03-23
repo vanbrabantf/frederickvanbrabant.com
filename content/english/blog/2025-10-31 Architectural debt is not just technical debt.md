@@ -35,7 +35,7 @@ And yes architectural debt can cost an organization a lot of headaches, but arch
 
 Let's dive into the issues at every layer.
 
-![The information above in a diagram](/images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/layers.png)
+![The information above in a diagram](/images/2025-10-31-Architectural-debt-is-not-technical-debt/layers.png)
 
 ### **Application / Infrastructure layer**
 
@@ -49,7 +49,7 @@ And don't forget about vendor lock-in. Finding the right balance between getting
 
 At this layer all the debt directly impact operations. Costs go up and time of delivery increases.
 
-![The focus of an EA is longer term and less focused compared to a SA](/images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/eavssa.png)
+![The focus of an EA is longer term and less focused compared to a SA](/images/2025-10-31-Architectural-debt-is-not-technical-debt/eavssa.png)
 
 ### **Business layer**
 
@@ -81,7 +81,7 @@ Great! But what if we defined the capabilities wrong? Maybe the map is outdated,
 
 Debt at this level can have enormous long-term consequences. This is what blocks transformation exercises and could even make bad long term strategy look appealing.
 
-![On overview of how strategic architectural debt tickles down to the other layers](/images/posts/2025-10-31-Architectural-debt-is-not-technical-debt/cascade.png)
+![On overview of how strategic architectural debt tickles down to the other layers](/images/2025-10-31-Architectural-debt-is-not-technical-debt/cascade.png)
 
 ## Tackling architectural debt
 
