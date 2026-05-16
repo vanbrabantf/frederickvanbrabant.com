@@ -3,7 +3,7 @@ title: Systems Thinking in Enterprise Architecture
 meta_title: "Systems Thinking in Enterprise Architecture"
 description:
 date: 2026-02-20T00:00:00Z
-image: /images/posts/2026-02-20-Systems-thinking-in-enterprise-architecture/header.png
+image: /images/posts/2026-02-20-Systems-thinking-in-enterprise-architecture/header.jpg
 categories:
   - Strategy
   - Enterprise Architecture

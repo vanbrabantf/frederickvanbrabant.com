@@ -3,7 +3,7 @@ title: "Governance: Documentation as a Knowledge Network"
 meta_title: "Governance: Documentation as a Knowledge Network"
 description:
 date: 2026-03-07T00:00:00Z
-image: /images/posts/2026-03-07-Governance-Documentation-as-a Knowledge-Network/header.png
+image: /images/posts/2026-03-07-Governance-Documentation-as-a Knowledge-Network/header.jpg
 categories:
   - Managing information
   - Enterprise Architecture

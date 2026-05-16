@@ -3,7 +3,6 @@ title: "Business Capabilities, how I like to use them"
 meta_title: "Business Capabilities, how I like to use them"
 description: "So we should probably start with this right? Business capabilities (further in this article referred to as capabilities) are the backbone of enterprise architecture. They are also, sadly, one of the most misunderstood things in enterprise architecture."
 date: 2024-07-12T00:00:00Z
-image: "/images/posts/2024-07-12-capabilities/header.png"
 categories: ["Enterprise Architecture", "Capabilities"]
 tags: ["My way of working", "capabilities"]
 draft: false

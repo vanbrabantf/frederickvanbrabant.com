@@ -11,145 +11,102 @@
   </div>
 
   <main class="max-w-[1110px] mx-auto px-4 py-12 md:py-16">
-    {{ $paginator:= .Paginate site.RegularPages }}
+    {{ $paginator := .Paginate site.RegularPages }}
 
-    {{ if eq $paginator.PageNumber 1 }}
-      {{ range first 1 $paginator.Pages }}
-        <article class="group cursor-pointer mb-20 md:mb-32">
-          <a href="{{ .RelPermalink }}">
+
+    <div class="space-y-24 md:space-y-40">
+      {{ range $index, $element := $paginator.Pages }}
+        {{ $isEven := (eq (mod $index 2) 0) }}
+
+        {{ $img := false }}
+        {{ with .Params.image }}
+          {{ $img = resources.Get (trim . "/") }}
+        {{ end }}
+
+
+        <article
+          class="flex flex-col {{ if $isEven }}
+            md:flex-row
+          {{ else }}
+            md:flex-row-reverse
+          {{ end }}
+           items-center gap-12 md:gap-20">
+          {{/* CONTENT BLOCK - Always stays on its assigned side */}}
+          <div
+            class="w-full md:w-1/2 {{ if $isEven }}
+              md:text-right
+            {{ else }}
+              md:text-left
+            {{ end }}">
             <div
-              class="relative aspect-[16/9] w-full bg-gray-100 overflow-hidden mb-6 md:mb-8 ring-1 ring-black/5">
-              {{ with .Params.image }}
-                {{ $imagePath := trim . "/" }}
-                {{ $img := resources.Get $imagePath }}
-                {{ if $img }}
-                  {{/* RESIZE: Crop to 1110x624 and convert to WebP */}}
-                  {{ $webp := $img.Fill "1110x624 webp" }}
-                  <picture>
-                    <source
-                      srcset="{{ $webp.RelPermalink }}"
-                      type="image/webp" />
-                    <img
-                      src="{{ $webp.RelPermalink }}"
-                      alt="{{ $.Title }}"
-                      class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-700"
-                      width="{{ $webp.Width }}"
-                      height="{{ $webp.Height }}"
-                      fetchpriority="high" />
-                  </picture>
-                {{ else }}
-                  <img
-                    src="{{ . | absURL }}"
-                    alt="{{ $.Title }}"
-                    class="absolute inset-0 w-full h-full object-cover grayscale-20" />
-                {{ end }}
-              {{ end }}
-            </div>
-          </a>
-          <div class="max-w-3xl mx-auto text-center">
-            <div
-              class="flex items-center justify-center gap-2 uppercase tracking-widest text-[9px] md:text-[10px] text-gray-400 mb-4">
-              <time>{{ .PublishDate.Format " 02 January, 2006" }}</time>
+              class="flex items-center {{ if $isEven }}
+                justify-end
+              {{ else }}
+                md:justify-start justify-start
+              {{ end }} gap-2 uppercase tracking-widest text-[10px] text-gray-400 mb-6">
+              <time>{{ .PublishDate.Format "02 January, 2006" }}</time>
               <span>•</span>
               <span class="text-[#004526] font-bold"
                 >{{ .ReadingTime }} min read</span
               >
             </div>
+
             <h2
-              class="serif text-3xl md:text-5xl text-[#004526] mb-4 leading-snug">
-              <a href="{{ .RelPermalink }}" class="hover:opacity-80 transition"
-                >{{ .Title }}</a
-              >
+              class="serif text-3xl md:text-5xl text-[#004526] mb-6 leading-snug">
+              <a
+                href="{{ .RelPermalink }}"
+                class="hover:opacity-70 transition-opacity">
+                {{ .Title }}
+              </a>
             </h2>
-            <p
-              class="text-gray-600 leading-relaxed font-light text-base md:text-lg mb-6 px-2">
-              {{ .Summary }}
-            </p>
-            <a
-              href="{{ .RelPermalink }}"
-              class="inline-block border-b-2 border-[#004526] pb-1 text-[#004526] uppercase tracking-[0.2em] text-[10px] font-bold"
-              >Read More</a
-            >
+            {{ if $img }}
+              <p
+                class="text-gray-600 leading-relaxed font-light text-base md:text-lg mb-8">
+                {{ .Summary }}
+              </p>
+
+              <a
+                href="{{ .RelPermalink }}"
+                class="inline-block border-b-2 border-[#004526] pb-1 text-[#004526] uppercase tracking-[0.2em] text-[10px] font-bold">
+                Read More
+              </a>
+            {{ end }}
           </div>
-        </article>
-        <hr class="border-gray-200 mb-16 md:mb-24" />
-      {{ end }}
-    {{ end }}
 
-
-    <div class="space-y-20 md:space-y-32">
-      {{ range $index, $element := (after (cond (eq $paginator.PageNumber 1) 1 0) $paginator.Pages) }}
-        <article
-          class="flex flex-col {{ if (eq (mod $index 2) 0) }}
-            md:flex-row
-          {{ else }}
-            md:flex-row-reverse
-          {{ end }} items-center gap-8 md:gap-12 group">
+          {{/* IMAGE BLOCK - Acts as a spacer if no image exists */}}
           <div class="w-full md:w-1/2">
-            <a href="{{ .RelPermalink }}">
-              <div
-                class="relative aspect-[4/3] overflow-hidden ring-1 ring-black/5 bg-gray-100">
-                {{ with .Params.image }}
-                  {{ $relPath := trim . "/" }}
-                  {{ $relImg := resources.Get $relPath }}
-                  {{ if $relImg }}
-                    {{/* RESIZE: Crop to 600x450 and convert to WebP */}}
-                    {{ $webp := $relImg.Fill "600x450 webp" }}
-                    <picture>
-                      <source
-                        srcset="{{ $webp.RelPermalink }}"
-                        type="image/webp" />
-                      <img
-                        src="{{ $webp.RelPermalink }}"
-                        alt="{{ $element.Title }}"
-                        class="absolute inset-0 w-full h-full object-cover grayscale-20 group-hover:scale-105 transition duration-700"
-                        loading="lazy"
-                        width="{{ $webp.Width }}"
-                        height="{{ $webp.Height }}" />
-                    </picture>
-                  {{ else }}
-                    <img
-                      src="{{ . | absURL }}"
-                      alt="{{ $element.Title }}"
-                      class="absolute inset-0 w-full h-full object-cover grayscale-20" />
-                  {{ end }}
-                {{ end }}
-              </div>
-            </a>
-          </div>
+            {{ if $img }}
+              <a
+                href="{{ .RelPermalink }}"
+                class="block overflow-hidden ring-1 ring-black/5 shadow-xl group">
+                {{ $photo := $img.Fill "900x600 webp" }}
+                <img
+                  src="{{ $photo.RelPermalink }}"
+                  alt="{{ .Title }}"
+                  class="w-full h-auto aspect-[3/2] object-cover group-hover:scale-105 transition-transform duration-1000 ease-in-out"
+                  loading="lazy" />
+              </a>
+            {{ else }}
+              {{/* This empty div maintains the staggered layout for text-only posts */}}
+              <div class="hidden md:block">
+                <p
+                  class="text-gray-600 leading-relaxed font-light text-base md:text-lg mb-8">
+                  {{ .Summary }}
+                </p>
 
-          <div class="w-full md:w-1/2 text-center md:text-left">
-            <div
-              class="flex items-center justify-center md:justify-start gap-2 uppercase tracking-widest text-[9px] text-gray-400 mb-2">
-              <time>{{ .PublishDate.Format "02 Jan 2006" }}</time>
-              <span>•</span>
-              <span class="text-[#004526] font-semibold"
-                >{{ .ReadingTime }} min read</span
-              >
-            </div>
-            <h3
-              class="serif text-2xl md:text-3xl text-[#004526] mb-3 leading-tight">
-              <a href="{{ .RelPermalink }}" class="hover:opacity-80 transition"
-                >{{ .Title }}</a
-              >
-            </h3>
-            <p
-              class="text-gray-600 font-light text-sm md:text-base leading-relaxed mb-4">
-              {{ .Summary }}
-            </p>
-            <a
-              href="{{ .RelPermalink }}"
-              class="text-[9px] font-bold uppercase tracking-widest border-b border-[#004526] text-[#004526]"
-              >Read More</a
-            >
+                <a
+                  href="{{ .RelPermalink }}"
+                  class="inline-block border-b-2 border-[#004526] pb-1 text-[#004526] uppercase tracking-[0.2em] text-[10px] font-bold">
+                  Read More
+                </a>
+              </div>
+            {{ end }}
           </div>
         </article>
-        {{ if lt $index 8 }}
-          <hr class="border-gray-200 mb-16 md:mb-24" />
-        {{ end }}
       {{ end }}
     </div>
 
+    {{/* ORIGINAL PAGINATION */}}
     {{ if gt $paginator.TotalPages 1 }}
       <nav
         class="mt-32 md:mt-40 flex justify-center items-center gap-6 md:gap-8 text-[10px] md:text-[11px] uppercase tracking-[0.3em]">

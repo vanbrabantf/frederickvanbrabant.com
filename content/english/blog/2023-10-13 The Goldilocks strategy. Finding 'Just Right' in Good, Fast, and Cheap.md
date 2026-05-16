@@ -3,7 +3,6 @@ title: "The Goldilocks strategy: Finding 'Just Right' in Good, Fast, and Cheap"
 meta_title: ""
 description: "Picture this: it's a Tuesday afternoon. You are called into a meeting room by your teamlead. He's conversing with a client about a big new project they want to develop. After a bit of an introduction about the scope and features of the project, a very unrealistic deadline is proposed. Not only that, but you know from the past that this client has the reputation of having a very limited budget, so the amount of people that would work on the project would be a skeleton crew."
 date: 2023-10-13T00:00:00Z
-image: "/images/posts/2023-10-13-goldilocks/header.png"
 categories: ["Software", "Managing technology"]
 tags: ["Clean code", "Project lead"]
 draft: false

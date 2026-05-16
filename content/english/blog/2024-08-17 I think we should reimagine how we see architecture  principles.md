@@ -3,7 +3,6 @@ title: "I think we should reimagine how we see architecture principles"
 meta_title: "Reimagining architecture principles"
 description: "To me, it always seems strange that in a world that thrives on innovation and constant change, every architectural department tries to implement a rigid set of principles that stay in place for years."
 date: 2024-08-17T00:00:00Z
-image: "/images/posts/2024-08-17-rethinking-principles/header.png"
 categories: ["Enterprise Architecture", "Software", "Managing technology"]
 tags: ["My way of working", "legacy"]
 draft: false

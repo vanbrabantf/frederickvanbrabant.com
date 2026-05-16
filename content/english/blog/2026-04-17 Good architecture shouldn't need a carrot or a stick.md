@@ -3,7 +3,7 @@ title: Good architecture shouldn't need a carrot or a stick
 meta_title:
 description:
 date: 2026-04-17T00:00:00Z
-image: /images/posts/2026-04-17 Good architecture shouldn't need a carrot or a stick/header.png
+image: /images/posts/2026-04-17 Good architecture shouldn't need a carrot or a stick/header.jpg
 categories:
   - Enterprise Architecture
   - Strategy

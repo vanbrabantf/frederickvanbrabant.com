@@ -3,7 +3,6 @@ title: Internal vs consulting Enterprise Architecture
 meta_title: Internal vs consulting Enterprise Architecture
 description: Today I want to talk about the two big experiences you can have as an Enterprise Architecture. Working internally at a company and being a consultant. In the past I've done both so I hope I can bring a bit of insights into this topic.
 date: 2024-07-29T00:00:00Z
-image: /images/posts/2024-07-29-internal-external/header.png
 categories: ["Enterprise Architecture", "Consulting"]
 tags: ["contrasting", "capabilities"]
 draft: false

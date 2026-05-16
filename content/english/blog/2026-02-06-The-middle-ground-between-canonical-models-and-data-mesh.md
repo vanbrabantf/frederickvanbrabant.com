@@ -3,7 +3,7 @@ title: The middle ground between canonical models and data mesh
 meta_title: The middle ground between canonical models and data mesh
 description:
 date: 2026-02-04T00:00:00Z
-image: /images/posts/2026-02-06-The-middle-ground-between-canonical-models-and-data-mesh/header.png
+image: /images/posts/2026-02-06-The-middle-ground-between-canonical-models-and-data-mesh/header.jpg
 categories:
   - Enterprise Architecture
   - Managing information
