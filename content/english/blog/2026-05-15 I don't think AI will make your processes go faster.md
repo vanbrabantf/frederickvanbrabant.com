@@ -55,11 +55,11 @@ Hyper-care :dp2, after dp1, 10d
 
 _This is a Gantt chart for demonstration purposes, normally you would look at BPMN. Showing a Gantt makes the point easier._
 
-If you take a look at this Gantt chart you will immediately see what takes the most amount of time: software development. If your task was to improve throughput of projects, that would be your first stop. And that would be correct.
+If you take a look at this Gantt chart you will immediately see what takes the most amount of time: software development. If your task was to improve project throughput, that would be your first stop. And that would be correct.
 
-The problem, however, is how I typically see people go about it, throw people at the problem[^2] or just assume AI is going to make it so much faster.
+The problem, however, is how I typically see people go about it: throw people at the problem[^2] or just assume AI is going to make it so much faster.
 
-What people typically don't do is look at **why** this is taking so long.
+What people typically don't do is look at **why** this is taking so long, and even more importantly: long duration does not automatically mean the problem originates there.
 
 ## Solving the issue upstream
 
@@ -71,127 +71,59 @@ Software development is about translating a problem into a solution that a compu
 
 To do something like that, you need a full overview of the problem. Either in feature or scope documents (if you're going more waterfall), or with constant iteration with the domain experts (more agile).
 
-An argument that I keep hearing about the automation of software development (AI generated code) is that you can just bypass the development part and the software developer becomes the project manager. They expect the outcome to look like this:
+This is often the part that slows down software development. Trying to figure out what a vague, title only, feature request actually means.
+
+What does "send mail to user once sale is completed" mean? Ok, we can send a mail, but what should be in the mail? What if there was an issue in the sales process, do we still send an error mail? When is a sale completed?
+
+## Just throw AI at it
+
+An argument that I keep hearing about the automation of software development (AI generated code) is that you can just bypass the development part and the software developer becomes the project manager. AI discussions around software development actually illustrate this problem perfectly.
+
+A lot of people expect the outcome of AI development to look like this:
 
 ```mermaid
-
-
-
 gantt
-
-
-
 title Project Timeline
-
-
-
 dateFormat YYYY-MM-DD
-
-
-
 section Scoping
-
-
-
 Feature exploration :s1, 2024-01-01, 10d
-
-
-
 Budget scoping :s2, after s1, 3d
-
-
-
 Legal :s3, after s1, 10d
-
-
-
 Documenting :s4, after s3, 5d
-
-
-
 section Development
-
-
-
 AI development :d1, after s4, 3d
-
-
-
-
 section Deployment
-
-
-
 Deployment :dp1, after d1, 5d
-
-
-
 Hyper-care :dp2, after dp1, 10d
-
 ```
 
-But that's not how this works. The AI tooling will also need to know what to build.
+But that's not how this works. Here we face the exact same upstream issue as before.
 
-In comparisons of human vs AI development they always ignore the handholding that is needed for AI to do its thing. It looks a lot more like this:
+Yes, AI can generate code quickly (whether that's a good thing is open for debate), but that doesn't mean it's generating the correct code.
+
+In comparisons between human vs AI development they always ignore the handholding that is needed for AI to do its thing. It looks a lot more like this:
 
 ```mermaid
-
-
 gantt
-
-
-
 title Project Timeline
-
-
-
 dateFormat YYYY-MM-DD
-
-
-
 section Scoping
-
-
-
 Feature exploration :s1, 2024-01-01, 10d
-
-
-
 Budget scoping :s2, after s1, 3d
-
-
-
 Legal :s3, after s1, 10d
-
-
-
 Documenting :s4, after s3, 40d
-
-
-
 section Development
-
-
-
 AI development :d1, after s3, 40d
-
-
-
-
 section Deployment
-
-
-
 Deployment :dp1, after d1, 5d
-
-
-
 Hyper-care :dp2, after dp1, 10d
 ```
 
 Maybe this setup is faster compared to the old way of working. But I also think it's an unfair comparison. Working like this requires a much deeper involvement of domain and product experts. This involvement would mean writing out every feature and bug fix down to the tiniest detail.
 
-This exact thing is what software developers have been begging for since the beginning of the profession. Receive and detailed outline of the problem and what the end result should look like.
+This exact thing is what software developers have been begging for since the beginning of the profession: Receiving a detailed outline of the problem and what the end result should look like.
+
+If you were to give human developers the same amount of feature/scope documentation you would also see your productivity skyrocket.
 
 ## Actually speeding up processes
 
