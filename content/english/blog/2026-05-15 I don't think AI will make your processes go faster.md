@@ -133,7 +133,7 @@ This means that if your legal approval process is going slow, you take a look at
 
 One of the big lessons of The Goal is: ”bottlenecks should receive predictable, high-quality inputs”.
 
-I think that should be the first stop in process automatization.
+I think that should be the first stop in process automation.
 
 [^1]: The Toyota way is amazing and I would highly recommend it. The Goal is a bit of a less pleasant read, I would go for the comic version
 
