@@ -9,6 +9,7 @@ categories:
   - Managing information
 tags:
 draft: false
+Photo: Paris, Nikon, 2023
 ---
 
 I've been working a lot with service line architecture recently. If you're not familiar with that; it's how business units such as IT, HR, or Sales bring services to clients, both internal and external. These structures often mirror team organization.

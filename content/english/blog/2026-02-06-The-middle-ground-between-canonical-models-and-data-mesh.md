@@ -10,6 +10,7 @@ categories:
   - Organizational-Layer
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2023
 ---
 
 Some years ago I worked with a scale-up that was really focused on the way they handled data in their product. They extensively argued over data language, had value objects everywhere, explicit models and, even hexagonal architecture.

@@ -10,6 +10,7 @@ categories:
   - Infrastructure
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2023
 ---
 
 Every six months or so I read a post on sites like Hackernews that the enterprise service bus concept is dead and that it was a horrible concept to begin with. Yet I personally have great experiences with them, even in large, messy enterprise landscapes.

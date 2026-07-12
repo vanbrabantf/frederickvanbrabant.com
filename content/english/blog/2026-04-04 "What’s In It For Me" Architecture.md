@@ -9,6 +9,7 @@ categories:
   - Strategy
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2025
 ---
 
 I recently read the quote, _‘The best architecture that isn’t implemented is just an expensive drawing,’_ and I couldn't agree more. I wish I came up with it.

@@ -9,6 +9,7 @@ categories:
   - Enterprise Architecture
 tags:
 draft: false
+Photo: Belgrade, Nikon, 2021
 ---
 
 Two weeks ago I wrote an article about governance and documentation on an organisational scale. This is the follow-up post that focuses on the project scale. You could just read this post, but it's probably better that you start with [the previous one first](https://frederickvanbrabant.com/blog/2026-03-07-governance-documentation-as-a-knowledge-network/)

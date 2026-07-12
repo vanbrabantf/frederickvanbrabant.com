@@ -9,6 +9,7 @@ categories:
   - Processes
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2025
 ---
 
 I have the feeling that every organization out there is, at least partially, focusing on process optimization, something that often happens when the market is down. These days there is also the AI angle to the entire thing, and the unrealistic expectations that follow it.

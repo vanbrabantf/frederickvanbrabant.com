@@ -10,6 +10,7 @@ categories:
   - Managing information
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2023
 ---
 
 I first learned of systems thinking in the domain of city planning, and that is apparently also where the idea comes from. It was described to me in the context of building new residential buildings and effects on local bird populations.

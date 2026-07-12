@@ -11,6 +11,7 @@ categories:
   - Strategy-Layer
 tags:
 draft: false
+Photo: Ghent, Nikon, 2021
 ---
 
 When I was a developer, half of our frustrations were about technical debt (the other were about estimates that are seen as deadlines).

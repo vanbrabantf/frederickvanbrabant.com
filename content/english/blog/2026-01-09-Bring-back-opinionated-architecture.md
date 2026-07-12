@@ -10,6 +10,7 @@ categories:
   - Organizational-Layer
 tags:
 draft: false
+Photo: Berlin, Nikon, 2021
 ---
 
 Before my end-of-year holiday break, I received an email [^1] from someone who read my post about “[Choosing your starting line in enterprise architecture](https://frederickvanbrabant.com/blog/2025-11-28-choosing-your-starting-line-in-enterprise-architecture/)”. Mark asked me what I meant by the line:

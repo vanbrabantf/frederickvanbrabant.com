@@ -10,6 +10,7 @@ categories:
   - People
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2023
 ---
 
 Last post I wrote about [how you can approach buy in for your architecture](https://frederickvanbrabant.com/blog/2026-04-04-whats-in-it-for-me-architecture/). I've been thinking a lot more about the topic, and would like to delve a bit deeper into it.

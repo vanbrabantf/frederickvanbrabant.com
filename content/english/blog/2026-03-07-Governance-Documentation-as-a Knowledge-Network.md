@@ -9,6 +9,7 @@ categories:
   - Enterprise Architecture
 tags:
 draft: false
+Photo: Berlin, Nikon, 2019
 ---
 
 If you’ve known me for long enough, there will be a point where I'm going to pitch you the concept of [Obsidian](https://obsidian.md/). I adore that program[^1], I basically live my life in it. Everything is connected, and ideas just bubble up on their own.

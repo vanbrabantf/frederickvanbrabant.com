@@ -9,6 +9,7 @@ categories:
   - people
 tags:
 draft: false
+Photo: Antwerp, Nikon, 2021
 ---
 
 It’s the start of a new fiscal year. Strategy season. That time when all the grand ideas come out and everyone is still hopefull.
